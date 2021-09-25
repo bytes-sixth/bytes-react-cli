@@ -9,7 +9,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "prettier --check \"src/**/*.{js,jsx}\" && eslint \"src/**/*.{js,jsx}\"",
-    "formatting": "prettier --write \"src/**/*.{js,jsx}\" && eslint --fix \"src/**/*.{js,jsx}\""
+    "format": "prettier --write \"src/**/*.{js,jsx}\" && eslint --fix \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
