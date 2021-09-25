@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Button } from 'antd'
 
 const IndexPage = () => {
   const [installDep, setInstallDep] = useState(0)
@@ -39,7 +40,9 @@ const IndexPage = () => {
             onChange={handleChange}
           />
         </label>
-        <button onClick={handleSubmit}>确认</button>
+        <Button type="primary" onClick={handleSubmit}>
+          确认
+        </Button>
       </form>
     </div>
   )

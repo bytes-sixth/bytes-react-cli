@@ -16,18 +16,22 @@
   },
   "homepage": "https://github.com/bytes-sixth/bytes-react-cli",
   "dependencies": {
+    "antd": "^4.16.13",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-dom": "^5.3.0"
   },
   "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@vitejs/plugin-react": "^1.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.0",
+    "less": "^4.1.1",
     "prettier": "^2.4.1",
-    "vite": "^2.5.4"
+    "vite": "^2.5.4",
+    "vite-plugin-imp": "^2.0.9"
   }
 }
