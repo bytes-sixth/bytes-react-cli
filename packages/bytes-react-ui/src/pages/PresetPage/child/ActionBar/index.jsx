@@ -26,15 +26,15 @@ const ActionBar = ({ selectedKey }) => {
       </button>
       <button className={`action next-action ${!isActive ? 'none' : ''}`}>
         {nextText === '创建项目' ? (
-          <>
+          <span className="create-animation">
             <CheckCircleOutlined />
             {nextText}
-          </>
+          </span>
         ) : (
-          <>
+          <span className="next-animation">
             {nextText}
             <ArrowRightOutlined />
-          </>
+          </span>
         )}
       </button>
     </div>

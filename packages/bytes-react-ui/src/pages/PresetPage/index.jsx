@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PresetItem from './child/PresetItem'
 import ActionBar from './child/ActionBar'
+import { ExclamationCircleOutlined } from '@ant-design/icons'
 import './index.less'
 
 const projectList = [
@@ -22,6 +23,7 @@ const PresetPage = () => {
   return (
     <div className="preset-container">
       <div className="info-banner">
+        <ExclamationCircleOutlined />
         预设就是一套定义好的插件和配置。
         你也可以将自己的配置保存成预设，方便以后创建项目使用。
       </div>
