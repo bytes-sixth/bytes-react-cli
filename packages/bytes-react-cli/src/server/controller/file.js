@@ -4,7 +4,7 @@ const sendResponse = require('../lib/sendResponse.js')
 /**
  *@description 获取某文件夹路径下的所有文件夹
  */
-const getDirectionListOfPath = async (ctx, next) => {
+const getDirectionListOfPath = async (ctx, _next) => {
   try {
     const { directoryPath } = ctx.request.query
     if (directoryPath) {
@@ -25,7 +25,7 @@ const getDirectionListOfPath = async (ctx, next) => {
 /**
  *@description 获取启动项目的路径
  */
-const getStartCliPath = async (ctx, next) => {
+const getStartCliPath = async (ctx, _next) => {
   sendResponse(ctx.response)(global.workDirectory, 500, '服务器出错')
 }
 

@@ -1,0 +1,56 @@
+.packageWrapper {
+  width: 80%;
+  // background-color: red;
+  margin: 0 auto;
+  .funcWrapper {
+    height: 380px;
+    padding: 0 20px;
+    overflow: auto;
+
+    .isSelected {
+      background: rgba(61, 218, 253, 0.1);
+    }
+    .tip {
+      height: 48px;
+      width: 100%;
+      line-height: 48px;
+      color: rgb(3, 194, 230);
+      background: rgb(228, 250, 255);
+      font-size: 16px;
+      padding: 0 10px;
+    }
+    .title {
+      padding: 10px 15px;
+      margin: 0;
+      margin-top: 5px;
+      color: rgb(180, 199, 208);
+    }
+    .itemWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px;
+      padding: 15px;
+      .desc {
+        color: rgb(180, 199, 208);
+        .detail {
+          color: #61dafb;
+        }
+      }
+    }
+    .itemWrapper:hover {
+      background: rgba(61, 218, 253, 0.05);
+    }
+  }
+  .buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .button {
+      margin-right: 16px;
+      padding: 0 18px;
+      width: 154px;
+      height: 44px;
+    }
+  }
+}

@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "cli": "node ./src/index.js",
-    "build:ui": "node ./script/build.js"
+    "build:ui": "node ./script/build.js",
+    "lint": "prettier --check \"src/**/*.{js,jsx}\" && eslint \"src/**/*.{js,jsx}\"",
+    "formatting": "prettier --write \"src/**/*.{js,jsx}\" && eslint --fix \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
