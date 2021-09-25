@@ -1,4 +1,5 @@
 import AboutPage from '../pages/AboutPage'
+import PresetPage from '../pages/PresetPage'
 import NotFoundPage from '../pages/NotFoundPage'
 import IndexPage from '../pages/IndexPage'
 
@@ -18,6 +19,10 @@ const routes = [
   {
     path: '/',
     component: IndexPage,
+  },
+  {
+    path: '/preset',
+    component: PresetPage,
   },
   {
     path: '/about',
