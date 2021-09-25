@@ -20,9 +20,5 @@ function createServer() {
   const server = http.createServer(app.callback())
   return server
 }
-const server = createServer()
-server.listen(8001, () => {
-  console.log('启动成功')
-})
 
 module.exports = { createServer }
