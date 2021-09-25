@@ -3,7 +3,6 @@ import PresetPage from '../pages/PresetPage'
 import NotFoundPage from '../pages/NotFoundPage'
 import IndexPage from '../pages/IndexPage'
 import PackagesPage from "../pages/PackagesPage"
-import PresetPage from "../pages/PresetPage"
 import DetailPage from '../pages/DetailPage'
 import ConfigPage from "../pages/ConfigPage"
 /**
