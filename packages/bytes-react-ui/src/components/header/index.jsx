@@ -1,6 +1,6 @@
-import { useHistory, withRouter } from "react-router-dom";
-import { useState } from "react";
-import "./index.less";
+import { useHistory, withRouter } from 'react-router-dom'
+import { useState } from 'react'
+import './index.less'
 import {
   MenuOutlined,
   CheckCircleOutlined,
@@ -11,32 +11,32 @@ import {
 const navConfig = [
   {
     id: 0,
-    title: "详情",
+    title: '详情',
     icon: <MenuOutlined />,
-    path: "/detail"
+    path: '/detail',
   },
   {
     id: 1,
-    title: "预设",
+    title: '预设',
     icon: <CheckCircleOutlined />,
-    path: "/preset"
+    path: '/preset',
   },
   {
     id: 2,
-    title: "功能",
+    title: '功能',
     icon: <ShareAltOutlined />,
-    path: "/package"
+    path: '/package',
   },
   {
     id: 3,
-    title: "配置",
+    title: '配置',
     icon: <SettingFilled />,
-    path: '/config'
-  }
+    path: '/config',
+  },
 ]
 
 const Header = () => {
-  const history = useHistory();
+  const history = useHistory()
   const [isSelected, setIsSelected] = useState(0)
   const changePage = (path, id) => {
     return () => {
@@ -53,18 +53,21 @@ const Header = () => {
         <div className="nav-item"><CheckCircleOutlined /> &nbsp;预设</div>
         <div className="nav-item"><ShareAltOutlined /> &nbsp;功能</div>
         <div className="nav-item"><SettingFilled/>&nbsp;配置</div> */}
-        {
-          navConfig.map((navItem) => {
-            return (
-              <div className={`nav-item ${isSelected === navItem.id ? "isSelected" : ''}`} key={navItem.id} onClick={changePage(navItem.path, navItem.id)}>
-                {navItem.icon}
-                &nbsp;
-                {navItem.title}
-              </div>
-            )
-          })
-        }
-
+        {navConfig.map(navItem => {
+          return (
+            <div
+              className={`nav-item ${
+                isSelected === navItem.id ? 'isSelected' : ''
+              }`}
+              key={navItem.id}
+              onClick={changePage(navItem.path, navItem.id)}
+            >
+              {navItem.icon}
+              &nbsp;
+              {navItem.title}
+            </div>
+          )
+        })}
       </div>
     </div>
   )
