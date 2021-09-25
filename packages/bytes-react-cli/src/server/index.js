@@ -3,7 +3,7 @@ const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
 const serve = require('koa-static')
 const http = require('http')
-const globalMethodsInit = require('../lib/global')
+const globalMethodsInit = require('./lib/global')
 
 const router = require('./router')
 
@@ -20,5 +20,10 @@ function createServer() {
   const server = http.createServer(app.callback())
   return server
 }
+
+const server = createServer()
+server.listen(8001, () => {
+  console.log('启动成功')
+})
 
 module.exports = { createServer }
