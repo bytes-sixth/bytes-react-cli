@@ -1,0 +1,26 @@
+
+
+{
+    "注释1":"项目路径",
+    "projectPath":"",
+    "projectName":"",
+    "注释2":"使用的包管理工具",
+    "toolname":"",
+    "注释3":"hasProject 表示目标文件夹是否已经存在",
+    "hasProject":true,
+    "GitRepo":{
+        "isGitRepo":true,
+        "gitRepoUrl":"",
+        "commitMessage":""
+
+    },
+    "注释4":"//presupposition 的选项有 react 官方模板(1)|git拉取(2)|手动配置项目(3),只有选择手动配置项目时 dependencies，devDependencies 两个字段才发挥作用",
+    "presupposition":1,  
+    "selfConfig":{
+        "dependencies":[],
+        "devDependencies":[],
+        "versionOfReact":"",
+        "others":{}
+    }
+
+}
