@@ -1,5 +1,5 @@
 {
-  "name": "bytes-sixth-ui",
+  "name": "bytes-react-ui",
   "version": "0.0.1",
   "private": true,
   "author": "bytes-sixth(https://github.com/bytes-sixth)",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bytes-sixth/bytes-sixth.git",
-    "directory": "packages/bytes-sixth-cli"
+    "url": "https://github.com/bytes-sixth/bytes-react-cli.git",
+    "directory": "packages/bytes-react-ui"
   },
-  "homepage": "https://github.com/bytes-sixth/bytes-sixth",
+  "homepage": "https://github.com/bytes-sixth/bytes-react-cli",
   "dependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
