@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Form, Input, Button, Row, Col, Select, Switch, Modal,  } from 'antd';
+import { Form, Input, Button, Row, Col, Select, Switch, Modal } from 'antd';
 import { FolderOpenOutlined, EditOutlined } from '@ant-design/icons';
-import cs from "./index.module.css"
+import "./index.less"
 const { Option } = Select;
 
-export default function Details(props) {
+const DetailPage = (props) => {
 
     // 项目文件夹位置
     const project_path = "E:/work"
@@ -58,7 +58,7 @@ export default function Details(props) {
     }
 
     return (
-        <div className={cs.detail}>
+        <div className=".detail">
             <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
                 123
             </Modal>
@@ -73,14 +73,14 @@ export default function Details(props) {
                             <Col span={20}>
                                 <h4>{project_path + "/" + (projectName || "")}</h4>
                             </Col>
-                            {/* <Col span={4} style={{"textAlign":"right"}}>
-                                <Button
+                            <Col span={4} style={{"textAlign":"right"}}>
+                                {/* <Button
                                     size="small"
                                     type="primary"
                                     icon={<EditOutlined />}
                                     onClick={chooseDir}
-                                />
-                            </Col> */}
+                                /> */}
+                            </Col>
                         </Row>
                     </Form.Item>
                     <Form.Item
@@ -128,3 +128,6 @@ export default function Details(props) {
         </div>
     )
 }
+
+
+export default DetailPage;

@@ -1,0 +1,54 @@
+@color: #3498db;
+@selectedColor: #e4faff;
+
+.selected {
+  background-color: @selectedColor;
+
+  .selected-list-title {
+    color: @color;
+  }
+}
+
+.project-preset-item {
+  display: flex;
+  padding: 16px;
+  padding-left: 0;
+  cursor: pointer;
+  user-select: none;
+
+  .list-item-info {
+    flex: 1;
+  }
+
+  &:hover {
+    background-color: @selectedColor;
+  }
+}
+
+.radio-icon {
+  display: flex;
+  align-items: center;
+  padding: 0 23px;
+}
+
+.react-ui-icon {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.selected-icon {
+  border: 1px solid @color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .react-ui-circle {
+    width: 13px;
+    height: 13px;
+    background-color: @color;
+    border-radius: 50%;
+  }
+}

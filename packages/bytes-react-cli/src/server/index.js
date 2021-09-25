@@ -3,7 +3,7 @@ const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
 const serve = require('koa-static')
 const http = require('http')
-const globalMethodsInit = require('../lib/global')
+const globalMethodsInit = require('./lib/global')
 
 const router = require('./router')
 

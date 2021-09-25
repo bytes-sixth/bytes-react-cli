@@ -37,7 +37,8 @@ const eslintConfig = {
     // 当启用新的 JSX 转换时,可以关闭下面两条规则
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-
+    'no-unused-vars': 'off',
+    'no-undef': 'off',
     'react/prop-types': 'off',
     'react/self-closing-comp': [
       'error',
