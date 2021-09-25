@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Header/>
+        <Header />
         <Switch>
           {routes.map(route => (
             <Route exact key={route.path} path={route.path}>
