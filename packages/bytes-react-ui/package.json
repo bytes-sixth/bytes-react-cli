@@ -17,7 +17,8 @@
   "homepage": "https://github.com/bytes-sixth/bytes-react-cli",
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
