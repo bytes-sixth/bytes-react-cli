@@ -1,7 +1,10 @@
 import AboutPage from '../pages/AboutPage'
 import NotFoundPage from '../pages/NotFoundPage'
 import IndexPage from '../pages/IndexPage'
-
+import PackagesPage from "../pages/PackagesPage"
+import PresetPage from "../pages/PresetPage"
+import DetailPage from '../pages/DetailPage'
+import ConfigPage from "../pages/ConfigPage"
 /**
  * AboutPage: 概述页面
  * IndexPage: 主页
@@ -27,6 +30,22 @@ const routes = [
     path: '/404',
     component: NotFoundPage,
   },
+  {
+    path: '/package',
+    component:PackagesPage,
+  },
+  {
+    path: 'preset',
+    component:PresetPage
+  },
+  {
+    path: 'detail',
+    component: DetailPage
+  },
+  {
+    path: 'config',
+    component: ConfigPage
+  }
 ]
 
 export default routes

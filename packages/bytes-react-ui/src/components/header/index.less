@@ -1,0 +1,33 @@
+.headerWrapper{
+  height: 110px;
+  background-color: rgb(61, 218, 253);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title{
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;;
+  }
+  .nav{
+    height: 46px;
+    display: flex;
+    align-items: center;
+    .nav-item{
+     // width: 64px;
+     // background-color: #bfa;
+      height: 100%;
+      line-height: 46px;
+      font-size: 16px;
+      padding: 0 18px;
+      cursor: pointer;
+    }
+    .nav-item:hover{
+      background-color: white;
+    }
+    .isSelected{
+      color: rgb(104, 6, 193);
+      border-bottom:solid rgb(104, 6, 193) 2px;
+    }
+  }
+}
