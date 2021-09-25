@@ -5,17 +5,8 @@ import routes from './routes'
 const App = () => {
   return (
     <>
-<<<<<<< HEAD
-      <div>Hello</div>
-      <Router>
-<<<<<<< HEAD
-        <Header />
-=======
-=======
       <Router>
         <Header />
->>>>>>> 0956407ba1d7845b9eb72f77d0ed866a6a3aeeb2
->>>>>>> refs/remotes/origin/master
         <Switch>
           {routes.map(route => (
             <Route exact key={route.path} path={route.path}>
