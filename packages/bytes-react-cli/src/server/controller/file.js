@@ -9,6 +9,7 @@ const getDirectionListOfPath = async (ctx, next) => {
     const { directoryPath } = ctx.request.query
     if (directoryPath) {
       const fileList = await getDirectoryPath(directoryPath)
+      global.currentCreateProjectDirectory = directoryPath
       sendResponse(ctx.response)(fileList)
     } else {
       const fileList = await getDirectoryPath(
@@ -21,6 +22,14 @@ const getDirectionListOfPath = async (ctx, next) => {
   }
 }
 
+/**
+ *@description 获取启动项目的路径
+ */
+const getStartCliPath = async (ctx, next) => {
+  sendResponse(ctx.response)(global.workDirectory, 500, '服务器出错')
+}
+
 module.exports = {
   getDirectionListOfPath,
+  getStartCliPath,
 }
