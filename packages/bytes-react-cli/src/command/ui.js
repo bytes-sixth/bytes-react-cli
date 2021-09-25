@@ -1,6 +1,6 @@
 const { createServer } = require('../server')
 const { log } = require('../util')
-const { openBrowser } = require('../lib/openBrowser')
+const { openBrowser } = require('../server/lib/openBrowser')
 
 module.exports = async () => {
   const server = createServer()
