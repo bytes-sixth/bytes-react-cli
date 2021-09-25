@@ -1,5 +1,5 @@
 const ora = require('ora')
-
+const { TEMPLATE_URL } = require('./dectionaries')
 const { clone, log, spawn } = require('../util')
 
 /**
@@ -10,14 +10,14 @@ const { clone, log, spawn } = require('../util')
  * @param {boolean} options.installDep 是否安装依赖
  */
 module.exports = async options => {
-  const { name, path, installDep } = options || {}
+  const { name, path, installDep, templateType } = options || {}
 
   if (!name) {
     throw new Error('请传入要创建的项目名称')
   }
 
   log(`创建项目: ${name}`)
-  await clone('github:bytes-sixth/react-template', path)
+  await clone(`github:${TEMPLATE_URL[templateType]}`, path)
 
   if (installDep) {
     const spinner = ora({ text: `安装依赖...` }).start()
