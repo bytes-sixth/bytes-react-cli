@@ -3,16 +3,17 @@ const fs = require('fs')
 const { promisify } = require('util')
 const figletOrig = require('figlet')
 const clear = require('clear')
-const ora = require('ora')
 const { prompt } = require('enquirer')
 const rimrafOrig = require('rimraf')
 
-const { clone, log, spawn } = require('../util')
+const { log } = require('../util')
+const creteProject = require('../common/createProject')
 
 const figlet = promisify(figletOrig)
 const rimraf = promisify(rimrafOrig)
 
 module.exports = async name => {
+  // TODO: 对于 name 的合法验证
   name = name || 'template'
   clear()
   const data = await figlet('CREATE')
@@ -31,13 +32,5 @@ module.exports = async name => {
       return
     }
   }
-
-  log(`创建项目: ${name}`)
-  await clone('github:bytes-sixth/react-template', name)
-
-  const spinner = ora({ text: `安装依赖...` }).start()
-  await spawn('yarn', [], { cwd: `./${name}` })
-  spinner.color = 'green'
-  spinner.text = '安装完成'
-  spinner.succeed()
+  creteProject({ name, path: templatePath, installDep: false })
 }
