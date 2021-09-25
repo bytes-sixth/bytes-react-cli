@@ -1,15 +1,15 @@
-# bytes-react-cli
+# bytes-sixth-cli
 
 ## 下载
 
 ```sh
-git clone https://github.com/bytes-sixth/bytes-react-cli.git
+git clone https://github.com/bytes-sixth/bytes-sixth.git
 ```
 
 ## 安装依赖
 
 ```sh
-cd bytes-react-cli/packages/bytes-react-cli
+cd bytes-sixth/packages/bytes-sixth-cli
 yarn
 ```
 

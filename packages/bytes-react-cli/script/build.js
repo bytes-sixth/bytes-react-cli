@@ -7,7 +7,7 @@ const { spawn } = require('../src/util')
 
 async function build() {
   let spinner = ora({ text: `安装依赖...` }).start()
-  const uiPath = path.join(__dirname, '../../bytes-react-ui')
+  const uiPath = path.join(__dirname, '../../bytes-sixth-ui')
   const distPath = path.join(uiPath, '/dist')
   await trash(distPath)
   await spawn('yarn', [], { cwd: uiPath })
