@@ -12,7 +12,10 @@ bytes-react-cli是一个基于React进行快速开发的完整系统，它提供
 React对新人入门其实并不友好，官方文档也比较难懂，以至于核心团队自己都看不下去，在重写文档。[New React Docs #3308](https://github.com/reactjs/reactjs.org/issues/3308?from=from_parent_mindnote)
 ![New React Docs](./img/issues.png)
 
-新的官方文档在致力于推动**Anyone can learn React**，他们希望所有背景的学习者都可以使用React。基于方便新手开发者学习使用React和官方的改进趋势，我们的项目应运而生。
+新的官方文档在致力于推动**Anyone can learn React**，他们希望所有背景的学习者都可以使用React。
+
+基于方便新手开发者学习使用React和官方的改进趋势，我们的项目应运而生。
+
 #### 竞品调研
 我们对同为主流框架Vue进行了调研
 
@@ -31,6 +34,8 @@ React对新人入门其实并不友好，官方文档也比较难懂，以至于
 我们可以想象一下，计科班上50名同学接触了vue，有10名同学对Vue的管理项目用户界面感兴趣，而React却没有提供这样的选择，这无形就降低了React的留存率。
 
 因此要想使React在主流框架中保持竞争力，我们的开发项目是非常有必要的。
+
+除此之外，我们还关注到了[Umi](https://github.com/umijs/umi)，它的定位是可扩展的企业级前端应用框架。目前是蚂蚁金服的底层前端框架，已经很好地服务了蚂蚁金服的内部用户。但问题也在此，umi和antd绑定太严重，基本默认生成的就是antd的文件，不适合轻量的入门开发。
 
 ## 二、产品结构
 ![backLogic](./img/backLogic.png)

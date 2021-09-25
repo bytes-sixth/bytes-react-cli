@@ -49,7 +49,7 @@ const routes = [
   {
     path: '/config',
     component: ConfigPage,
-  }
+  },
 ]
 
 export default routes
