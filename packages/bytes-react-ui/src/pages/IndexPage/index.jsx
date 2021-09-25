@@ -2,35 +2,28 @@ import { useState } from 'react'
 import { Button } from 'antd'
 
 const IndexPage = () => {
+  // const [preinstall, setPreI] = useState(false)
 
-    // const [preinstall, setPreI] = useState(false)
+  // const [tabId, setTabId] = useState("1");
 
-    // const [tabId, setTabId] = useState("1");
-    
-    // const [detail, _setDetail] = useState({});
+  // const [detail, _setDetail] = useState({});
 
-    // function handlePreInstall(e){
-    //     setPreI(e);
-    // }
+  // function handlePreInstall(e){
+  //     setPreI(e);
+  // }
 
-    // function toNext(id){
-    //     setTabId(id);
-    // }
+  // function toNext(id){
+  //     setTabId(id);
+  // }
 
-    // function setDetail(obj){
-    //     console.log(obj)
-    //     _setDetail(obj);
-    // }
+  // function setDetail(obj){
+  //     console.log(obj)
+  //     _setDetail(obj);
+  // }
 
-    function installDep(){
-
-    }
-    function handleChange(){
-
-    }
-    function handleSubmit(){
-
-    }
+  function installDep() {}
+  function handleChange() {}
+  function handleSubmit() {}
 
   return (
     <div
