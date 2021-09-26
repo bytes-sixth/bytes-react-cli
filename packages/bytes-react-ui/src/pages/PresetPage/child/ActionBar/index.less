@@ -25,6 +25,7 @@
     box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
   }
 }
+
 .action:first-child {
   margin-right: 20px;
 }
@@ -39,13 +40,16 @@
   margin: 0 8px;
 }
 
-.next-animation, .create-animation {
+.next-animation,
+.create-animation {
   animation: action-step 10s forwards;
 }
+
 @keyframes action-step {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
