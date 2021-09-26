@@ -10,6 +10,10 @@ const spawn = async (...args) => {
     try {
       const [command, commandargs, options] = args
 
+      if (process.platform === 'win32') {
+        options.shell = true
+      }
+
       const proc = spawnOrig(command, commandargs, options)
 
       proc.stdout?.pipe(process.stdout) // 这里将子进程的输出输出到主进程
