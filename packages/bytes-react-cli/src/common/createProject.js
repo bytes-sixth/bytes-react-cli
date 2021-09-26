@@ -11,25 +11,25 @@ const { TEMPLATE_URL } = require('./dectionaries')
 /**
  * 创建项目
  * @param {object} options 创建项目的参数
- * @param {string} options.name 项目的名字
+ * @param {string} options.projectName 项目的名字
  * @param {string} options.path 项目存放的路径
  * @param {boolean} options.installDep 是否安装依赖
  * @param {string} options.templateType 使用的模板
  */
 module.exports = async options => {
   const {
-    name,
+    projectName,
     path,
     installDep,
     templateType = 'default',
     useYarn = false,
   } = options || {}
 
-  if (!name) {
+  if (!projectName) {
     throw new Error('请传入要创建的项目名称')
   }
 
-  log(`创建项目: ${name}`)
+  log(`创建项目: ${projectName}`)
   await clone(`github:${TEMPLATE_URL[templateType]}`, path)
 
   if (installDep) {

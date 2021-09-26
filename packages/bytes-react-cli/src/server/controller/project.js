@@ -10,15 +10,15 @@ const getProjectStatus = async (ctx, _next) => {
 }
 
 const createProject = async (ctx, _next) => {
-  const body = ctx.request.body
-  console.log(body)
+  const { projectName, path, package: packageManage, option } = ctx.request.body
+  // console.log(body)
   console.log('createProject 请求在', process.cwd(), '创建项目')
   const options = {
-    name: 'bsclinameddd',
-    path: process.cwd() + 'bsclinameddd',
-    installDep: false,
+    projectName,
+    path,
+    installDep: option.installDep,
     templateType: 'default',
-    useYarn: false,
+    useYarn: packageManage === 'npm',
   }
 
   createProjectOri(options)
