@@ -10,9 +10,16 @@ const { TEMPLATE_URL } = require('./dectionaries')
  * @param {string} options.name 项目的名字
  * @param {string} options.path 项目存放的路径
  * @param {boolean} options.installDep 是否安装依赖
+ * @param {string} options.templateType 使用的模板
  */
 module.exports = async options => {
-  const { name, path, installDep, templateType } = options || {}
+  const {
+    name,
+    path,
+    installDep,
+    templateType = 'default',
+    useYarn = false,
+  } = options || {}
 
   if (!name) {
     throw new Error('请传入要创建的项目名称')
@@ -26,7 +33,11 @@ module.exports = async options => {
     const spinner = ora('安装依赖中...').start()
 
     // todo：使用不同的包管理器管理,将 yarn 改成由一个变量传入
-    await spawn('yarn', [], { cwd: path })
+    if (useYarn) {
+      await spawn('yarn', [], { cwd: path })
+    } else {
+      await spawn('npm', ['install'], { cwd: path })
+    }
 
     // child_process.execSync('yarn',{
     //     cwd:path
