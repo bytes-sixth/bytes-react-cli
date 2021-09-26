@@ -1,41 +1,43 @@
 import React, { useState } from 'react'
+import { useHistory, useLocation } from 'react-router-dom'
 import './index.less'
 import {
-  MenuOutlined,
-  CheckCircleOutlined,
-  ShareAltOutlined,
-  SettingFilled,
+  // MenuOutlined,
+  // CheckCircleOutlined,
+  // ShareAltOutlined,
+  // SettingFilled,
   MenuUnfoldOutlined,
   PlusSquareOutlined,
   ToTopOutlined,
 } from '@ant-design/icons'
+import { navConfig, NavConsumer } from '../../context/useNavContext'
 
-const navConfig = [
-  {
-    id: 0,
-    title: '详情',
-    icon: <MenuOutlined />,
-    path: '/detail',
-  },
-  {
-    id: 1,
-    title: '预设',
-    icon: <CheckCircleOutlined />,
-    path: '/preset',
-  },
-  {
-    id: 2,
-    title: '功能',
-    icon: <ShareAltOutlined />,
-    path: '/package',
-  },
-  {
-    id: 3,
-    title: '配置',
-    icon: <SettingFilled />,
-    path: '/config',
-  },
-]
+// const navConfig = [
+//   {
+//     id: 0,
+//     title: '详情',
+//     icon: <MenuOutlined />,
+//     path: '/detail',
+//   },
+//   {
+//     id: 1,
+//     title: '预设',
+//     icon: <CheckCircleOutlined />,
+//     path: '/preset',
+//   },
+//   {
+//     id: 2,
+//     title: '功能',
+//     icon: <ShareAltOutlined />,
+//     path: '/package',
+//   },
+//   {
+//     id: 3,
+//     title: '配置',
+//     icon: <SettingFilled />,
+//     path: '/config',
+//   },
+// ]
 
 //用于根路由的头部配置
 const navForIndexPage = [
@@ -65,12 +67,12 @@ const Header = () => {
   const location = useLocation()
   const { pathname } = location
   const [isSelected, setIsSelected] = useState(0)
-  const changePage = (path, id) => {
-    return () => {
-      history.push(path)
-      setIsSelected(id)
-    }
-  }
+  // const changePage = (path, id) => {
+  //   return () => {
+  //     history.push(path)
+  //     setIsSelected(id)
+  //   }
+  // }
 
   const nav = pathname === '/' ? navForIndexPage : navConfig
 
@@ -79,24 +81,30 @@ const Header = () => {
       <div className="title">
         {pathname === '/' ? 'React项目管理器' : '创建新项目'}
       </div>
-      <div className="nav">
-        {nav.map(navItem => {
+      <NavConsumer>
+        {({ selectedNavId }) => {
           return (
-            <div
-              className={`nav-item ${
-                isSelected === navItem.id ? 'isSelected' : ''
-              }`}
-              key={navItem.id}
-              onClick={changePage(navItem.path, navItem.id)}
-            >
-              {navItem.icon}
-              &nbsp;
-              {navItem.title}
+            <div className="nav">
+              {nav.map(navItem => {
+                return (
+                  <div
+                    className={`nav-item ${
+                      selectedNavId === navItem.id ? 'isSelected' : ''
+                    }`}
+                    key={navItem.id}
+                    // onClick={changePage(navItem.path, navItem.id)}
+                  >
+                    {navItem.icon}
+                    &nbsp;
+                    {navItem.title}
+                  </div>
+                )
+              })}
             </div>
           )
-        })}
-      </div>
+        }}
+      </NavConsumer>
     </div>
   )
 }
-export default withRouter(Header)
+export default Header
