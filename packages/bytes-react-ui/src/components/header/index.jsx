@@ -40,6 +40,7 @@ import { navConfig, NavConsumer } from '../../context/useNavContext'
 // ]
 
 //用于根路由的头部配置
+/*
 const navForIndexPage = [
   {
     id: 0,
@@ -60,6 +61,7 @@ const navForIndexPage = [
     path: '/',
   },
 ]
+*/
 
 const Header = () => {
   const history = useHistory()
@@ -74,13 +76,11 @@ const Header = () => {
   //   }
   // }
 
-  const nav = pathname === '/' ? navForIndexPage : navConfig
+  const nav = navConfig
 
   return (
     <div className="headerWrapper">
-      <div className="title">
-        {pathname === '/' ? 'React项目管理器' : '创建新项目'}
-      </div>
+      <div className="title">创建新项目</div>
       <NavConsumer>
         {({ selectedNavId }) => {
           return (
