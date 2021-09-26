@@ -1,9 +1,11 @@
 // todo： 后面要将 appConfig 单独存在一个 json 文件中，作为一个数据库存储web应用信息
 let appConfig = {
   serverUrl: 'http://localhost:', // 启动服务时的 url
-  port: '3000', // 启动服务时的端口号
+  port: '8888', // 启动服务时的端口号
   projects: [], // 每新建一个项目往里加一个 projectConfig
 }
+
+
 
 let projectConfig = {
   projectPath: '', // "项目路径"

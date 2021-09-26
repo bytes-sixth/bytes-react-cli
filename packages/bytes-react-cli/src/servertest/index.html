@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉框</title>
+    <style>
+        .according {
+            width:300px;
+        }
+        .according article {
+            cursor: pointer;
+        }
+        .according article + article {
+            margin-top: 5px;
+        }
+        .according label {
+            display: block;
+            padding: 0 20px;
+            height: 40px;
+            background-color: #f66;
+            cursor: pointer;
+            line-height: 40px;
+            font-size: 16px;
+            color: white;
+
+        }
+        .according p {
+            overflow:hidden;
+            max-height: 0;
+            padding: 0 20px;
+            border: 1px solid #f66;
+            border-top: none;
+            border-bottom-width: 0;
+            /* 要了解 transition */
+            transition:all 500ms; 
+            line-height: 30px;
+        }
+        .according input:nth-child(1):checked ~ article:nth-of-type(1) p{
+            border-bottom-width:1px;
+            min-height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="according">
+        <input type="checkbox" id="collapse1" ">
+        <input type="checkbox" id="collapse2" hidden="hidden">
+        <input type="checkbox" id="collapse3" hidden="hidden">
+        <article>
+            <label for="collapse1">标题1</label>
+            <p>3<br><br></p>
+
+        </article>
+        <article>
+            <label for="collapse2">标题2</label>
+            <p>3</p>
+            <p>3</p>
+            <p>3</p>
+        </article>
+        <article>
+            <label for="collapse3">标题3</label>
+            <p>3</p>
+            <p>3</p>
+            <p>3</p>
+        </article>
+    </div>
+
+    <script src="./fetch.js"></script>
+</body>
+</html>
