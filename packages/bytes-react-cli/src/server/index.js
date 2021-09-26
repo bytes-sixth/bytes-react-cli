@@ -14,6 +14,10 @@ function createServer() {
   app.use(bodyParser())
   app.use(serve(CLIENT_PATH))
   app.use(router.routes()).use(router.allowedMethods())
+  app.use(
+    async (ctx, next) =>
+      await serve(CLIENT_PATH)(Object.assign(ctx, { path: 'index.html' }), next)
+  )
   // 初始化全局变量
   globalMethodsInit()
 
