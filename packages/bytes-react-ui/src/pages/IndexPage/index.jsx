@@ -3,14 +3,28 @@ import { useState } from 'react'
 import { Button } from 'antd'
 
 const IndexPage = () => {
-  const [installDep, setInstallDep] = useState(0)
-  const handleChange = () => {
-    setInstallDep(select => !select)
-  }
+  // const [preinstall, setPreI] = useState(false)
 
-  const handleSubmit = e => {
-    e.preventDefault()
-  }
+  // const [tabId, setTabId] = useState("1");
+
+  // const [detail, _setDetail] = useState({});
+
+  // function handlePreInstall(e){
+  //     setPreI(e);
+  // }
+
+  // function toNext(id){
+  //     setTabId(id);
+  // }
+
+  // function setDetail(obj){
+  //     console.log(obj)
+  //     _setDetail(obj);
+  // }
+
+  function installDep() {}
+  function handleChange() {}
+  function handleSubmit() {}
 
   return (
     <div
@@ -37,7 +51,7 @@ const IndexPage = () => {
           <input
             name="installDep"
             type="checkbox"
-            checked={installDep}
+            // checked={installDep}
             onChange={handleChange}
           />
         </label>

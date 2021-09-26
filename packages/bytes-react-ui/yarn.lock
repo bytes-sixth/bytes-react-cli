@@ -16,8 +16,13 @@
 
 "@ant-design/icons@^4.6.3", "@ant-design/icons@^4.7.0":
   version "4.7.0"
+<<<<<<< HEAD
   resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-4.7.0.tgz#8c3cbe0a556ba92af5dc7d1e70c0b25b5179af0f"
   integrity sha512-aoB4Z7JA431rt6d4u+8xcNPPCrdufSRMUOpxa1ab6mz1JCQZOEVolj2WVs/tDFmN62zzK30mNelEsprLYsSF3g==
+=======
+  resolved "https://registry.npmmirror.com/@ant-design/icons/download/@ant-design/icons-4.7.0.tgz?cache=0&sync_timestamp=1632478704493&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Ficons%2Fdownload%2F%40ant-design%2Ficons-4.7.0.tgz#8c3cbe0a556ba92af5dc7d1e70c0b25b5179af0f"
+  integrity sha1-jDy+ClVrqSr13H0ecMCyW1F5rw8=
+>>>>>>> c32d45ceb7057099db8e4cb0df29fa7ed5da87c0
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons-svg" "^4.2.1"
@@ -77,7 +82,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.10", "@babel/core@^7.15.5", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.15.5", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.15.5"
   resolved "https://registry.nlark.com/@babel/core/download/@babel/core-7.15.5.tgz#f8ed9ace730722544609f90c9bb49162dc3bf5b9"
   integrity sha1-+O2aznMHIlRGCfkMm7SRYtw79bk=
@@ -98,7 +103,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/generator@^7.12.1", "@babel/generator@^7.12.11", "@babel/generator@^7.15.4", "@babel/generator@^7.7.2":
+"@babel/generator@^7.12.1", "@babel/generator@^7.15.4", "@babel/generator@^7.7.2":
   version "7.15.4"
   resolved "https://registry.nlark.com/@babel/generator/download/@babel/generator-7.15.4.tgz?cache=0&sync_timestamp=1630619281572&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fgenerator%2Fdownload%2F%40babel%2Fgenerator-7.15.4.tgz#85acb159a267ca6324f9793986991ee2022a05b0"
   integrity sha1-hayxWaJnymMk+Xk5hpke4gIqBbA=
@@ -116,7 +121,7 @@
 
 "@babel/helper-builder-binary-assignment-operator-visitor@^7.14.5":
   version "7.15.4"
-  resolved "https://registry.nlark.com/@babel/helper-builder-binary-assignment-operator-visitor/download/@babel/helper-builder-binary-assignment-operator-visitor-7.15.4.tgz?cache=0&sync_timestamp=1630619287194&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor%2Fdownload%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor-7.15.4.tgz#21ad815f609b84ee0e3058676c33cf6d1670525f"
+  resolved "https://registry.nlark.com/@babel/helper-builder-binary-assignment-operator-visitor/download/@babel/helper-builder-binary-assignment-operator-visitor-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor%2Fdownload%2F%40babel%2Fhelper-builder-binary-assignment-operator-visitor-7.15.4.tgz#21ad815f609b84ee0e3058676c33cf6d1670525f"
   integrity sha1-Ia2BX2CbhO4OMFhnbDPPbRZwUl8=
   dependencies:
     "@babel/helper-explode-assignable-expression" "^7.15.4"
@@ -134,7 +139,7 @@
 
 "@babel/helper-create-class-features-plugin@^7.12.1", "@babel/helper-create-class-features-plugin@^7.14.5", "@babel/helper-create-class-features-plugin@^7.15.4":
   version "7.15.4"
-  resolved "https://registry.nlark.com/@babel/helper-create-class-features-plugin/download/@babel/helper-create-class-features-plugin-7.15.4.tgz?cache=0&sync_timestamp=1630618927387&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-create-class-features-plugin%2Fdownload%2F%40babel%2Fhelper-create-class-features-plugin-7.15.4.tgz#7f977c17bd12a5fba363cb19bea090394bf37d2e"
+  resolved "https://registry.nlark.com/@babel/helper-create-class-features-plugin/download/@babel/helper-create-class-features-plugin-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-create-class-features-plugin%2Fdownload%2F%40babel%2Fhelper-create-class-features-plugin-7.15.4.tgz#7f977c17bd12a5fba363cb19bea090394bf37d2e"
   integrity sha1-f5d8F70SpfujY8sZvqCQOUvzfS4=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.15.4"
@@ -146,7 +151,7 @@
 
 "@babel/helper-create-regexp-features-plugin@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/helper-create-regexp-features-plugin/download/@babel/helper-create-regexp-features-plugin-7.14.5.tgz?cache=0&sync_timestamp=1623280375996&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-create-regexp-features-plugin%2Fdownload%2F%40babel%2Fhelper-create-regexp-features-plugin-7.14.5.tgz#c7d5ac5e9cf621c26057722fb7a8a4c5889358c4"
+  resolved "https://registry.nlark.com/@babel/helper-create-regexp-features-plugin/download/@babel/helper-create-regexp-features-plugin-7.14.5.tgz#c7d5ac5e9cf621c26057722fb7a8a4c5889358c4"
   integrity sha1-x9WsXpz2IcJgV3Ivt6ikxYiTWMQ=
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.14.5"
@@ -154,7 +159,7 @@
 
 "@babel/helper-define-polyfill-provider@^0.2.2":
   version "0.2.3"
-  resolved "https://registry.nlark.com/@babel/helper-define-polyfill-provider/download/@babel/helper-define-polyfill-provider-0.2.3.tgz?cache=0&sync_timestamp=1622025470416&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-define-polyfill-provider%2Fdownload%2F%40babel%2Fhelper-define-polyfill-provider-0.2.3.tgz#0525edec5094653a282688d34d846e4c75e9c0b6"
+  resolved "https://registry.nlark.com/@babel/helper-define-polyfill-provider/download/@babel/helper-define-polyfill-provider-0.2.3.tgz#0525edec5094653a282688d34d846e4c75e9c0b6"
   integrity sha1-BSXt7FCUZTooJojTTYRuTHXpwLY=
   dependencies:
     "@babel/helper-compilation-targets" "^7.13.0"
@@ -264,7 +269,7 @@
 
 "@babel/helper-skip-transparent-expression-wrappers@^7.12.1", "@babel/helper-skip-transparent-expression-wrappers@^7.14.5", "@babel/helper-skip-transparent-expression-wrappers@^7.15.4":
   version "7.15.4"
-  resolved "https://registry.nlark.com/@babel/helper-skip-transparent-expression-wrappers/download/@babel/helper-skip-transparent-expression-wrappers-7.15.4.tgz?cache=0&sync_timestamp=1630619286160&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-skip-transparent-expression-wrappers%2Fdownload%2F%40babel%2Fhelper-skip-transparent-expression-wrappers-7.15.4.tgz#707dbdba1f4ad0fa34f9114fc8197aec7d5da2eb"
+  resolved "https://registry.nlark.com/@babel/helper-skip-transparent-expression-wrappers/download/@babel/helper-skip-transparent-expression-wrappers-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-skip-transparent-expression-wrappers%2Fdownload%2F%40babel%2Fhelper-skip-transparent-expression-wrappers-7.15.4.tgz#707dbdba1f4ad0fa34f9114fc8197aec7d5da2eb"
   integrity sha1-cH29uh9K0Po0+RFPyBl67H1dous=
   dependencies:
     "@babel/types" "^7.15.4"
@@ -314,7 +319,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.12.11", "@babel/parser@^7.12.3", "@babel/parser@^7.15.4", "@babel/parser@^7.15.5", "@babel/parser@^7.7.0", "@babel/parser@^7.7.2":
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.3", "@babel/parser@^7.15.4", "@babel/parser@^7.15.5", "@babel/parser@^7.7.0", "@babel/parser@^7.7.2":
   version "7.15.7"
   resolved "https://registry.nlark.com/@babel/parser/download/@babel/parser-7.15.7.tgz?cache=0&sync_timestamp=1631920857646&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.15.7.tgz#0c3ed4a2eb07b165dfa85b3cc45c727334c4edae"
   integrity sha1-DD7UousHsWXfqFs8xFxyczTE7a4=
@@ -339,7 +344,7 @@
 
 "@babel/plugin-proposal-class-properties@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.12.1.tgz?cache=0&sync_timestamp=1623280683880&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.12.1.tgz#a082ff541f2a29a4821065b8add9346c0c16e5de"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.12.1.tgz?cache=0&sync_timestamp=1623280411002&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.12.1.tgz#a082ff541f2a29a4821065b8add9346c0c16e5de"
   integrity sha1-oIL/VB8qKaSCEGW4rdk0bAwW5d4=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.12.1"
@@ -347,7 +352,7 @@
 
 "@babel/plugin-proposal-class-properties@^7.12.1", "@babel/plugin-proposal-class-properties@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280683880&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.14.5.tgz#40d1ee140c5b1e31a350f4f5eed945096559b42e"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-class-properties/download/@babel/plugin-proposal-class-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280411002&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-class-properties%2Fdownload%2F%40babel%2Fplugin-proposal-class-properties-7.14.5.tgz#40d1ee140c5b1e31a350f4f5eed945096559b42e"
   integrity sha1-QNHuFAxbHjGjUPT17tlFCWVZtC4=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.14.5"
@@ -373,7 +378,7 @@
 
 "@babel/plugin-proposal-dynamic-import@^7.12.1", "@babel/plugin-proposal-dynamic-import@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.14.5.tgz?cache=0&sync_timestamp=1623280457211&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-dynamic-import%2Fdownload%2F%40babel%2Fplugin-proposal-dynamic-import-7.14.5.tgz#0c6617df461c0c1f8fff3b47cd59772360101d2c"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-dynamic-import/download/@babel/plugin-proposal-dynamic-import-7.14.5.tgz?cache=0&sync_timestamp=1623280310895&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-dynamic-import%2Fdownload%2F%40babel%2Fplugin-proposal-dynamic-import-7.14.5.tgz#0c6617df461c0c1f8fff3b47cd59772360101d2c"
   integrity sha1-DGYX30YcDB+P/ztHzVl3I2AQHSw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -381,7 +386,7 @@
 
 "@babel/plugin-proposal-export-namespace-from@^7.12.1", "@babel/plugin-proposal-export-namespace-from@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-export-namespace-from/download/@babel/plugin-proposal-export-namespace-from-7.14.5.tgz?cache=0&sync_timestamp=1623280459053&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-export-namespace-from%2Fdownload%2F%40babel%2Fplugin-proposal-export-namespace-from-7.14.5.tgz#dbad244310ce6ccd083072167d8cea83a52faf76"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-export-namespace-from/download/@babel/plugin-proposal-export-namespace-from-7.14.5.tgz#dbad244310ce6ccd083072167d8cea83a52faf76"
   integrity sha1-260kQxDObM0IMHIWfYzqg6Uvr3Y=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -397,7 +402,7 @@
 
 "@babel/plugin-proposal-logical-assignment-operators@^7.12.1", "@babel/plugin-proposal-logical-assignment-operators@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-logical-assignment-operators/download/@babel/plugin-proposal-logical-assignment-operators-7.14.5.tgz?cache=0&sync_timestamp=1623280460897&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-logical-assignment-operators%2Fdownload%2F%40babel%2Fplugin-proposal-logical-assignment-operators-7.14.5.tgz#6e6229c2a99b02ab2915f82571e0cc646a40c738"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-logical-assignment-operators/download/@babel/plugin-proposal-logical-assignment-operators-7.14.5.tgz#6e6229c2a99b02ab2915f82571e0cc646a40c738"
   integrity sha1-bmIpwqmbAqspFfglceDMZGpAxzg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -405,7 +410,7 @@
 
 "@babel/plugin-proposal-nullish-coalescing-operator@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.12.1.tgz?cache=0&sync_timestamp=1623280605042&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator%2Fdownload%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator-7.12.1.tgz#3ed4fff31c015e7f3f1467f190dbe545cd7b046c"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.12.1.tgz#3ed4fff31c015e7f3f1467f190dbe545cd7b046c"
   integrity sha1-PtT/8xwBXn8/FGfxkNvlRc17BGw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
@@ -413,7 +418,7 @@
 
 "@babel/plugin-proposal-nullish-coalescing-operator@^7.12.1", "@babel/plugin-proposal-nullish-coalescing-operator@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.14.5.tgz?cache=0&sync_timestamp=1623280605042&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator%2Fdownload%2F%40babel%2Fplugin-proposal-nullish-coalescing-operator-7.14.5.tgz#ee38589ce00e2cc59b299ec3ea406fcd3a0fdaf6"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-nullish-coalescing-operator/download/@babel/plugin-proposal-nullish-coalescing-operator-7.14.5.tgz#ee38589ce00e2cc59b299ec3ea406fcd3a0fdaf6"
   integrity sha1-7jhYnOAOLMWbKZ7D6kBvzToP2vY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -421,7 +426,7 @@
 
 "@babel/plugin-proposal-numeric-separator@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.12.1.tgz?cache=0&sync_timestamp=1623280460632&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-numeric-separator%2Fdownload%2F%40babel%2Fplugin-proposal-numeric-separator-7.12.1.tgz#0e2c6774c4ce48be412119b4d693ac777f7685a6"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.12.1.tgz?cache=0&sync_timestamp=1623280419388&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-numeric-separator%2Fdownload%2F%40babel%2Fplugin-proposal-numeric-separator-7.12.1.tgz#0e2c6774c4ce48be412119b4d693ac777f7685a6"
   integrity sha1-DixndMTOSL5BIRm01pOsd392haY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
@@ -429,7 +434,7 @@
 
 "@babel/plugin-proposal-numeric-separator@^7.12.1", "@babel/plugin-proposal-numeric-separator@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.14.5.tgz?cache=0&sync_timestamp=1623280460632&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-numeric-separator%2Fdownload%2F%40babel%2Fplugin-proposal-numeric-separator-7.14.5.tgz#83631bf33d9a51df184c2102a069ac0c58c05f18"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-numeric-separator/download/@babel/plugin-proposal-numeric-separator-7.14.5.tgz?cache=0&sync_timestamp=1623280419388&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-numeric-separator%2Fdownload%2F%40babel%2Fplugin-proposal-numeric-separator-7.14.5.tgz#83631bf33d9a51df184c2102a069ac0c58c05f18"
   integrity sha1-g2Mb8z2aUd8YTCECoGmsDFjAXxg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -437,7 +442,7 @@
 
 "@babel/plugin-proposal-object-rest-spread@^7.12.1", "@babel/plugin-proposal-object-rest-spread@^7.15.6":
   version "7.15.6"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-object-rest-spread/download/@babel/plugin-proposal-object-rest-spread-7.15.6.tgz?cache=0&sync_timestamp=1631216659207&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-object-rest-spread%2Fdownload%2F%40babel%2Fplugin-proposal-object-rest-spread-7.15.6.tgz#ef68050c8703d07b25af402cb96cf7f34a68ed11"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-object-rest-spread/download/@babel/plugin-proposal-object-rest-spread-7.15.6.tgz#ef68050c8703d07b25af402cb96cf7f34a68ed11"
   integrity sha1-72gFDIcD0Hslr0AsuWz380po7RE=
   dependencies:
     "@babel/compat-data" "^7.15.0"
@@ -448,7 +453,7 @@
 
 "@babel/plugin-proposal-optional-catch-binding@^7.12.1", "@babel/plugin-proposal-optional-catch-binding@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-catch-binding/download/@babel/plugin-proposal-optional-catch-binding-7.14.5.tgz#939dd6eddeff3a67fdf7b3f044b5347262598c3c"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-catch-binding/download/@babel/plugin-proposal-optional-catch-binding-7.14.5.tgz?cache=0&sync_timestamp=1623280419133&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-optional-catch-binding%2Fdownload%2F%40babel%2Fplugin-proposal-optional-catch-binding-7.14.5.tgz#939dd6eddeff3a67fdf7b3f044b5347262598c3c"
   integrity sha1-k53W7d7/Omf997PwRLU0cmJZjDw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -456,7 +461,7 @@
 
 "@babel/plugin-proposal-optional-chaining@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.12.1.tgz#cce122203fc8a32794296fc377c6dedaf4363797"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.12.1.tgz?cache=0&sync_timestamp=1623280397698&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-optional-chaining%2Fdownload%2F%40babel%2Fplugin-proposal-optional-chaining-7.12.1.tgz#cce122203fc8a32794296fc377c6dedaf4363797"
   integrity sha1-zOEiID/IoyeUKW/Dd8be2vQ2N5c=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
@@ -465,7 +470,7 @@
 
 "@babel/plugin-proposal-optional-chaining@^7.12.1", "@babel/plugin-proposal-optional-chaining@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.14.5.tgz#fa83651e60a360e3f13797eef00b8d519695b603"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-optional-chaining/download/@babel/plugin-proposal-optional-chaining-7.14.5.tgz?cache=0&sync_timestamp=1623280397698&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-optional-chaining%2Fdownload%2F%40babel%2Fplugin-proposal-optional-chaining-7.14.5.tgz#fa83651e60a360e3f13797eef00b8d519695b603"
   integrity sha1-+oNlHmCjYOPxN5fu8AuNUZaVtgM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -474,7 +479,7 @@
 
 "@babel/plugin-proposal-private-methods@^7.12.1", "@babel/plugin-proposal-private-methods@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-proposal-private-methods/download/@babel/plugin-proposal-private-methods-7.14.5.tgz#37446495996b2945f30f5be5b60d5e2aa4f5792d"
+  resolved "https://registry.nlark.com/@babel/plugin-proposal-private-methods/download/@babel/plugin-proposal-private-methods-7.14.5.tgz?cache=0&sync_timestamp=1623280416204&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-proposal-private-methods%2Fdownload%2F%40babel%2Fplugin-proposal-private-methods-7.14.5.tgz#37446495996b2945f30f5be5b60d5e2aa4f5792d"
   integrity sha1-N0RklZlrKUXzD1vltg1eKqT1eS0=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.14.5"
@@ -500,28 +505,28 @@
 
 "@babel/plugin-syntax-async-generators@^7.8.0", "@babel/plugin-syntax-async-generators@^7.8.4":
   version "7.8.4"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-async-generators/download/@babel/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-async-generators/download/@babel/plugin-syntax-async-generators-7.8.4.tgz#a983fb1aeb2ec3f6ed042a210f640e90e786fe0d"
   integrity sha1-qYP7Gusuw/btBCohD2QOkOeG/g0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-bigint@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-bigint/download/@babel/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-bigint/download/@babel/plugin-syntax-bigint-7.8.3.tgz#4c9a6f669f5d0cdf1b90a1671e9a146be5300cea"
   integrity sha1-TJpvZp9dDN8bkKFnHpoUa+UwDOo=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-class-properties@^7.12.1", "@babel/plugin-syntax-class-properties@^7.12.13", "@babel/plugin-syntax-class-properties@^7.8.3":
   version "7.12.13"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-class-properties/download/@babel/plugin-syntax-class-properties-7.12.13.tgz#b5c987274c4a3a82b89714796931a6b53544ae10"
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-class-properties/download/@babel/plugin-syntax-class-properties-7.12.13.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-syntax-class-properties%2Fdownload%2F%40babel%2Fplugin-syntax-class-properties-7.12.13.tgz#b5c987274c4a3a82b89714796931a6b53544ae10"
   integrity sha1-tcmHJ0xKOoK4lxR5aTGmtTVErhA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-syntax-class-static-block@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-class-static-block/download/@babel/plugin-syntax-class-static-block-7.14.5.tgz?cache=0&sync_timestamp=1623280461402&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-class-static-block%2Fdownload%2F%40babel%2Fplugin-syntax-class-static-block-7.14.5.tgz#195df89b146b4b78b3bf897fd7a257c84659d406"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-class-static-block/download/@babel/plugin-syntax-class-static-block-7.14.5.tgz#195df89b146b4b78b3bf897fd7a257c84659d406"
   integrity sha1-GV34mxRrS3izv4l/16JXyEZZ1AY=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -535,28 +540,28 @@
 
 "@babel/plugin-syntax-dynamic-import@^7.8.0", "@babel/plugin-syntax-dynamic-import@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-dynamic-import/download/@babel/plugin-syntax-dynamic-import-7.8.3.tgz#62bf98b2da3cd21d626154fc96ee5b3cb68eacb3"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-dynamic-import/download/@babel/plugin-syntax-dynamic-import-7.8.3.tgz?cache=0&sync_timestamp=1618847125283&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-dynamic-import%2Fdownload%2F%40babel%2Fplugin-syntax-dynamic-import-7.8.3.tgz#62bf98b2da3cd21d626154fc96ee5b3cb68eacb3"
   integrity sha1-Yr+Ysto80h1iYVT8lu5bPLaOrLM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-export-namespace-from@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-export-namespace-from/download/@babel/plugin-syntax-export-namespace-from-7.8.3.tgz#028964a9ba80dbc094c915c487ad7c4e7a66465a"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-export-namespace-from/download/@babel/plugin-syntax-export-namespace-from-7.8.3.tgz#028964a9ba80dbc094c915c487ad7c4e7a66465a"
   integrity sha1-AolkqbqA28CUyRXEh618TnpmRlo=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-syntax-flow@^7.12.1":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-flow/download/@babel/plugin-syntax-flow-7.14.5.tgz#2ff654999497d7d7d142493260005263731da180"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-flow/download/@babel/plugin-syntax-flow-7.14.5.tgz?cache=0&sync_timestamp=1623281257415&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-flow%2Fdownload%2F%40babel%2Fplugin-syntax-flow-7.14.5.tgz#2ff654999497d7d7d142493260005263731da180"
   integrity sha1-L/ZUmZSX19fRQkkyYABSY3MdoYA=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-import-meta@^7.8.3":
   version "7.10.4"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-import-meta/download/@babel/plugin-syntax-import-meta-7.10.4.tgz#ee601348c370fa334d2207be158777496521fd51"
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-import-meta/download/@babel/plugin-syntax-import-meta-7.10.4.tgz#ee601348c370fa334d2207be158777496521fd51"
   integrity sha1-7mATSMNw+jNNIge+FYd3SWUh/VE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
@@ -591,14 +596,14 @@
 
 "@babel/plugin-syntax-numeric-separator@^7.10.4", "@babel/plugin-syntax-numeric-separator@^7.8.3":
   version "7.10.4"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-numeric-separator/download/@babel/plugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
+  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-numeric-separator/download/@babel/plugin-syntax-numeric-separator-7.10.4.tgz?cache=0&sync_timestamp=1593522054358&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-syntax-numeric-separator%2Fdownload%2F%40babel%2Fplugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
   integrity sha1-ubBws+M1cM2f0Hun+pHA3Te5r5c=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-syntax-object-rest-spread@^7.8.0", "@babel/plugin-syntax-object-rest-spread@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-object-rest-spread/download/@babel/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-object-rest-spread/download/@babel/plugin-syntax-object-rest-spread-7.8.3.tgz#60e225edcbd98a640332a2e72dd3e66f1af55871"
   integrity sha1-YOIl7cvZimQDMqLnLdPmbxr1WHE=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
@@ -612,21 +617,21 @@
 
 "@babel/plugin-syntax-optional-chaining@^7.8.0", "@babel/plugin-syntax-optional-chaining@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-syntax-optional-chaining/download/@babel/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-optional-chaining/download/@babel/plugin-syntax-optional-chaining-7.8.3.tgz#4f69c2ab95167e0180cd5336613f8c5788f7d48a"
   integrity sha1-T2nCq5UWfgGAzVM2YT+MV4j31Io=
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
 "@babel/plugin-syntax-private-property-in-object@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-private-property-in-object/download/@babel/plugin-syntax-private-property-in-object-7.14.5.tgz?cache=0&sync_timestamp=1623280462994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-private-property-in-object%2Fdownload%2F%40babel%2Fplugin-syntax-private-property-in-object-7.14.5.tgz#0dc6671ec0ea22b6e94a1114f857970cd39de1ad"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-private-property-in-object/download/@babel/plugin-syntax-private-property-in-object-7.14.5.tgz?cache=0&sync_timestamp=1623280423879&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-private-property-in-object%2Fdownload%2F%40babel%2Fplugin-syntax-private-property-in-object-7.14.5.tgz#0dc6671ec0ea22b6e94a1114f857970cd39de1ad"
   integrity sha1-DcZnHsDqIrbpShEU+FeXDNOd4a0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-syntax-top-level-await@^7.12.1", "@babel/plugin-syntax-top-level-await@^7.14.5", "@babel/plugin-syntax-top-level-await@^7.8.3":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-syntax-top-level-await/download/@babel/plugin-syntax-top-level-await-7.14.5.tgz?cache=0&sync_timestamp=1623280464882&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-top-level-await%2Fdownload%2F%40babel%2Fplugin-syntax-top-level-await-7.14.5.tgz#c1cfdadc35a646240001f06138247b741c34d94c"
+  resolved "https://registry.nlark.com/@babel/plugin-syntax-top-level-await/download/@babel/plugin-syntax-top-level-await-7.14.5.tgz?cache=0&sync_timestamp=1623280427172&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-syntax-top-level-await%2Fdownload%2F%40babel%2Fplugin-syntax-top-level-await-7.14.5.tgz#c1cfdadc35a646240001f06138247b741c34d94c"
   integrity sha1-wc/a3DWmRiQAAfBhOCR7dBw02Uw=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -647,7 +652,7 @@
 
 "@babel/plugin-transform-async-to-generator@^7.12.1", "@babel/plugin-transform-async-to-generator@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-async-to-generator/download/@babel/plugin-transform-async-to-generator-7.14.5.tgz?cache=0&sync_timestamp=1623280684756&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-async-to-generator%2Fdownload%2F%40babel%2Fplugin-transform-async-to-generator-7.14.5.tgz#72c789084d8f2094acb945633943ef8443d39e67"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-async-to-generator/download/@babel/plugin-transform-async-to-generator-7.14.5.tgz?cache=0&sync_timestamp=1623280415969&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-async-to-generator%2Fdownload%2F%40babel%2Fplugin-transform-async-to-generator-7.14.5.tgz#72c789084d8f2094acb945633943ef8443d39e67"
   integrity sha1-cseJCE2PIJSsuUVjOUPvhEPTnmc=
   dependencies:
     "@babel/helper-module-imports" "^7.14.5"
@@ -656,7 +661,7 @@
 
 "@babel/plugin-transform-block-scoped-functions@^7.12.1", "@babel/plugin-transform-block-scoped-functions@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoped-functions/download/@babel/plugin-transform-block-scoped-functions-7.14.5.tgz#e48641d999d4bc157a67ef336aeb54bc44fd3ad4"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-block-scoped-functions/download/@babel/plugin-transform-block-scoped-functions-7.14.5.tgz?cache=0&sync_timestamp=1623280426909&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-block-scoped-functions%2Fdownload%2F%40babel%2Fplugin-transform-block-scoped-functions-7.14.5.tgz#e48641d999d4bc157a67ef336aeb54bc44fd3ad4"
   integrity sha1-5IZB2ZnUvBV6Z+8zautUvET9OtQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -683,7 +688,7 @@
 
 "@babel/plugin-transform-computed-properties@^7.12.1", "@babel/plugin-transform-computed-properties@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.14.5.tgz#1b9d78987420d11223d41195461cc43b974b204f"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-computed-properties/download/@babel/plugin-transform-computed-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280393882&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-computed-properties%2Fdownload%2F%40babel%2Fplugin-transform-computed-properties-7.14.5.tgz#1b9d78987420d11223d41195461cc43b974b204f"
   integrity sha1-G514mHQg0RIj1BGVRhzEO5dLIE8=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -697,7 +702,7 @@
 
 "@babel/plugin-transform-dotall-regex@^7.12.1", "@babel/plugin-transform-dotall-regex@^7.14.5", "@babel/plugin-transform-dotall-regex@^7.4.4":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-dotall-regex/download/@babel/plugin-transform-dotall-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280386290&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-dotall-regex%2Fdownload%2F%40babel%2Fplugin-transform-dotall-regex-7.14.5.tgz#2f6bf76e46bdf8043b4e7e16cf24532629ba0c7a"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-dotall-regex/download/@babel/plugin-transform-dotall-regex-7.14.5.tgz#2f6bf76e46bdf8043b4e7e16cf24532629ba0c7a"
   integrity sha1-L2v3bka9+AQ7Tn4WzyRTJim6DHo=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
@@ -712,7 +717,7 @@
 
 "@babel/plugin-transform-exponentiation-operator@^7.12.1", "@babel/plugin-transform-exponentiation-operator@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-exponentiation-operator/download/@babel/plugin-transform-exponentiation-operator-7.14.5.tgz?cache=0&sync_timestamp=1623280390976&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-exponentiation-operator%2Fdownload%2F%40babel%2Fplugin-transform-exponentiation-operator-7.14.5.tgz#5154b8dd6a3dfe6d90923d61724bd3deeb90b493"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-exponentiation-operator/download/@babel/plugin-transform-exponentiation-operator-7.14.5.tgz#5154b8dd6a3dfe6d90923d61724bd3deeb90b493"
   integrity sha1-UVS43Wo9/m2Qkj1hckvT3uuQtJM=
   dependencies:
     "@babel/helper-builder-binary-assignment-operator-visitor" "^7.14.5"
@@ -720,7 +725,7 @@
 
 "@babel/plugin-transform-flow-strip-types@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-flow-strip-types/download/@babel/plugin-transform-flow-strip-types-7.12.1.tgz#8430decfa7eb2aea5414ed4a3fa6e1652b7d77c4"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-flow-strip-types/download/@babel/plugin-transform-flow-strip-types-7.12.1.tgz?cache=0&sync_timestamp=1623281224189&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-flow-strip-types%2Fdownload%2F%40babel%2Fplugin-transform-flow-strip-types-7.12.1.tgz#8430decfa7eb2aea5414ed4a3fa6e1652b7d77c4"
   integrity sha1-hDDez6frKupUFO1KP6bhZSt9d8Q=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
@@ -735,7 +740,7 @@
 
 "@babel/plugin-transform-function-name@^7.12.1", "@babel/plugin-transform-function-name@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-function-name/download/@babel/plugin-transform-function-name-7.14.5.tgz#e81c65ecb900746d7f31802f6bed1f52d915d6f2"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-function-name/download/@babel/plugin-transform-function-name-7.14.5.tgz?cache=0&sync_timestamp=1623280395990&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-function-name%2Fdownload%2F%40babel%2Fplugin-transform-function-name-7.14.5.tgz#e81c65ecb900746d7f31802f6bed1f52d915d6f2"
   integrity sha1-6Bxl7LkAdG1/MYAva+0fUtkV1vI=
   dependencies:
     "@babel/helper-function-name" "^7.14.5"
@@ -757,7 +762,7 @@
 
 "@babel/plugin-transform-modules-amd@^7.12.1", "@babel/plugin-transform-modules-amd@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-amd/download/@babel/plugin-transform-modules-amd-7.14.5.tgz?cache=0&sync_timestamp=1623280684461&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-amd%2Fdownload%2F%40babel%2Fplugin-transform-modules-amd-7.14.5.tgz#4fd9ce7e3411cb8b83848480b7041d83004858f7"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-amd/download/@babel/plugin-transform-modules-amd-7.14.5.tgz?cache=0&sync_timestamp=1623280416173&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-amd%2Fdownload%2F%40babel%2Fplugin-transform-modules-amd-7.14.5.tgz#4fd9ce7e3411cb8b83848480b7041d83004858f7"
   integrity sha1-T9nOfjQRy4uDhISAtwQdgwBIWPc=
   dependencies:
     "@babel/helper-module-transforms" "^7.14.5"
@@ -787,7 +792,7 @@
 
 "@babel/plugin-transform-modules-umd@^7.12.1", "@babel/plugin-transform-modules-umd@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.14.5.tgz#fb662dfee697cce274a7cda525190a79096aa6e0"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-modules-umd/download/@babel/plugin-transform-modules-umd-7.14.5.tgz?cache=0&sync_timestamp=1623280420892&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-modules-umd%2Fdownload%2F%40babel%2Fplugin-transform-modules-umd-7.14.5.tgz#fb662dfee697cce274a7cda525190a79096aa6e0"
   integrity sha1-+2Yt/uaXzOJ0p82lJRkKeQlqpuA=
   dependencies:
     "@babel/helper-module-transforms" "^7.14.5"
@@ -795,7 +800,7 @@
 
 "@babel/plugin-transform-named-capturing-groups-regex@^7.12.1", "@babel/plugin-transform-named-capturing-groups-regex@^7.14.9":
   version "7.14.9"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.14.9.tgz?cache=0&sync_timestamp=1627804495986&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-named-capturing-groups-regex%2Fdownload%2F%40babel%2Fplugin-transform-named-capturing-groups-regex-7.14.9.tgz#c68f5c5d12d2ebaba3762e57c2c4f6347a46e7b2"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-named-capturing-groups-regex/download/@babel/plugin-transform-named-capturing-groups-regex-7.14.9.tgz?cache=0&sync_timestamp=1627804432890&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-named-capturing-groups-regex%2Fdownload%2F%40babel%2Fplugin-transform-named-capturing-groups-regex-7.14.9.tgz#c68f5c5d12d2ebaba3762e57c2c4f6347a46e7b2"
   integrity sha1-xo9cXRLS66ujdi5XwsT2NHpG57I=
   dependencies:
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
@@ -809,7 +814,7 @@
 
 "@babel/plugin-transform-object-super@^7.12.1", "@babel/plugin-transform-object-super@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-object-super/download/@babel/plugin-transform-object-super-7.14.5.tgz?cache=0&sync_timestamp=1623280681813&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-object-super%2Fdownload%2F%40babel%2Fplugin-transform-object-super-7.14.5.tgz#d0b5faeac9e98597a161a9cf78c527ed934cdc45"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-object-super/download/@babel/plugin-transform-object-super-7.14.5.tgz?cache=0&sync_timestamp=1623280405923&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-object-super%2Fdownload%2F%40babel%2Fplugin-transform-object-super-7.14.5.tgz#d0b5faeac9e98597a161a9cf78c527ed934cdc45"
   integrity sha1-0LX66snphZehYanPeMUn7ZNM3EU=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -831,14 +836,14 @@
 
 "@babel/plugin-transform-react-display-name@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-react-display-name/download/@babel/plugin-transform-react-display-name-7.12.1.tgz?cache=0&sync_timestamp=1628148920379&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-react-display-name%2Fdownload%2F%40babel%2Fplugin-transform-react-display-name-7.12.1.tgz#1cbcd0c3b1d6648c55374a22fc9b6b7e5341c00d"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-react-display-name/download/@babel/plugin-transform-react-display-name-7.12.1.tgz#1cbcd0c3b1d6648c55374a22fc9b6b7e5341c00d"
   integrity sha1-HLzQw7HWZIxVN0oi/JtrflNBwA0=
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
 "@babel/plugin-transform-react-display-name@^7.12.1":
   version "7.15.1"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-react-display-name/download/@babel/plugin-transform-react-display-name-7.15.1.tgz?cache=0&sync_timestamp=1628148920379&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-react-display-name%2Fdownload%2F%40babel%2Fplugin-transform-react-display-name-7.15.1.tgz#6aaac6099f1fcf6589d35ae6be1b6e10c8c602b9"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-react-display-name/download/@babel/plugin-transform-react-display-name-7.15.1.tgz#6aaac6099f1fcf6589d35ae6be1b6e10c8c602b9"
   integrity sha1-aqrGCZ8fz2WJ01rmvhtuEMjGArk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -885,14 +890,14 @@
 
 "@babel/plugin-transform-regenerator@^7.12.1", "@babel/plugin-transform-regenerator@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-regenerator/download/@babel/plugin-transform-regenerator-7.14.5.tgz?cache=0&sync_timestamp=1623280395479&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-regenerator%2Fdownload%2F%40babel%2Fplugin-transform-regenerator-7.14.5.tgz#9676fd5707ed28f522727c5b3c0aa8544440b04f"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-regenerator/download/@babel/plugin-transform-regenerator-7.14.5.tgz#9676fd5707ed28f522727c5b3c0aa8544440b04f"
   integrity sha1-lnb9VwftKPUicnxbPAqoVERAsE8=
   dependencies:
     regenerator-transform "^0.14.2"
 
 "@babel/plugin-transform-reserved-words@^7.12.1", "@babel/plugin-transform-reserved-words@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-reserved-words/download/@babel/plugin-transform-reserved-words-7.14.5.tgz?cache=0&sync_timestamp=1623280468592&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-reserved-words%2Fdownload%2F%40babel%2Fplugin-transform-reserved-words-7.14.5.tgz#c44589b661cfdbef8d4300dcc7469dffa92f8304"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-reserved-words/download/@babel/plugin-transform-reserved-words-7.14.5.tgz#c44589b661cfdbef8d4300dcc7469dffa92f8304"
   integrity sha1-xEWJtmHP2++NQwDcx0ad/6kvgwQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -909,14 +914,14 @@
 
 "@babel/plugin-transform-shorthand-properties@^7.12.1", "@babel/plugin-transform-shorthand-properties@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-shorthand-properties/download/@babel/plugin-transform-shorthand-properties-7.14.5.tgz?cache=0&sync_timestamp=1623280351390&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-shorthand-properties%2Fdownload%2F%40babel%2Fplugin-transform-shorthand-properties-7.14.5.tgz#97f13855f1409338d8cadcbaca670ad79e091a58"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-shorthand-properties/download/@babel/plugin-transform-shorthand-properties-7.14.5.tgz#97f13855f1409338d8cadcbaca670ad79e091a58"
   integrity sha1-l/E4VfFAkzjYyty6ymcK154JGlg=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-spread@^7.12.1", "@babel/plugin-transform-spread@^7.14.6":
   version "7.14.6"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-spread/download/@babel/plugin-transform-spread-7.14.6.tgz?cache=0&sync_timestamp=1623708435507&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-spread%2Fdownload%2F%40babel%2Fplugin-transform-spread-7.14.6.tgz#6bd40e57fe7de94aa904851963b5616652f73144"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-spread/download/@babel/plugin-transform-spread-7.14.6.tgz#6bd40e57fe7de94aa904851963b5616652f73144"
   integrity sha1-a9QOV/596UqpBIUZY7VhZlL3MUQ=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -924,28 +929,28 @@
 
 "@babel/plugin-transform-sticky-regex@^7.12.1", "@babel/plugin-transform-sticky-regex@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-sticky-regex/download/@babel/plugin-transform-sticky-regex-7.14.5.tgz?cache=0&sync_timestamp=1623280350911&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-sticky-regex%2Fdownload%2F%40babel%2Fplugin-transform-sticky-regex-7.14.5.tgz#5b617542675e8b7761294381f3c28c633f40aeb9"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-sticky-regex/download/@babel/plugin-transform-sticky-regex-7.14.5.tgz#5b617542675e8b7761294381f3c28c633f40aeb9"
   integrity sha1-W2F1Qmdei3dhKUOB88KMYz9Arrk=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-template-literals@^7.12.1", "@babel/plugin-transform-template-literals@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-template-literals/download/@babel/plugin-transform-template-literals-7.14.5.tgz?cache=0&sync_timestamp=1623280350943&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-template-literals%2Fdownload%2F%40babel%2Fplugin-transform-template-literals-7.14.5.tgz#a5f2bc233937d8453885dc736bdd8d9ffabf3d93"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-template-literals/download/@babel/plugin-transform-template-literals-7.14.5.tgz#a5f2bc233937d8453885dc736bdd8d9ffabf3d93"
   integrity sha1-pfK8Izk32EU4hdxza92Nn/q/PZM=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-typeof-symbol@^7.12.1", "@babel/plugin-transform-typeof-symbol@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-typeof-symbol/download/@babel/plugin-transform-typeof-symbol-7.14.5.tgz?cache=0&sync_timestamp=1623280352113&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-typeof-symbol%2Fdownload%2F%40babel%2Fplugin-transform-typeof-symbol-7.14.5.tgz#39af2739e989a2bd291bf6b53f16981423d457d4"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-typeof-symbol/download/@babel/plugin-transform-typeof-symbol-7.14.5.tgz#39af2739e989a2bd291bf6b53f16981423d457d4"
   integrity sha1-Oa8nOemJor0pG/a1PxaYFCPUV9Q=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
 "@babel/plugin-transform-typescript@^7.12.1":
   version "7.15.4"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-typescript/download/@babel/plugin-transform-typescript-7.15.4.tgz?cache=0&sync_timestamp=1630618928216&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-typescript%2Fdownload%2F%40babel%2Fplugin-transform-typescript-7.15.4.tgz#db7a062dcf8be5fc096bc0eeb40a13fbfa1fa251"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-typescript/download/@babel/plugin-transform-typescript-7.15.4.tgz#db7a062dcf8be5fc096bc0eeb40a13fbfa1fa251"
   integrity sha1-23oGLc+L5fwJa8DutAoT+/ofolE=
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.15.4"
@@ -954,7 +959,7 @@
 
 "@babel/plugin-transform-unicode-escapes@^7.12.1", "@babel/plugin-transform-unicode-escapes@^7.14.5":
   version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.14.5.tgz?cache=0&sync_timestamp=1623280468339&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fplugin-transform-unicode-escapes%2Fdownload%2F%40babel%2Fplugin-transform-unicode-escapes-7.14.5.tgz#9d4bd2a681e3c5d7acf4f57fa9e51175d91d0c6b"
+  resolved "https://registry.nlark.com/@babel/plugin-transform-unicode-escapes/download/@babel/plugin-transform-unicode-escapes-7.14.5.tgz#9d4bd2a681e3c5d7acf4f57fa9e51175d91d0c6b"
   integrity sha1-nUvSpoHjxdes9PV/qeURddkdDGs=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -969,7 +974,7 @@
 
 "@babel/preset-env@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/preset-env/download/@babel/preset-env-7.12.1.tgz?cache=0&sync_timestamp=1631216658989&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fpreset-env%2Fdownload%2F%40babel%2Fpreset-env-7.12.1.tgz#9c7e5ca82a19efc865384bb4989148d2ee5d7ac2"
+  resolved "https://registry.nlark.com/@babel/preset-env/download/@babel/preset-env-7.12.1.tgz#9c7e5ca82a19efc865384bb4989148d2ee5d7ac2"
   integrity sha1-nH5cqCoZ78hlOEu0mJFI0u5desI=
   dependencies:
     "@babel/compat-data" "^7.12.1"
@@ -1041,7 +1046,7 @@
 
 "@babel/preset-env@^7.15.6":
   version "7.15.6"
-  resolved "https://registry.nlark.com/@babel/preset-env/download/@babel/preset-env-7.15.6.tgz?cache=0&sync_timestamp=1631216658989&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fpreset-env%2Fdownload%2F%40babel%2Fpreset-env-7.15.6.tgz#0f3898db9d63d320f21b17380d8462779de57659"
+  resolved "https://registry.nlark.com/@babel/preset-env/download/@babel/preset-env-7.15.6.tgz#0f3898db9d63d320f21b17380d8462779de57659"
   integrity sha1-DziY251j0yDyGxc4DYRid53ldlk=
   dependencies:
     "@babel/compat-data" "^7.15.0"
@@ -1120,7 +1125,7 @@
 
 "@babel/preset-modules@^0.1.3", "@babel/preset-modules@^0.1.4":
   version "0.1.4"
-  resolved "https://registry.npm.taobao.org/@babel/preset-modules/download/@babel/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
+  resolved "https://registry.nlark.com/@babel/preset-modules/download/@babel/preset-modules-0.1.4.tgz#362f2b68c662842970fdb5e254ffc8fc1c2e415e"
   integrity sha1-Ni8raMZihClw/bXiVP/I/BwuQV4=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -1160,14 +1165,14 @@
 
 "@babel/runtime@7.12.1":
   version "7.12.1"
-  resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.12.1.tgz?cache=0&sync_timestamp=1630618785994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.12.1.tgz?cache=0&sync_timestamp=1630619277795&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
   integrity sha1-tBFqa2cR0BCy2tO3tuQ78bmVR0A=
   dependencies:
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.15.4"
-  resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1630618785994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
+  resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1630619277795&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=
   dependencies:
     regenerator-runtime "^0.13.4"
@@ -1181,7 +1186,7 @@
     "@babel/parser" "^7.15.4"
     "@babel/types" "^7.15.4"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.12.12", "@babel/traverse@^7.13.0", "@babel/traverse@^7.15.4", "@babel/traverse@^7.7.0", "@babel/traverse@^7.7.2":
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.13.0", "@babel/traverse@^7.15.4", "@babel/traverse@^7.7.0", "@babel/traverse@^7.7.2":
   version "7.15.4"
   resolved "https://registry.nlark.com/@babel/traverse/download/@babel/traverse-7.15.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftraverse%2Fdownload%2F%40babel%2Ftraverse-7.15.4.tgz#ff8510367a144bfbff552d9e18e28f3e2889c22d"
   integrity sha1-/4UQNnoUS/v/VS2eGOKPPiiJwi0=
@@ -1245,7 +1250,7 @@
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
-  resolved "https://registry.npm.taobao.org/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
+  resolved "https://registry.nlark.com/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
   integrity sha1-/T2x1Z7PfPEh6AZQu4ZxL5tV7O0=
   dependencies:
     camelcase "^5.3.1"
@@ -1256,12 +1261,12 @@
 
 "@istanbuljs/schema@^0.1.2":
   version "0.1.3"
-  resolved "https://registry.npm.taobao.org/@istanbuljs/schema/download/@istanbuljs/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
+  resolved "https://registry.nlark.com/@istanbuljs/schema/download/@istanbuljs/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha1-5F44TkuOwWvOL9kDr3hFD2v37Jg=
 
 "@jest/console@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/console/download/@jest/console-27.2.2.tgz?cache=0&sync_timestamp=1632576978021&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fconsole%2Fdownload%2F%40jest%2Fconsole-27.2.2.tgz#a977245155c519ac2ef713ec0e722d13eda893c9"
+  resolved "https://registry.npmmirror.com/@jest/console/download/@jest/console-27.2.2.tgz#a977245155c519ac2ef713ec0e722d13eda893c9"
   integrity sha1-qXckUVXFGawu9xPsDnItE+2ok8k=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -1273,7 +1278,7 @@
 
 "@jest/core@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/core/download/@jest/core-27.2.2.tgz?cache=0&sync_timestamp=1632576975478&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fcore%2Fdownload%2F%40jest%2Fcore-27.2.2.tgz#9eea16101b2f04bf799dcdbdf1792d4ef7553ecf"
+  resolved "https://registry.npmmirror.com/@jest/core/download/@jest/core-27.2.2.tgz#9eea16101b2f04bf799dcdbdf1792d4ef7553ecf"
   integrity sha1-nuoWEBsvBL95nc298XktTvdVPs8=
   dependencies:
     "@jest/console" "^27.2.2"
@@ -1308,7 +1313,7 @@
 
 "@jest/environment@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/environment/download/@jest/environment-27.2.2.tgz?cache=0&sync_timestamp=1632576978410&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Fenvironment%2Fdownload%2F%40jest%2Fenvironment-27.2.2.tgz#2e57b9d2cc01028b0e35fae5833c1c63df4c5e41"
+  resolved "https://registry.npmmirror.com/@jest/environment/download/@jest/environment-27.2.2.tgz#2e57b9d2cc01028b0e35fae5833c1c63df4c5e41"
   integrity sha1-Lle50swBAosONfrlgzwcY99MXkE=
   dependencies:
     "@jest/fake-timers" "^27.2.2"
@@ -1318,7 +1323,7 @@
 
 "@jest/fake-timers@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/fake-timers/download/@jest/fake-timers-27.2.2.tgz?cache=0&sync_timestamp=1632576978708&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ffake-timers%2Fdownload%2F%40jest%2Ffake-timers-27.2.2.tgz#43e6f191c95ae74e95d0ddba2ecb8470b4a288b7"
+  resolved "https://registry.npmmirror.com/@jest/fake-timers/download/@jest/fake-timers-27.2.2.tgz?cache=0&sync_timestamp=1632576926503&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ffake-timers%2Fdownload%2F%40jest%2Ffake-timers-27.2.2.tgz#43e6f191c95ae74e95d0ddba2ecb8470b4a288b7"
   integrity sha1-Q+bxkcla506V0N26LsuEcLSiiLc=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -1339,7 +1344,7 @@
 
 "@jest/reporters@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/reporters/download/@jest/reporters-27.2.2.tgz?cache=0&sync_timestamp=1632576979218&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Freporters%2Fdownload%2F%40jest%2Freporters-27.2.2.tgz#e2d41cd9f8088676b81b9a9908cb1ba67bdbee78"
+  resolved "https://registry.npmmirror.com/@jest/reporters/download/@jest/reporters-27.2.2.tgz#e2d41cd9f8088676b81b9a9908cb1ba67bdbee78"
   integrity sha1-4tQc2fgIhna4G5qZCMsbpnvb7ng=
   dependencies:
     "@bcoe/v8-coverage" "^0.2.3"
@@ -1369,7 +1374,7 @@
 
 "@jest/source-map@^27.0.6":
   version "27.0.6"
-  resolved "https://registry.nlark.com/@jest/source-map/download/@jest/source-map-27.0.6.tgz?cache=0&sync_timestamp=1624900561091&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40jest%2Fsource-map%2Fdownload%2F%40jest%2Fsource-map-27.0.6.tgz#be9e9b93565d49b0548b86e232092491fb60551f"
+  resolved "https://registry.nlark.com/@jest/source-map/download/@jest/source-map-27.0.6.tgz?cache=0&sync_timestamp=1624900091449&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40jest%2Fsource-map%2Fdownload%2F%40jest%2Fsource-map-27.0.6.tgz#be9e9b93565d49b0548b86e232092491fb60551f"
   integrity sha1-vp6bk1ZdSbBUi4biMgkkkftgVR8=
   dependencies:
     callsites "^3.0.0"
@@ -1378,7 +1383,7 @@
 
 "@jest/test-result@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/test-result/download/@jest/test-result-27.2.2.tgz?cache=0&sync_timestamp=1632576972170&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftest-result%2Fdownload%2F%40jest%2Ftest-result-27.2.2.tgz#cd4ba1ca9b0521e463bd4b32349ba1842277563b"
+  resolved "https://registry.npmmirror.com/@jest/test-result/download/@jest/test-result-27.2.2.tgz#cd4ba1ca9b0521e463bd4b32349ba1842277563b"
   integrity sha1-zUuhypsFIeRjvUsyNJuhhCJ3Vjs=
   dependencies:
     "@jest/console" "^27.2.2"
@@ -1388,7 +1393,7 @@
 
 "@jest/test-sequencer@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/test-sequencer/download/@jest/test-sequencer-27.2.2.tgz?cache=0&sync_timestamp=1632576982930&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftest-sequencer%2Fdownload%2F%40jest%2Ftest-sequencer-27.2.2.tgz#9a6d735317f525741a5913ee3cdefeffc9b0aba6"
+  resolved "https://registry.npmmirror.com/@jest/test-sequencer/download/@jest/test-sequencer-27.2.2.tgz#9a6d735317f525741a5913ee3cdefeffc9b0aba6"
   integrity sha1-mm1zUxf1JXQaWRPuPN7+/8mwq6Y=
   dependencies:
     "@jest/test-result" "^27.2.2"
@@ -1398,7 +1403,7 @@
 
 "@jest/transform@^27.2.2":
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/@jest/transform/download/@jest/transform-27.2.2.tgz?cache=0&sync_timestamp=1632576971314&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40jest%2Ftransform%2Fdownload%2F%40jest%2Ftransform-27.2.2.tgz#89b16b4de84354fb48d15712b3ea34cadc1cb600"
+  resolved "https://registry.npmmirror.com/@jest/transform/download/@jest/transform-27.2.2.tgz#89b16b4de84354fb48d15712b3ea34cadc1cb600"
   integrity sha1-ibFrTehDVPtI0VcSs+o0ytwctgA=
   dependencies:
     "@babel/core" "^7.1.0"
@@ -1430,7 +1435,7 @@
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
-  resolved "https://registry.nlark.com/@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
+  resolved "https://registry.nlark.com/@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz?cache=0&sync_timestamp=1622792738877&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40nodelib%2Ffs.scandir%2Fdownload%2F%40nodelib%2Ffs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
   integrity sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=
   dependencies:
     "@nodelib/fs.stat" "2.0.5"
@@ -1438,12 +1443,12 @@
 
 "@nodelib/fs.stat@2.0.5", "@nodelib/fs.stat@^2.0.2":
   version "2.0.5"
-  resolved "https://registry.nlark.com/@nodelib/fs.stat/download/@nodelib/fs.stat-2.0.5.tgz#5bd262af94e9d25bd1e71b05deed44876a222e8b"
+  resolved "https://registry.nlark.com/@nodelib/fs.stat/download/@nodelib/fs.stat-2.0.5.tgz?cache=0&sync_timestamp=1622792616417&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40nodelib%2Ffs.stat%2Fdownload%2F%40nodelib%2Ffs.stat-2.0.5.tgz#5bd262af94e9d25bd1e71b05deed44876a222e8b"
   integrity sha1-W9Jir5Tp0lvR5xsF3u1Eh2oiLos=
 
 "@nodelib/fs.walk@^1.2.3":
   version "1.2.8"
-  resolved "https://registry.nlark.com/@nodelib/fs.walk/download/@nodelib/fs.walk-1.2.8.tgz?cache=0&sync_timestamp=1625769815389&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40nodelib%2Ffs.walk%2Fdownload%2F%40nodelib%2Ffs.walk-1.2.8.tgz#e95737e8bb6746ddedf69c556953494f196fe69a"
+  resolved "https://registry.nlark.com/@nodelib/fs.walk/download/@nodelib/fs.walk-1.2.8.tgz#e95737e8bb6746ddedf69c556953494f196fe69a"
   integrity sha1-6Vc36LtnRt3t9pxVaVNJTxlv5po=
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
@@ -1451,7 +1456,7 @@
 
 "@rollup/plugin-node-resolve@^13.0.4":
   version "13.0.5"
-  resolved "https://registry.nlark.com/@rollup/plugin-node-resolve/download/@rollup/plugin-node-resolve-13.0.5.tgz?cache=0&sync_timestamp=1632265713337&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40rollup%2Fplugin-node-resolve%2Fdownload%2F%40rollup%2Fplugin-node-resolve-13.0.5.tgz#016abe58796a4ff544d6beac7818921e3d3777fc"
+  resolved "https://registry.nlark.com/@rollup/plugin-node-resolve/download/@rollup/plugin-node-resolve-13.0.5.tgz#016abe58796a4ff544d6beac7818921e3d3777fc"
   integrity sha1-AWq+WHlqT/VE1r6seBiSHj03d/w=
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
@@ -1463,7 +1468,7 @@
 
 "@rollup/pluginutils@^3.1.0":
   version "3.1.0"
-  resolved "https://registry.nlark.com/@rollup/pluginutils/download/@rollup/pluginutils-3.1.0.tgz?cache=0&sync_timestamp=1626395140635&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40rollup%2Fpluginutils%2Fdownload%2F%40rollup%2Fpluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
+  resolved "https://registry.nlark.com/@rollup/pluginutils/download/@rollup/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
   integrity sha1-cGtFJO5tyLEDs8mVUz5a1oDAK5s=
   dependencies:
     "@types/estree" "0.0.39"
@@ -1480,14 +1485,14 @@
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
-  resolved "https://registry.npm.taobao.org/@sinonjs/commons/download/@sinonjs/commons-1.8.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40sinonjs%2Fcommons%2Fdownload%2F%40sinonjs%2Fcommons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
+  resolved "https://registry.nlark.com/@sinonjs/commons/download/@sinonjs/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
   integrity sha1-OALd0hpQqUm2ch3dcto25n5/Gy0=
   dependencies:
     type-detect "4.0.8"
 
 "@sinonjs/fake-timers@^7.0.2":
   version "7.1.2"
-  resolved "https://registry.npmmirror.com/@sinonjs/fake-timers/download/@sinonjs/fake-timers-7.1.2.tgz#2524eae70c4910edccf99b2f4e6efc5894aff7b5"
+  resolved "https://registry.npmmirror.com/@sinonjs/fake-timers/download/@sinonjs/fake-timers-7.1.2.tgz?cache=0&sync_timestamp=1632412472804&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40sinonjs%2Ffake-timers%2Fdownload%2F%40sinonjs%2Ffake-timers-7.1.2.tgz#2524eae70c4910edccf99b2f4e6efc5894aff7b5"
   integrity sha1-JSTq5wxJEO3M+ZsvTm78WJSv97U=
   dependencies:
     "@sinonjs/commons" "^1.7.0"
@@ -1508,7 +1513,7 @@
 
 "@testing-library/jest-dom@^5.14.1":
   version "5.14.1"
-  resolved "https://registry.nlark.com/@testing-library/jest-dom/download/@testing-library/jest-dom-5.14.1.tgz?cache=0&sync_timestamp=1623430092237&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Fjest-dom%2Fdownload%2F%40testing-library%2Fjest-dom-5.14.1.tgz#8501e16f1e55a55d675fe73eecee32cdaddb9766"
+  resolved "https://registry.nlark.com/@testing-library/jest-dom/download/@testing-library/jest-dom-5.14.1.tgz#8501e16f1e55a55d675fe73eecee32cdaddb9766"
   integrity sha1-hQHhbx5VpV1nX+c+7O4yza3bl2Y=
   dependencies:
     "@babel/runtime" "^7.9.2"
@@ -1523,7 +1528,7 @@
 
 "@testing-library/react@^12.1.0":
   version "12.1.0"
-  resolved "https://registry.nlark.com/@testing-library/react/download/@testing-library/react-12.1.0.tgz?cache=0&sync_timestamp=1631523382682&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Freact%2Fdownload%2F%40testing-library%2Freact-12.1.0.tgz#3e9a4002b0b8f986a738a2f88fc458b5af319f35"
+  resolved "https://registry.nlark.com/@testing-library/react/download/@testing-library/react-12.1.0.tgz?cache=0&sync_timestamp=1631523362536&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Freact%2Fdownload%2F%40testing-library%2Freact-12.1.0.tgz#3e9a4002b0b8f986a738a2f88fc458b5af319f35"
   integrity sha1-PppAArC4+YanOKL4j8RYta8xnzU=
   dependencies:
     "@babel/runtime" "^7.12.5"
@@ -1531,14 +1536,14 @@
 
 "@testing-library/user-event@^13.2.1":
   version "13.2.1"
-  resolved "https://registry.nlark.com/@testing-library/user-event/download/@testing-library/user-event-13.2.1.tgz?cache=0&sync_timestamp=1627221698438&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Fuser-event%2Fdownload%2F%40testing-library%2Fuser-event-13.2.1.tgz#7a71a39e50b4a733afbe2916fa2b99966e941f98"
+  resolved "https://registry.nlark.com/@testing-library/user-event/download/@testing-library/user-event-13.2.1.tgz?cache=0&sync_timestamp=1627221602744&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40testing-library%2Fuser-event%2Fdownload%2F%40testing-library%2Fuser-event-13.2.1.tgz#7a71a39e50b4a733afbe2916fa2b99966e941f98"
   integrity sha1-enGjnlC0pzOvvikW+iuZlm6UH5g=
   dependencies:
     "@babel/runtime" "^7.12.5"
 
 "@tootallnate/once@1":
   version "1.1.2"
-  resolved "https://registry.npmmirror.com/@tootallnate/once/download/@tootallnate/once-1.1.2.tgz?cache=0&sync_timestamp=1632354997614&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40tootallnate%2Fonce%2Fdownload%2F%40tootallnate%2Fonce-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
+  resolved "https://registry.npmmirror.com/@tootallnate/once/download/@tootallnate/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha1-zLkURTYBeaBOf+av94wA/8Hur4I=
 
 "@types/aria-query@^4.2.0":
@@ -1581,12 +1586,12 @@
 
 "@types/estree@0.0.39":
   version "0.0.39"
-  resolved "https://registry.nlark.com/@types/estree/download/@types/estree-0.0.39.tgz?cache=0&sync_timestamp=1629707624966&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Festree%2Fdownload%2F%40types%2Festree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  resolved "https://registry.nlark.com/@types/estree/download/@types/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha1-4Xfmme4bjCLSMXTKqnQiZEOJUJ8=
 
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
-  resolved "https://registry.nlark.com/@types/graceful-fs/download/@types/graceful-fs-4.1.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fgraceful-fs%2Fdownload%2F%40types%2Fgraceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
+  resolved "https://registry.nlark.com/@types/graceful-fs/download/@types/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
   integrity sha1-If+6DZjaQ1DbZIkfkqnl2zzbThU=
   dependencies:
     "@types/node" "*"
@@ -1598,14 +1603,14 @@
 
 "@types/istanbul-lib-report@*":
   version "3.0.0"
-  resolved "https://registry.nlark.com/@types/istanbul-lib-report/download/@types/istanbul-lib-report-3.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fistanbul-lib-report%2Fdownload%2F%40types%2Fistanbul-lib-report-3.0.0.tgz#c14c24f18ea8190c118ee7562b7ff99a36552686"
+  resolved "https://registry.nlark.com/@types/istanbul-lib-report/download/@types/istanbul-lib-report-3.0.0.tgz?cache=0&sync_timestamp=1629708072640&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fistanbul-lib-report%2Fdownload%2F%40types%2Fistanbul-lib-report-3.0.0.tgz#c14c24f18ea8190c118ee7562b7ff99a36552686"
   integrity sha1-wUwk8Y6oGQwRjudWK3/5mjZVJoY=
   dependencies:
     "@types/istanbul-lib-coverage" "*"
 
 "@types/istanbul-reports@^3.0.0":
   version "3.0.1"
-  resolved "https://registry.nlark.com/@types/istanbul-reports/download/@types/istanbul-reports-3.0.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fistanbul-reports%2Fdownload%2F%40types%2Fistanbul-reports-3.0.1.tgz#9153fe98bba2bd565a63add9436d6f0d7f8468ff"
+  resolved "https://registry.nlark.com/@types/istanbul-reports/download/@types/istanbul-reports-3.0.1.tgz#9153fe98bba2bd565a63add9436d6f0d7f8468ff"
   integrity sha1-kVP+mLuivVZaY63ZQ21vDX+EaP8=
   dependencies:
     "@types/istanbul-lib-report" "*"
@@ -1629,9 +1634,9 @@
   integrity sha1-5waVHV4ztPCku3Ox+LEk4m8IHeA=
 
 "@types/node@*":
-  version "16.10.0"
-  resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.10.0.tgz?cache=0&sync_timestamp=1632560630372&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.10.0.tgz#1cbca7c67ba9ff80675ada496f54a919e8c4c145"
-  integrity sha1-HLynxnup/4BnWtpJb1SpGejEwUU=
+  version "16.10.1"
+  resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.10.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.10.1.tgz#f3647623199ca920960006b3dccf633ea905f243"
+  integrity sha1-82R2IxmcqSCWAAaz3M9jPqkF8kM=
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1640,43 +1645,43 @@
 
 "@types/prettier@^2.1.5":
   version "2.4.0"
-  resolved "https://registry.npmmirror.com/@types/prettier/download/@types/prettier-2.4.0.tgz?cache=0&sync_timestamp=1632531807740&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fprettier%2Fdownload%2F%40types%2Fprettier-2.4.0.tgz#900b13362610ccd3570fb6eefb911a6732973d00"
+  resolved "https://registry.npmmirror.com/@types/prettier/download/@types/prettier-2.4.0.tgz#900b13362610ccd3570fb6eefb911a6732973d00"
   integrity sha1-kAsTNiYQzNNXD7bu+5EaZzKXPQA=
 
 "@types/resolve@1.17.1":
   version "1.17.1"
-  resolved "https://registry.nlark.com/@types/resolve/download/@types/resolve-1.17.1.tgz?cache=0&sync_timestamp=1629709189512&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fresolve%2Fdownload%2F%40types%2Fresolve-1.17.1.tgz#3afd6ad8967c77e4376c598a82ddd58f46ec45d6"
+  resolved "https://registry.nlark.com/@types/resolve/download/@types/resolve-1.17.1.tgz?cache=0&sync_timestamp=1629709126008&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fresolve%2Fdownload%2F%40types%2Fresolve-1.17.1.tgz#3afd6ad8967c77e4376c598a82ddd58f46ec45d6"
   integrity sha1-Ov1q2JZ8d+Q3bFmKgt3Vj0bsRdY=
   dependencies:
     "@types/node" "*"
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
-  resolved "https://registry.nlark.com/@types/stack-utils/download/@types/stack-utils-2.0.1.tgz?cache=0&sync_timestamp=1629709282362&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fstack-utils%2Fdownload%2F%40types%2Fstack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
+  resolved "https://registry.nlark.com/@types/stack-utils/download/@types/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha1-IPGClPeX8iCbX2XI47XI6CYdEnw=
 
 "@types/testing-library__jest-dom@^5.9.1":
   version "5.14.1"
-  resolved "https://registry.nlark.com/@types/testing-library__jest-dom/download/@types/testing-library__jest-dom-5.14.1.tgz?cache=0&sync_timestamp=1629709632382&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Ftesting-library__jest-dom%2Fdownload%2F%40types%2Ftesting-library__jest-dom-5.14.1.tgz#014162a5cee6571819d48e999980694e2f657c3c"
+  resolved "https://registry.nlark.com/@types/testing-library__jest-dom/download/@types/testing-library__jest-dom-5.14.1.tgz?cache=0&sync_timestamp=1629709521548&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Ftesting-library__jest-dom%2Fdownload%2F%40types%2Ftesting-library__jest-dom-5.14.1.tgz#014162a5cee6571819d48e999980694e2f657c3c"
   integrity sha1-AUFipc7mVxgZ1I6ZmYBpTi9lfDw=
   dependencies:
     "@types/jest" "*"
 
 "@types/yargs-parser@*":
   version "20.2.1"
-  resolved "https://registry.nlark.com/@types/yargs-parser/download/@types/yargs-parser-20.2.1.tgz?cache=0&sync_timestamp=1629709781719&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyargs-parser%2Fdownload%2F%40types%2Fyargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
+  resolved "https://registry.nlark.com/@types/yargs-parser/download/@types/yargs-parser-20.2.1.tgz?cache=0&sync_timestamp=1629709862537&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyargs-parser%2Fdownload%2F%40types%2Fyargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
   integrity sha1-O5ziSJkZ2eT+pDm3aRarw0st8Sk=
 
 "@types/yargs@^16.0.0":
   version "16.0.4"
-  resolved "https://registry.nlark.com/@types/yargs/download/@types/yargs-16.0.4.tgz?cache=0&sync_timestamp=1632251137873&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyargs%2Fdownload%2F%40types%2Fyargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
+  resolved "https://registry.nlark.com/@types/yargs/download/@types/yargs-16.0.4.tgz#26aad98dd2c2a38e421086ea9ad42b9e51642977"
   integrity sha1-JqrZjdLCo45CEIbqmtQrnlFkKXc=
   dependencies:
     "@types/yargs-parser" "*"
 
 "@types/yauzl@^2.9.1":
   version "2.9.2"
-  resolved "https://registry.nlark.com/@types/yauzl/download/@types/yauzl-2.9.2.tgz?cache=0&sync_timestamp=1629709990261&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fyauzl%2Fdownload%2F%40types%2Fyauzl-2.9.2.tgz#c48e5d56aff1444409e39fa164b0b4d4552a7b7a"
+  resolved "https://registry.nlark.com/@types/yauzl/download/@types/yauzl-2.9.2.tgz#c48e5d56aff1444409e39fa164b0b4d4552a7b7a"
   integrity sha1-xI5dVq/xREQJ45+hZLC01FUqe3o=
   dependencies:
     "@types/node" "*"
@@ -1697,7 +1702,7 @@
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
-  resolved "https://registry.npm.taobao.org/abab/download/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
+  resolved "https://registry.npm.taobao.org/abab/download/abab-2.0.5.tgz?cache=0&sync_timestamp=1599850271460&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fabab%2Fdownload%2Fabab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha1-wLZ4+zLWD8EhnHhNaoJv44Wut5o=
 
 accepts@^1.3.5:
@@ -1723,7 +1728,7 @@ acorn-jsx@^5.3.1:
 
 acorn-walk@^7.1.1:
   version "7.2.0"
-  resolved "https://registry.nlark.com/acorn-walk/download/acorn-walk-7.2.0.tgz?cache=0&sync_timestamp=1630916588767&other_urls=https%3A%2F%2Fregistry.nlark.com%2Facorn-walk%2Fdownload%2Facorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
+  resolved "https://registry.nlark.com/acorn-walk/download/acorn-walk-7.2.0.tgz?cache=0&sync_timestamp=1630916608758&other_urls=https%3A%2F%2Fregistry.nlark.com%2Facorn-walk%2Fdownload%2Facorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha1-DeiJpgEgOQmw++B7iTjcIdLpZ7w=
 
 acorn@^7.1.1, acorn@^7.4.0:
@@ -1733,19 +1738,19 @@ acorn@^7.1.1, acorn@^7.4.0:
 
 acorn@^8.2.4:
   version "8.5.0"
-  resolved "https://registry.nlark.com/acorn/download/acorn-8.5.0.tgz?cache=0&sync_timestamp=1630916517167&other_urls=https%3A%2F%2Fregistry.nlark.com%2Facorn%2Fdownload%2Facorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
+  resolved "https://registry.nlark.com/acorn/download/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
   integrity sha1-RRLMuZs2mMdSWR6btEcuOK1DzuI=
 
 agent-base@6:
   version "6.0.2"
-  resolved "https://registry.npm.taobao.org/agent-base/download/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
+  resolved "https://registry.nlark.com/agent-base/download/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
   integrity sha1-Sf/1hXfP7j83F2/qtMIuAPhtf3c=
   dependencies:
     debug "4"
 
 agent-base@^4.3.0:
   version "4.3.0"
-  resolved "https://registry.npm.taobao.org/agent-base/download/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
+  resolved "https://registry.nlark.com/agent-base/download/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
   integrity sha1-gWXwHENgCbzK0LHRIvBe13Dvxu4=
   dependencies:
     es6-promisify "^5.0.0"
@@ -1777,7 +1782,7 @@ ansi-colors@^4.1.1:
 
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.1:
   version "4.3.2"
-  resolved "https://registry.npm.taobao.org/ansi-escapes/download/ansi-escapes-4.3.2.tgz?cache=0&sync_timestamp=1618723498592&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-escapes%2Fdownload%2Fansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
+  resolved "https://registry.nlark.com/ansi-escapes/download/ansi-escapes-4.3.2.tgz#6b2291d1db7d98b6521d5f1efa42d0f3a9feb65e"
   integrity sha1-ayKR0dt9mLZSHV8e+kLQ86n+tl4=
   dependencies:
     type-fest "^0.21.3"
@@ -1803,7 +1808,7 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
 
 ansi-styles@^5.0.0:
   version "5.2.0"
-  resolved "https://registry.nlark.com/ansi-styles/download/ansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
+  resolved "https://registry.nlark.com/ansi-styles/download/ansi-styles-5.2.0.tgz?cache=0&sync_timestamp=1618995588464&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fansi-styles%2Fdownload%2Fansi-styles-5.2.0.tgz#07449690ad45777d1924ac2abb2fc8895dba836b"
   integrity sha1-B0SWkK1Fd30ZJKwquy/IiV26g2s=
 
 antd@^4.16.13:
@@ -1855,7 +1860,7 @@ antd@^4.16.13:
 
 anymatch@^3.0.3, anymatch@~3.1.2:
   version "3.1.2"
-  resolved "https://registry.npm.taobao.org/anymatch/download/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
+  resolved "https://registry.nlark.com/anymatch/download/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
   integrity sha1-wFV8CWrzLxBhmPT04qODU343hxY=
   dependencies:
     normalize-path "^3.0.0"
@@ -1918,7 +1923,7 @@ astral-regex@^2.0.0:
 
 async-limiter@~1.0.0:
   version "1.0.1"
-  resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+  resolved "https://registry.nlark.com/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
 async-validator@^3.0.3:
@@ -1933,12 +1938,12 @@ asynckit@^0.4.0:
 
 atob@^2.1.2:
   version "2.1.2"
-  resolved "https://registry.npm.taobao.org/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
+  resolved "https://registry.nlark.com/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
 
 babel-eslint@^10.1.0:
   version "10.1.0"
-  resolved "https://registry.nlark.com/babel-eslint/download/babel-eslint-10.1.0.tgz?cache=0&sync_timestamp=1618846971799&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-eslint%2Fdownload%2Fbabel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
+  resolved "https://registry.nlark.com/babel-eslint/download/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
   integrity sha1-aWjlaKkQt4+zd5zdi2rC9HmUMjI=
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -1950,7 +1955,7 @@ babel-eslint@^10.1.0:
 
 babel-jest@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/babel-jest/download/babel-jest-27.2.2.tgz?cache=0&sync_timestamp=1632576970541&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbabel-jest%2Fdownload%2Fbabel-jest-27.2.2.tgz#d7e96f3f6f56be692de948092697e1bfea7f1184"
+  resolved "https://registry.npmmirror.com/babel-jest/download/babel-jest-27.2.2.tgz#d7e96f3f6f56be692de948092697e1bfea7f1184"
   integrity sha1-1+lvP29Wvmkt6UgJJpfhv+p/EYQ=
   dependencies:
     "@jest/transform" "^27.2.2"
@@ -1964,14 +1969,14 @@ babel-jest@^27.2.2:
 
 babel-plugin-dynamic-import-node@^2.3.3:
   version "2.3.3"
-  resolved "https://registry.nlark.com/babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz?cache=0&sync_timestamp=1618846790496&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-dynamic-import-node%2Fdownload%2Fbabel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
+  resolved "https://registry.nlark.com/babel-plugin-dynamic-import-node/download/babel-plugin-dynamic-import-node-2.3.3.tgz?cache=0&sync_timestamp=1618846958717&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-dynamic-import-node%2Fdownload%2Fbabel-plugin-dynamic-import-node-2.3.3.tgz#84fda19c976ec5c6defef57f9427b3def66e17a3"
   integrity sha1-hP2hnJduxcbe/vV/lCez3vZuF6M=
   dependencies:
     object.assign "^4.1.0"
 
 babel-plugin-istanbul@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npm.taobao.org/babel-plugin-istanbul/download/babel-plugin-istanbul-6.0.0.tgz#e159ccdc9af95e0b570c75b4573b7c34d671d765"
+  resolved "https://registry.nlark.com/babel-plugin-istanbul/download/babel-plugin-istanbul-6.0.0.tgz#e159ccdc9af95e0b570c75b4573b7c34d671d765"
   integrity sha1-4VnM3Jr5XgtXDHW0Vzt8NNZx12U=
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
@@ -1982,7 +1987,7 @@ babel-plugin-istanbul@^6.0.0:
 
 babel-plugin-jest-hoist@^27.2.0:
   version "27.2.0"
-  resolved "https://registry.nlark.com/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-27.2.0.tgz?cache=0&sync_timestamp=1631520502500&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-jest-hoist%2Fdownload%2Fbabel-plugin-jest-hoist-27.2.0.tgz#79f37d43f7e5c4fdc4b2ca3e10cc6cf545626277"
+  resolved "https://registry.nlark.com/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-27.2.0.tgz?cache=0&sync_timestamp=1631520505618&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-jest-hoist%2Fdownload%2Fbabel-plugin-jest-hoist-27.2.0.tgz#79f37d43f7e5c4fdc4b2ca3e10cc6cf545626277"
   integrity sha1-efN9Q/flxP3Esso+EMxs9UViYnc=
   dependencies:
     "@babel/template" "^7.3.3"
@@ -1992,7 +1997,7 @@ babel-plugin-jest-hoist@^27.2.0:
 
 babel-plugin-macros@2.8.0:
   version "2.8.0"
-  resolved "https://registry.nlark.com/babel-plugin-macros/download/babel-plugin-macros-2.8.0.tgz?cache=0&sync_timestamp=1620233906429&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-macros%2Fdownload%2Fbabel-plugin-macros-2.8.0.tgz#0f958a7cc6556b1e65344465d99111a1e5e10138"
+  resolved "https://registry.nlark.com/babel-plugin-macros/download/babel-plugin-macros-2.8.0.tgz?cache=0&sync_timestamp=1620233928609&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-macros%2Fdownload%2Fbabel-plugin-macros-2.8.0.tgz#0f958a7cc6556b1e65344465d99111a1e5e10138"
   integrity sha1-D5WKfMZVax5lNERl2ZERoeXhATg=
   dependencies:
     "@babel/runtime" "^7.7.2"
@@ -2010,7 +2015,7 @@ babel-plugin-polyfill-corejs2@^0.2.2:
 
 babel-plugin-polyfill-corejs3@^0.2.2:
   version "0.2.5"
-  resolved "https://registry.npmmirror.com/babel-plugin-polyfill-corejs3/download/babel-plugin-polyfill-corejs3-0.2.5.tgz?cache=0&sync_timestamp=1632330610560&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fbabel-plugin-polyfill-corejs3%2Fdownload%2Fbabel-plugin-polyfill-corejs3-0.2.5.tgz#2779846a16a1652244ae268b1e906ada107faf92"
+  resolved "https://registry.npmmirror.com/babel-plugin-polyfill-corejs3/download/babel-plugin-polyfill-corejs3-0.2.5.tgz#2779846a16a1652244ae268b1e906ada107faf92"
   integrity sha1-J3mEahahZSJEriaLHpBq2hB/r5I=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
@@ -2018,7 +2023,7 @@ babel-plugin-polyfill-corejs3@^0.2.2:
 
 babel-plugin-polyfill-regenerator@^0.2.2:
   version "0.2.2"
-  resolved "https://registry.nlark.com/babel-plugin-polyfill-regenerator/download/babel-plugin-polyfill-regenerator-0.2.2.tgz?cache=0&sync_timestamp=1622023907940&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-plugin-polyfill-regenerator%2Fdownload%2Fbabel-plugin-polyfill-regenerator-0.2.2.tgz#b310c8d642acada348c1fa3b3e6ce0e851bee077"
+  resolved "https://registry.nlark.com/babel-plugin-polyfill-regenerator/download/babel-plugin-polyfill-regenerator-0.2.2.tgz#b310c8d642acada348c1fa3b3e6ce0e851bee077"
   integrity sha1-sxDI1kKsraNIwfo7Pmzg6FG+4Hc=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
@@ -2048,7 +2053,7 @@ babel-preset-current-node-syntax@^1.0.0:
 
 babel-preset-jest@^27.2.0:
   version "27.2.0"
-  resolved "https://registry.nlark.com/babel-preset-jest/download/babel-preset-jest-27.2.0.tgz#556bbbf340608fed5670ab0ea0c8ef2449fba885"
+  resolved "https://registry.nlark.com/babel-preset-jest/download/babel-preset-jest-27.2.0.tgz?cache=0&sync_timestamp=1631520509203&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-preset-jest%2Fdownload%2Fbabel-preset-jest-27.2.0.tgz#556bbbf340608fed5670ab0ea0c8ef2449fba885"
   integrity sha1-VWu780Bgj+1WcKsOoMjvJEn7qIU=
   dependencies:
     babel-plugin-jest-hoist "^27.2.0"
@@ -2082,17 +2087,17 @@ balanced-match@^1.0.0:
 
 base64-js@^1.3.1:
   version "1.5.1"
-  resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  resolved "https://registry.nlark.com/base64-js/download/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
 
 binary-extensions@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.npm.taobao.org/binary-extensions/download/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
+  resolved "https://registry.nlark.com/binary-extensions/download/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
 
 bl@^4.0.3:
   version "4.1.0"
-  resolved "https://registry.npm.taobao.org/bl/download/bl-4.1.0.tgz?cache=0&sync_timestamp=1617381871311&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbl%2Fdownload%2Fbl-4.1.0.tgz#451535264182bec2fbbc83a62ab98cf11d9f7b3a"
+  resolved "https://registry.nlark.com/bl/download/bl-4.1.0.tgz#451535264182bec2fbbc83a62ab98cf11d9f7b3a"
   integrity sha1-RRU1JkGCvsL7vIOmKrmM8R2fezo=
   dependencies:
     buffer "^5.5.0"
@@ -2109,14 +2114,14 @@ brace-expansion@^1.1.7:
 
 braces@^3.0.1, braces@~3.0.2:
   version "3.0.2"
-  resolved "https://registry.npm.taobao.org/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  resolved "https://registry.nlark.com/braces/download/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
   dependencies:
     fill-range "^7.0.1"
 
 browser-process-hrtime@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/browser-process-hrtime/download/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
+  resolved "https://registry.nlark.com/browser-process-hrtime/download/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha1-PJtLfXgsgSHlbxAQbYTA0P/JRiY=
 
 browserslist@^4.16.6, browserslist@^4.17.0:
@@ -2144,12 +2149,12 @@ buffer-crc32@~0.2.3:
 
 buffer-from@^1.0.0:
   version "1.1.2"
-  resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz?cache=0&sync_timestamp=1627578450949&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbuffer-from%2Fdownload%2Fbuffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=
 
 buffer@^5.2.1, buffer@^5.5.0:
   version "5.7.1"
-  resolved "https://registry.npm.taobao.org/buffer/download/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
+  resolved "https://registry.nlark.com/buffer/download/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
   integrity sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=
   dependencies:
     base64-js "^1.3.1"
@@ -2183,12 +2188,12 @@ callsites@^3.0.0:
 
 camelcase@^5.3.1:
   version "5.3.1"
-  resolved "https://registry.nlark.com/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
+  resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
 
 camelcase@^6.2.0:
   version "6.2.0"
-  resolved "https://registry.nlark.com/camelcase/download/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
+  resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha1-kkr4gcnVJaydh/QNlk5c6pgqGAk=
 
 caniuse-lite@^1.0.30001259:
@@ -2217,7 +2222,7 @@ chalk@^2.0.0:
 
 chalk@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.nlark.com/chalk/download/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
+  resolved "https://registry.nlark.com/chalk/download/chalk-3.0.0.tgz?cache=0&sync_timestamp=1627646655305&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchalk%2Fdownload%2Fchalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
   dependencies:
     ansi-styles "^4.1.0"
@@ -2233,12 +2238,12 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
 
 char-regex@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.nlark.com/char-regex/download/char-regex-1.0.2.tgz?cache=0&sync_timestamp=1622809071355&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchar-regex%2Fdownload%2Fchar-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
+  resolved "https://registry.nlark.com/char-regex/download/char-regex-1.0.2.tgz?cache=0&sync_timestamp=1622809103243&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchar-regex%2Fdownload%2Fchar-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha1-10Q1giYhf5ge1Y9Hmx1rzClUXc8=
 
 chokidar@^3.5.2:
   version "3.5.2"
-  resolved "https://registry.nlark.com/chokidar/download/chokidar-3.5.2.tgz?cache=0&sync_timestamp=1623763535523&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fchokidar%2Fdownload%2Fchokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
+  resolved "https://registry.nlark.com/chokidar/download/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha1-26OXb8rbAW9m/TZQIdkWANAcHnU=
   dependencies:
     anymatch "~3.1.2"
@@ -2253,12 +2258,12 @@ chokidar@^3.5.2:
 
 chownr@^1.1.1:
   version "1.1.4"
-  resolved "https://registry.npm.taobao.org/chownr/download/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
+  resolved "https://registry.nlark.com/chownr/download/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha1-b8nXtC0ypYNZYzdmbn0ICE2izGs=
 
 ci-info@^3.1.1:
   version "3.2.0"
-  resolved "https://registry.nlark.com/ci-info/download/ci-info-3.2.0.tgz?cache=0&sync_timestamp=1622039942508&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fci-info%2Fdownload%2Fci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
+  resolved "https://registry.nlark.com/ci-info/download/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
   integrity sha1-KHbLlIpJh5e1I28AlbwFfQ3KOLY=
 
 cjs-module-lexer@^1.0.0:
@@ -2282,7 +2287,7 @@ cliui@^7.0.2:
 
 co@^4.6.0:
   version "4.6.0"
-  resolved "https://registry.npm.taobao.org/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
+  resolved "https://registry.nlark.com/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
   integrity sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
 
 collect-v8-coverage@^1.0.0:
@@ -2316,7 +2321,7 @@ color-name@~1.1.4:
 
 combined-stream@^1.0.8:
   version "1.0.8"
-  resolved "https://registry.npm.taobao.org/combined-stream/download/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  resolved "https://registry.nlark.com/combined-stream/download/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
   integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
   dependencies:
     delayed-stream "~1.0.0"
@@ -2338,7 +2343,7 @@ concat-map@0.0.1:
 
 concat-stream@^1.6.2:
   version "1.6.2"
-  resolved "https://registry.nlark.com/concat-stream/download/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
+  resolved "https://registry.npm.taobao.org/concat-stream/download/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
   integrity sha1-kEvfGUzTEi/Gdcd/xKw9T/D9GjQ=
   dependencies:
     buffer-from "^1.0.0"
@@ -2358,14 +2363,14 @@ connect@^3.7.0:
 
 content-disposition@~0.5.2:
   version "0.5.3"
-  resolved "https://registry.npm.taobao.org/content-disposition/download/content-disposition-0.5.3.tgz#e130caf7e7279087c5616c2007d0485698984fbd"
+  resolved "https://registry.nlark.com/content-disposition/download/content-disposition-0.5.3.tgz#e130caf7e7279087c5616c2007d0485698984fbd"
   integrity sha1-4TDK9+cnkIfFYWwgB9BIVpiYT70=
   dependencies:
     safe-buffer "5.1.2"
 
 content-type@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.npm.taobao.org/content-type/download/content-type-1.0.4.tgz?cache=0&sync_timestamp=1615984448548&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcontent-type%2Fdownload%2Fcontent-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
+  resolved "https://registry.nlark.com/content-type/download/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
@@ -2399,7 +2404,7 @@ copy-to-clipboard@^3.2.0:
 
 core-js-compat@^3.16.0, core-js-compat@^3.16.2, core-js-compat@^3.6.2:
   version "3.18.0"
-  resolved "https://registry.nlark.com/core-js-compat/download/core-js-compat-3.18.0.tgz?cache=0&sync_timestamp=1632078908927&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcore-js-compat%2Fdownload%2Fcore-js-compat-3.18.0.tgz#fb360652201e8ac8da812718c008cd0482ed9b42"
+  resolved "https://registry.nlark.com/core-js-compat/download/core-js-compat-3.18.0.tgz?cache=0&sync_timestamp=1632078571555&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcore-js-compat%2Fdownload%2Fcore-js-compat-3.18.0.tgz#fb360652201e8ac8da812718c008cd0482ed9b42"
   integrity sha1-+zYGUiAeisjagScYwAjNBILtm0I=
   dependencies:
     browserslist "^4.17.0"
@@ -2417,7 +2422,7 @@ core-util-is@~1.0.0:
 
 cosmiconfig@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.nlark.com/cosmiconfig/download/cosmiconfig-6.0.0.tgz?cache=0&sync_timestamp=1629585969900&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcosmiconfig%2Fdownload%2Fcosmiconfig-6.0.0.tgz#da4fee853c52f6b1e6935f41c1a2fc50bd4a9982"
+  resolved "https://registry.nlark.com/cosmiconfig/download/cosmiconfig-6.0.0.tgz?cache=0&sync_timestamp=1629586119976&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcosmiconfig%2Fdownload%2Fcosmiconfig-6.0.0.tgz#da4fee853c52f6b1e6935f41c1a2fc50bd4a9982"
   integrity sha1-2k/uhTxS9rHmk19BwaL8UL1KmYI=
   dependencies:
     "@types/parse-json" "^4.0.0"
@@ -2437,12 +2442,12 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
 
 css.escape@^1.5.1:
   version "1.5.1"
-  resolved "https://registry.npm.taobao.org/css.escape/download/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
+  resolved "https://registry.nlark.com/css.escape/download/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
   integrity sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s=
 
 css@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/css/download/css-3.0.0.tgz?cache=0&sync_timestamp=1615984464862&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcss%2Fdownload%2Fcss-3.0.0.tgz#4447a4d58fdd03367c516ca9f64ae365cee4aa5d"
+  resolved "https://registry.nlark.com/css/download/css-3.0.0.tgz#4447a4d58fdd03367c516ca9f64ae365cee4aa5d"
   integrity sha1-REek1Y/dAzZ8UWyp9krjZc7kql0=
   dependencies:
     inherits "^2.0.4"
@@ -2451,24 +2456,24 @@ css@^3.0.0:
 
 cssom@^0.4.4:
   version "0.4.4"
-  resolved "https://registry.nlark.com/cssom/download/cssom-0.4.4.tgz?cache=0&sync_timestamp=1624218957158&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcssom%2Fdownload%2Fcssom-0.4.4.tgz#5a66cf93d2d0b661d80bf6a44fb65f5c2e4e0a10"
+  resolved "https://registry.nlark.com/cssom/download/cssom-0.4.4.tgz#5a66cf93d2d0b661d80bf6a44fb65f5c2e4e0a10"
   integrity sha1-WmbPk9LQtmHYC/akT7ZfXC5OChA=
 
 cssom@~0.3.6:
   version "0.3.8"
-  resolved "https://registry.nlark.com/cssom/download/cssom-0.3.8.tgz?cache=0&sync_timestamp=1624218957158&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcssom%2Fdownload%2Fcssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
+  resolved "https://registry.nlark.com/cssom/download/cssom-0.3.8.tgz#9f1276f5b2b463f2114d3f2c75250af8c1a36f4a"
   integrity sha1-nxJ29bK0Y/IRTT8sdSUK+MGjb0o=
 
 cssstyle@^2.3.0:
   version "2.3.0"
-  resolved "https://registry.npm.taobao.org/cssstyle/download/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
+  resolved "https://registry.nlark.com/cssstyle/download/cssstyle-2.3.0.tgz#ff665a0ddbdc31864b09647f34163443d90b0852"
   integrity sha1-/2ZaDdvcMYZLCWR/NBY0Q9kLCFI=
   dependencies:
     cssom "~0.3.6"
 
 data-urls@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.nlark.com/data-urls/download/data-urls-2.0.0.tgz?cache=0&sync_timestamp=1626722876103&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdata-urls%2Fdownload%2Fdata-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
+  resolved "https://registry.nlark.com/data-urls/download/data-urls-2.0.0.tgz?cache=0&sync_timestamp=1626721753441&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdata-urls%2Fdownload%2Fdata-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
   integrity sha1-FWSFpyljqXD11YIar2Qr7yvy25s=
   dependencies:
     abab "^2.0.3"
@@ -2501,7 +2506,7 @@ debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2:
 
 debug@4.3.1:
   version "4.3.1"
-  resolved "https://registry.nlark.com/debug/download/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  resolved "https://registry.nlark.com/debug/download/debug-4.3.1.tgz?cache=0&sync_timestamp=1625374648057&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdebug%2Fdownload%2Fdebug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha1-8NIpxQXgxtjEmsVT0bE9wYP2su4=
   dependencies:
     ms "2.1.2"
@@ -2520,17 +2525,17 @@ decimal.js@^10.2.1:
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+  resolved "https://registry.nlark.com/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
 dedent@^0.7.0:
   version "0.7.0"
-  resolved "https://registry.npm.taobao.org/dedent/download/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  resolved "https://registry.nlark.com/dedent/download/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
 deep-equal@~1.0.1:
   version "1.0.1"
-  resolved "https://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
+  resolved "https://registry.npm.taobao.org/deep-equal/download/deep-equal-1.0.1.tgz?cache=0&sync_timestamp=1606860754950&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdeep-equal%2Fdownload%2Fdeep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
   integrity sha1-9dJgKStmDghO/0zbyfCK0yR0SLU=
 
 deep-is@^0.1.3, deep-is@~0.1.3:
@@ -2540,7 +2545,7 @@ deep-is@^0.1.3, deep-is@~0.1.3:
 
 deepmerge@^4.2.2:
   version "4.2.2"
-  resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  resolved "https://registry.nlark.com/deepmerge/download/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
 
 define-properties@^1.1.3:
@@ -2552,7 +2557,7 @@ define-properties@^1.1.3:
 
 delayed-stream@~1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  resolved "https://registry.nlark.com/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 delegates@^1.0.0:
@@ -2562,17 +2567,17 @@ delegates@^1.0.0:
 
 depd@^2.0.0, depd@~2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/depd/download/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
+  resolved "https://registry.nlark.com/depd/download/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha1-tpYWPMdXVg0JzyLMj60Vcbeedt8=
 
 depd@~1.1.2:
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/depd/download/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
+  resolved "https://registry.nlark.com/depd/download/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
 destroy@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.npm.taobao.org/destroy/download/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
+  resolved "https://registry.nlark.com/destroy/download/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
 detect-installer@^1.0.2:
@@ -2582,17 +2587,17 @@ detect-installer@^1.0.2:
 
 detect-newline@^3.0.0:
   version "3.1.0"
-  resolved "https://registry.npm.taobao.org/detect-newline/download/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+  resolved "https://registry.nlark.com/detect-newline/download/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
   integrity sha1-V29d/GOuGhkv8ZLYrTr2MImRtlE=
 
 devtools-protocol@0.0.901419:
   version "0.0.901419"
-  resolved "https://registry.npmmirror.com/devtools-protocol/download/devtools-protocol-0.0.901419.tgz#79b5459c48fe7e1c5563c02bd72f8fec3e0cebcd"
+  resolved "https://registry.npmmirror.com/devtools-protocol/download/devtools-protocol-0.0.901419.tgz?cache=0&sync_timestamp=1632479169228&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fdevtools-protocol%2Fdownload%2Fdevtools-protocol-0.0.901419.tgz#79b5459c48fe7e1c5563c02bd72f8fec3e0cebcd"
   integrity sha1-ebVFnEj+fhxVY8Ar1y+P7D4M680=
 
 diff-sequences@^27.0.6:
   version "27.0.6"
-  resolved "https://registry.nlark.com/diff-sequences/download/diff-sequences-27.0.6.tgz#3305cb2e55a033924054695cc66019fd7f8e5723"
+  resolved "https://registry.nlark.com/diff-sequences/download/diff-sequences-27.0.6.tgz?cache=0&sync_timestamp=1624900057366&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdiff-sequences%2Fdownload%2Fdiff-sequences-27.0.6.tgz#3305cb2e55a033924054695cc66019fd7f8e5723"
   integrity sha1-MwXLLlWgM5JAVGlcxmAZ/X+OVyM=
 
 doctrine@^2.1.0:
@@ -2611,7 +2616,7 @@ doctrine@^3.0.0:
 
 dom-accessibility-api@^0.5.6:
   version "0.5.7"
-  resolved "https://registry.nlark.com/dom-accessibility-api/download/dom-accessibility-api-0.5.7.tgz#8c2aa6325968f2933160a0b7dbb380893ddf3e7d"
+  resolved "https://registry.nlark.com/dom-accessibility-api/download/dom-accessibility-api-0.5.7.tgz?cache=0&sync_timestamp=1628161580016&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdom-accessibility-api%2Fdownload%2Fdom-accessibility-api-0.5.7.tgz#8c2aa6325968f2933160a0b7dbb380893ddf3e7d"
   integrity sha1-jCqmMllo8pMxYKC327OAiT3fPn0=
 
 dom-align@^1.7.0:
@@ -2626,27 +2631,19 @@ domexception@^2.0.1:
   dependencies:
     webidl-conversions "^5.0.0"
 
-dot-case@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.npm.taobao.org/dot-case/download/dot-case-3.0.4.tgz#9b2b670d00a431667a8a75ba29cd1b98809ce751"
-  integrity sha1-mytnDQCkMWZ6inW6Kc0bmICc51E=
-  dependencies:
-    no-case "^3.0.4"
-    tslib "^2.0.3"
-
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.846:
-  version "1.3.849"
-  resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.3.849.tgz#45a65a392565abc5b864624b9753393336426f4b"
-  integrity sha1-RaZaOSVlq8W4ZGJLl1M5MzZCb0s=
+  version "1.3.850"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/download/electron-to-chromium-1.3.850.tgz?cache=0&sync_timestamp=1632521330547&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.850.tgz#c56c72abfeab051b4b328beb894461c5912d0456"
+  integrity sha1-xWxyq/6rBRtLMovriURhxZEtBFY=
 
 emittery@^0.8.1:
   version "0.8.1"
-  resolved "https://registry.nlark.com/emittery/download/emittery-0.8.1.tgz?cache=0&sync_timestamp=1631379353966&other_urls=https%3A%2F%2Fregistry.nlark.com%2Femittery%2Fdownload%2Femittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
+  resolved "https://registry.nlark.com/emittery/download/emittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
   integrity sha1-uyPMhtA7MKp1p/c0gZ3uLhunCGA=
 
 emoji-regex@^8.0.0:
@@ -2656,12 +2653,12 @@ emoji-regex@^8.0.0:
 
 encodeurl@^1.0.2, encodeurl@~1.0.2:
   version "1.0.2"
-  resolved "https://registry.npm.taobao.org/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
+  resolved "https://registry.nlark.com/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
 end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
-  resolved "https://registry.npm.taobao.org/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
+  resolved "https://registry.nlark.com/end-of-stream/download/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   integrity sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=
   dependencies:
     once "^1.4.0"
@@ -2722,19 +2719,19 @@ es-to-primitive@^1.2.1:
 
 es6-promise@^4.0.3:
   version "4.2.8"
-  resolved "https://registry.npm.taobao.org/es6-promise/download/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  resolved "https://registry.nlark.com/es6-promise/download/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
   integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
 
 es6-promisify@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.nlark.com/es6-promisify/download/es6-promisify-5.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fes6-promisify%2Fdownload%2Fes6-promisify-5.0.0.tgz#5109d62f3e56ea967c4b63505aef08291c8a5203"
+  resolved "https://registry.nlark.com/es6-promisify/download/es6-promisify-5.0.0.tgz?cache=0&sync_timestamp=1622037703888&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fes6-promisify%2Fdownload%2Fes6-promisify-5.0.0.tgz#5109d62f3e56ea967c4b63505aef08291c8a5203"
   integrity sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=
   dependencies:
     es6-promise "^4.0.3"
 
 esbuild@0.11.3:
   version "0.11.3"
-  resolved "https://registry.npmmirror.com/esbuild/download/esbuild-0.11.3.tgz#b57165b907be4ffba651f6450538ce8d8c1d5eb0"
+  resolved "https://registry.npmmirror.com/esbuild/download/esbuild-0.11.3.tgz?cache=0&sync_timestamp=1632404026854&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fesbuild%2Fdownload%2Fesbuild-0.11.3.tgz#b57165b907be4ffba651f6450538ce8d8c1d5eb0"
   integrity sha1-tXFluQe+T/umUfZFBTjOjYwdXrA=
 
 esbuild@^0.12.17:
@@ -2759,7 +2756,7 @@ escape-string-regexp@^1.0.5:
 
 escape-string-regexp@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz?cache=0&sync_timestamp=1618677243201&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fescape-string-regexp%2Fdownload%2Fescape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  resolved "https://registry.nlark.com/escape-string-regexp/download/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha1-owME6Z2qMuI7L9IPUbq9B8/8o0Q=
 
 escape-string-regexp@^4.0.0:
@@ -2769,7 +2766,7 @@ escape-string-regexp@^4.0.0:
 
 escodegen@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/escodegen/download/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
+  resolved "https://registry.nlark.com/escodegen/download/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
   integrity sha1-XjKxKDPoqo+jXhvwvvqJOASEx90=
   dependencies:
     esprima "^4.0.1"
@@ -2875,7 +2872,7 @@ eslint-visitor-keys@^2.0.0:
 
 eslint@^7.32.0:
   version "7.32.0"
-  resolved "https://registry.nlark.com/eslint/download/eslint-7.32.0.tgz?cache=0&sync_timestamp=1631313770716&other_urls=https%3A%2F%2Fregistry.nlark.com%2Feslint%2Fdownload%2Feslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
+  resolved "https://registry.npmmirror.com/eslint/download/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha1-xtMooUvj+wjI0dIeEsAv23oqgS0=
   dependencies:
     "@babel/code-frame" "7.12.11"
@@ -2974,7 +2971,7 @@ esutils@^2.0.2:
 
 execa@^5.0.0:
   version "5.1.1"
-  resolved "https://registry.nlark.com/execa/download/execa-5.1.1.tgz?cache=0&sync_timestamp=1622825396605&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fexeca%2Fdownload%2Fexeca-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
+  resolved "https://registry.nlark.com/execa/download/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha1-+ArZy/Qpj3vR1MlVXCHpN0HEEd0=
   dependencies:
     cross-spawn "^7.0.3"
@@ -3006,7 +3003,7 @@ expect@^27.2.2:
 
 extract-zip@2.0.1:
   version "2.0.1"
-  resolved "https://registry.npm.taobao.org/extract-zip/download/extract-zip-2.0.1.tgz#663dca56fe46df890d5f131ef4a06d22bb8ba13a"
+  resolved "https://registry.nlark.com/extract-zip/download/extract-zip-2.0.1.tgz#663dca56fe46df890d5f131ef4a06d22bb8ba13a"
   integrity sha1-Zj3KVv5G34kNXxMe9KBtIruLoTo=
   dependencies:
     debug "^4.1.1"
@@ -3017,7 +3014,7 @@ extract-zip@2.0.1:
 
 extract-zip@^1.6.6:
   version "1.7.0"
-  resolved "https://registry.npm.taobao.org/extract-zip/download/extract-zip-1.7.0.tgz#556cc3ae9df7f452c493a0cfb51cc30277940927"
+  resolved "https://registry.nlark.com/extract-zip/download/extract-zip-1.7.0.tgz#556cc3ae9df7f452c493a0cfb51cc30277940927"
   integrity sha1-VWzDrp339FLEk6DPtRzDAneUCSc=
   dependencies:
     concat-stream "^1.6.2"
@@ -3072,7 +3069,7 @@ fb-watchman@^2.0.0:
 
 fd-slicer@~1.1.0:
   version "1.1.0"
-  resolved "https://registry.nlark.com/fd-slicer/download/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
+  resolved "https://registry.npm.taobao.org/fd-slicer/download/fd-slicer-1.1.0.tgz#25c7c89cb1f9077f8891bbe61d8f390eae256f1e"
   integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
   dependencies:
     pend "~1.2.0"
@@ -3093,7 +3090,7 @@ fill-range@^7.0.1:
 
 finalhandler@1.1.2:
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/finalhandler/download/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
+  resolved "https://registry.nlark.com/finalhandler/download/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
   integrity sha1-t+fQAP/RGTjQ/bBTUG9uur6fWH0=
   dependencies:
     debug "2.6.9"
@@ -3113,7 +3110,7 @@ find-up@^2.0.0, find-up@^2.1.0:
 
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
-  resolved "https://registry.nlark.com/find-up/download/find-up-4.1.0.tgz?cache=0&sync_timestamp=1629976988340&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffind-up%2Fdownload%2Ffind-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  resolved "https://registry.nlark.com/find-up/download/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
   dependencies:
     locate-path "^5.0.0"
@@ -3134,7 +3131,7 @@ flatted@^3.1.0:
 
 form-data@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.npm.taobao.org/form-data/download/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
+  resolved "https://registry.nlark.com/form-data/download/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
   integrity sha1-69U3kbeDVqma+aMA1CgsTV65dV8=
   dependencies:
     asynckit "^0.4.0"
@@ -3148,7 +3145,7 @@ fresh@~0.5.2:
 
 fs-constants@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.nlark.com/fs-constants/download/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
+  resolved "https://registry.npm.taobao.org/fs-constants/download/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha1-a+Dem+mYzhavivwkSXue6bfM2a0=
 
 fs.realpath@^1.0.0:
@@ -3197,14 +3194,14 @@ get-package-type@^0.1.0:
 
 get-stream@^5.1.0:
   version "5.2.0"
-  resolved "https://registry.nlark.com/get-stream/download/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
+  resolved "https://registry.npm.taobao.org/get-stream/download/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
   integrity sha1-SWaheV7lrOZecGxLe+txJX1uItM=
   dependencies:
     pump "^3.0.0"
 
 get-stream@^6.0.0:
   version "6.0.1"
-  resolved "https://registry.nlark.com/get-stream/download/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
+  resolved "https://registry.npm.taobao.org/get-stream/download/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha1-omLY7vZ6ztV8KFKtYWdSakPL97c=
 
 get-symbol-description@^1.0.0:
@@ -3292,7 +3289,7 @@ has@^1.0.3:
 
 history@^4.9.0:
   version "4.10.1"
-  resolved "https://registry.nlark.com/history/download/history-4.10.1.tgz?cache=0&sync_timestamp=1628892318943&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhistory%2Fdownload%2Fhistory-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
+  resolved "https://registry.nlark.com/history/download/history-4.10.1.tgz?cache=0&sync_timestamp=1628891129290&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhistory%2Fdownload%2Fhistory-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
   integrity sha1-MzcaZeOoOyZ0NOKz87G0xYqtTPM=
   dependencies:
     "@babel/runtime" "^7.1.2"
@@ -3304,7 +3301,7 @@ history@^4.9.0:
 
 hoist-non-react-statics@^3.1.0:
   version "3.3.2"
-  resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  resolved "https://registry.nlark.com/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
   dependencies:
     react-is "^16.7.0"
@@ -3316,7 +3313,7 @@ hosted-git-info@^2.1.4:
 
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.nlark.com/html-encoding-sniffer/download/html-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
+  resolved "https://registry.nlark.com/html-encoding-sniffer/download/html-encoding-sniffer-2.0.1.tgz?cache=0&sync_timestamp=1632005059408&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhtml-encoding-sniffer%2Fdownload%2Fhtml-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
   integrity sha1-QqbcT9M/ACgRduiyN1nKTk+hhfM=
   dependencies:
     whatwg-encoding "^1.0.5"
@@ -3328,7 +3325,7 @@ html-escaper@^2.0.0:
 
 http-assert@^1.3.0:
   version "1.5.0"
-  resolved "https://registry.nlark.com/http-assert/download/http-assert-1.5.0.tgz#c389ccd87ac16ed2dfa6246fd73b926aa00e6b8f"
+  resolved "https://registry.nlark.com/http-assert/download/http-assert-1.5.0.tgz?cache=0&sync_timestamp=1629871581153&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhttp-assert%2Fdownload%2Fhttp-assert-1.5.0.tgz#c389ccd87ac16ed2dfa6246fd73b926aa00e6b8f"
   integrity sha1-w4nM2HrBbtLfpiRv1zuSaqAOa48=
   dependencies:
     deep-equal "~1.0.1"
@@ -3336,7 +3333,7 @@ http-assert@^1.3.0:
 
 http-errors@^1.6.3, http-errors@~1.8.0:
   version "1.8.0"
-  resolved "https://registry.npm.taobao.org/http-errors/download/http-errors-1.8.0.tgz#75d1bbe497e1044f51e4ee9e704a62f28d336507"
+  resolved "https://registry.npm.taobao.org/http-errors/download/http-errors-1.8.0.tgz?cache=0&sync_timestamp=1593407634112&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhttp-errors%2Fdownload%2Fhttp-errors-1.8.0.tgz#75d1bbe497e1044f51e4ee9e704a62f28d336507"
   integrity sha1-ddG75JfhBE9R5O6ecEpi8o0zZQc=
   dependencies:
     depd "~1.1.2"
@@ -3347,7 +3344,7 @@ http-errors@^1.6.3, http-errors@~1.8.0:
 
 http-proxy-agent@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npmmirror.com/http-proxy-agent/download/http-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
+  resolved "https://registry.npmmirror.com/http-proxy-agent/download/http-proxy-agent-4.0.1.tgz?cache=0&sync_timestamp=1632357525203&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fhttp-proxy-agent%2Fdownload%2Fhttp-proxy-agent-4.0.1.tgz#8a8c8ef7f5932ccf953c296ca8291b95aa74aa3a"
   integrity sha1-ioyO9/WTLM+VPClsqCkblap0qjo=
   dependencies:
     "@tootallnate/once" "1"
@@ -3372,7 +3369,7 @@ https-proxy-agent@^2.2.1:
 
 human-signals@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.nlark.com/human-signals/download/human-signals-2.1.0.tgz?cache=0&sync_timestamp=1624364695595&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhuman-signals%2Fdownload%2Fhuman-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
+  resolved "https://registry.nlark.com/human-signals/download/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha1-3JH8ukLk0G5Kuu0zs+ejwC9RTqA=
 
 iconv-lite@0.4.24, iconv-lite@^0.4.4:
@@ -3384,14 +3381,14 @@ iconv-lite@0.4.24, iconv-lite@^0.4.4:
 
 identity-obj-proxy@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/identity-obj-proxy/download/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
+  resolved "https://registry.nlark.com/identity-obj-proxy/download/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
   integrity sha1-lNK9qWCERT7zb7xarsN+D3nx/BQ=
   dependencies:
     harmony-reflect "^1.4.6"
 
 ieee754@^1.1.13:
   version "1.2.1"
-  resolved "https://registry.npm.taobao.org/ieee754/download/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  resolved "https://registry.nlark.com/ieee754/download/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=
 
 ignore@^4.0.6:
@@ -3414,7 +3411,7 @@ import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
 
 import-local@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.npm.taobao.org/import-local/download/import-local-3.0.2.tgz#a8cfd0431d1de4a2199703d003e3e62364fa6db6"
+  resolved "https://registry.nlark.com/import-local/download/import-local-3.0.2.tgz#a8cfd0431d1de4a2199703d003e3e62364fa6db6"
   integrity sha1-qM/QQx0d5KIZlwPQA+PmI2T6bbY=
   dependencies:
     pkg-dir "^4.2.0"
@@ -3427,7 +3424,7 @@ imurmurhash@^0.1.4:
 
 indent-string@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npm.taobao.org/indent-string/download/indent-string-4.0.0.tgz?cache=0&sync_timestamp=1618679561483&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Findent-string%2Fdownload%2Findent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
+  resolved "https://registry.nlark.com/indent-string/download/indent-string-4.0.0.tgz?cache=0&sync_timestamp=1618847271946&other_urls=https%3A%2F%2Fregistry.nlark.com%2Findent-string%2Fdownload%2Findent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
 
 inflight@^1.0.4:
@@ -3466,7 +3463,7 @@ is-bigint@^1.0.1:
 
 is-binary-path@~2.1.0:
   version "2.1.0"
-  resolved "https://registry.npm.taobao.org/is-binary-path/download/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
+  resolved "https://registry.nlark.com/is-binary-path/download/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
   integrity sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk=
   dependencies:
     binary-extensions "^2.0.0"
@@ -3486,7 +3483,7 @@ is-callable@^1.1.4, is-callable@^1.2.4:
 
 is-ci@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/is-ci/download/is-ci-3.0.0.tgz#c7e7be3c9d8eef7d0fa144390bd1e4b88dc4c994"
+  resolved "https://registry.nlark.com/is-ci/download/is-ci-3.0.0.tgz?cache=0&sync_timestamp=1618847026826&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-ci%2Fdownload%2Fis-ci-3.0.0.tgz#c7e7be3c9d8eef7d0fa144390bd1e4b88dc4c994"
   integrity sha1-x+e+PJ2O730PoUQ5C9HkuI3EyZQ=
   dependencies:
     ci-info "^3.1.1"
@@ -3517,12 +3514,12 @@ is-fullwidth-code-point@^3.0.0:
 
 is-generator-fn@^2.0.0:
   version "2.1.0"
-  resolved "https://registry.nlark.com/is-generator-fn/download/is-generator-fn-2.1.0.tgz?cache=0&sync_timestamp=1628686038445&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-generator-fn%2Fdownload%2Fis-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
+  resolved "https://registry.nlark.com/is-generator-fn/download/is-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
   integrity sha1-fRQK3DiarzARqPKipM+m+q3/sRg=
 
 is-generator-function@^1.0.7:
   version "1.0.10"
-  resolved "https://registry.nlark.com/is-generator-function/download/is-generator-function-1.0.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-generator-function%2Fdownload%2Fis-generator-function-1.0.10.tgz#f1558baf1ac17e0deea7c0415c438351ff2b3c72"
+  resolved "https://registry.nlark.com/is-generator-function/download/is-generator-function-1.0.10.tgz#f1558baf1ac17e0deea7c0415c438351ff2b3c72"
   integrity sha1-8VWLrxrBfg3up8BBXEODUf8rPHI=
   dependencies:
     has-tostringtag "^1.0.0"
@@ -3553,12 +3550,12 @@ is-number-object@^1.0.4:
 
 is-number@^7.0.0:
   version "7.0.0"
-  resolved "https://registry.nlark.com/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  resolved "https://registry.npm.taobao.org/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
 is-potential-custom-element-name@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npm.taobao.org/is-potential-custom-element-name/download/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
+  resolved "https://registry.nlark.com/is-potential-custom-element-name/download/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
   integrity sha1-Fx7W8Z46xVQ5Tt94yqBXhKRb67U=
 
 is-regex@^1.1.4:
@@ -3600,12 +3597,12 @@ is-what@^3.12.0:
 
 isarray@0.0.1:
   version "0.0.1"
-  resolved "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  resolved "https://registry.nlark.com/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
   integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
 
 isarray@~1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/isarray/download/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+  resolved "https://registry.nlark.com/isarray/download/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
 isexe@^2.0.0:
@@ -3615,7 +3612,7 @@ isexe@^2.0.0:
 
 istanbul-lib-coverage@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.npmmirror.com/istanbul-lib-coverage/download/istanbul-lib-coverage-3.0.1.tgz?cache=0&sync_timestamp=1632362328088&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fistanbul-lib-coverage%2Fdownload%2Fistanbul-lib-coverage-3.0.1.tgz#e8900b3ed6069759229cf30f7067388d148aeb5e"
+  resolved "https://registry.npmmirror.com/istanbul-lib-coverage/download/istanbul-lib-coverage-3.0.1.tgz#e8900b3ed6069759229cf30f7067388d148aeb5e"
   integrity sha1-6JALPtYGl1kinPMPcGc4jRSK614=
 
 istanbul-lib-instrument@^4.0.0, istanbul-lib-instrument@^4.0.3:
@@ -3639,7 +3636,7 @@ istanbul-lib-report@^3.0.0:
 
 istanbul-lib-source-maps@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.nlark.com/istanbul-lib-source-maps/download/istanbul-lib-source-maps-4.0.0.tgz#75743ce6d96bb86dc7ee4352cf6366a23f0b1ad9"
+  resolved "https://registry.npm.taobao.org/istanbul-lib-source-maps/download/istanbul-lib-source-maps-4.0.0.tgz#75743ce6d96bb86dc7ee4352cf6366a23f0b1ad9"
   integrity sha1-dXQ85tlruG3H7kNSz2Nmoj8LGtk=
   dependencies:
     debug "^4.1.1"
@@ -3656,7 +3653,7 @@ istanbul-reports@^3.0.2:
 
 jest-changed-files@^27.1.1:
   version "27.1.1"
-  resolved "https://registry.nlark.com/jest-changed-files/download/jest-changed-files-27.1.1.tgz?cache=0&sync_timestamp=1631095953071&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-changed-files%2Fdownload%2Fjest-changed-files-27.1.1.tgz#9b3f67a34cc58e3e811e2e1e21529837653e4200"
+  resolved "https://registry.nlark.com/jest-changed-files/download/jest-changed-files-27.1.1.tgz?cache=0&sync_timestamp=1631096014212&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-changed-files%2Fdownload%2Fjest-changed-files-27.1.1.tgz#9b3f67a34cc58e3e811e2e1e21529837653e4200"
   integrity sha1-mz9no0zFjj6BHi4eIVKYN2U+QgA=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -3665,7 +3662,7 @@ jest-changed-files@^27.1.1:
 
 jest-circus@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-circus/download/jest-circus-27.2.2.tgz?cache=0&sync_timestamp=1632576982306&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-circus%2Fdownload%2Fjest-circus-27.2.2.tgz#a3647082f3eba1226f7664a36a2b7ebf45ceaf7b"
+  resolved "https://registry.npmmirror.com/jest-circus/download/jest-circus-27.2.2.tgz?cache=0&sync_timestamp=1632576930721&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-circus%2Fdownload%2Fjest-circus-27.2.2.tgz#a3647082f3eba1226f7664a36a2b7ebf45ceaf7b"
   integrity sha1-o2RwgvProSJvdmSjait+v0XOr3s=
   dependencies:
     "@jest/environment" "^27.2.2"
@@ -3690,7 +3687,7 @@ jest-circus@^27.2.2:
 
 jest-cli@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-cli/download/jest-cli-27.2.2.tgz?cache=0&sync_timestamp=1632576976486&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-cli%2Fdownload%2Fjest-cli-27.2.2.tgz#0973a717c109f23de642b63486f3cb71c5a971be"
+  resolved "https://registry.npmmirror.com/jest-cli/download/jest-cli-27.2.2.tgz#0973a717c109f23de642b63486f3cb71c5a971be"
   integrity sha1-CXOnF8EJ8j3mQrY0hvPLccWpcb4=
   dependencies:
     "@jest/core" "^27.2.2"
@@ -3708,7 +3705,7 @@ jest-cli@^27.2.2:
 
 jest-config@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-config/download/jest-config-27.2.2.tgz?cache=0&sync_timestamp=1632576974981&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-config%2Fdownload%2Fjest-config-27.2.2.tgz#970d8466c60ac106ac9d7d0b8dcf3ff150fa713a"
+  resolved "https://registry.npmmirror.com/jest-config/download/jest-config-27.2.2.tgz#970d8466c60ac106ac9d7d0b8dcf3ff150fa713a"
   integrity sha1-lw2EZsYKwQasnX0Ljc8/8VD6cTo=
   dependencies:
     "@babel/core" "^7.1.0"
@@ -3735,7 +3732,7 @@ jest-config@^27.2.2:
 
 jest-diff@^27.0.0, jest-diff@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-diff/download/jest-diff-27.2.2.tgz?cache=0&sync_timestamp=1632576968418&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-diff%2Fdownload%2Fjest-diff-27.2.2.tgz#3992fe5f55f209676c5d3fd956e3f3d4145f76b8"
+  resolved "https://registry.npmmirror.com/jest-diff/download/jest-diff-27.2.2.tgz?cache=0&sync_timestamp=1632576927430&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-diff%2Fdownload%2Fjest-diff-27.2.2.tgz#3992fe5f55f209676c5d3fd956e3f3d4145f76b8"
   integrity sha1-OZL+X1XyCWdsXT/ZVuPz1BRfdrg=
   dependencies:
     chalk "^4.0.0"
@@ -3745,7 +3742,7 @@ jest-diff@^27.0.0, jest-diff@^27.2.2:
 
 jest-docblock@^27.0.6:
   version "27.0.6"
-  resolved "https://registry.nlark.com/jest-docblock/download/jest-docblock-27.0.6.tgz?cache=0&sync_timestamp=1624900203204&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-docblock%2Fdownload%2Fjest-docblock-27.0.6.tgz#cc78266acf7fe693ca462cbbda0ea4e639e4e5f3"
+  resolved "https://registry.nlark.com/jest-docblock/download/jest-docblock-27.0.6.tgz#cc78266acf7fe693ca462cbbda0ea4e639e4e5f3"
   integrity sha1-zHgmas9/5pPKRiy72g6k5jnk5fM=
   dependencies:
     detect-newline "^3.0.0"
@@ -3763,7 +3760,7 @@ jest-each@^27.2.2:
 
 jest-environment-jsdom@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-environment-jsdom/download/jest-environment-jsdom-27.2.2.tgz?cache=0&sync_timestamp=1632576977514&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-environment-jsdom%2Fdownload%2Fjest-environment-jsdom-27.2.2.tgz#fb3075b4be6289961dcc4942e98f1862b3a8c4cb"
+  resolved "https://registry.npmmirror.com/jest-environment-jsdom/download/jest-environment-jsdom-27.2.2.tgz#fb3075b4be6289961dcc4942e98f1862b3a8c4cb"
   integrity sha1-+zB1tL5iiZYdzElC6Y8YYrOoxMs=
   dependencies:
     "@jest/environment" "^27.2.2"
@@ -3776,7 +3773,7 @@ jest-environment-jsdom@^27.2.2:
 
 jest-environment-node@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-environment-node/download/jest-environment-node-27.2.2.tgz?cache=0&sync_timestamp=1632576986393&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-environment-node%2Fdownload%2Fjest-environment-node-27.2.2.tgz#60ba7d7fee956f68964d47a785d0195ce125aaa3"
+  resolved "https://registry.npmmirror.com/jest-environment-node/download/jest-environment-node-27.2.2.tgz?cache=0&sync_timestamp=1632576941398&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-environment-node%2Fdownload%2Fjest-environment-node-27.2.2.tgz#60ba7d7fee956f68964d47a785d0195ce125aaa3"
   integrity sha1-YLp9f+6Vb2iWTUenhdAZXOElqqM=
   dependencies:
     "@jest/environment" "^27.2.2"
@@ -3788,12 +3785,12 @@ jest-environment-node@^27.2.2:
 
 jest-get-type@^27.0.6:
   version "27.0.6"
-  resolved "https://registry.nlark.com/jest-get-type/download/jest-get-type-27.0.6.tgz#0eb5c7f755854279ce9b68a9f1a4122f69047cfe"
+  resolved "https://registry.nlark.com/jest-get-type/download/jest-get-type-27.0.6.tgz?cache=0&sync_timestamp=1624900056951&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-get-type%2Fdownload%2Fjest-get-type-27.0.6.tgz#0eb5c7f755854279ce9b68a9f1a4122f69047cfe"
   integrity sha1-DrXH91WFQnnOm2ip8aQSL2kEfP4=
 
 jest-haste-map@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-haste-map/download/jest-haste-map-27.2.2.tgz?cache=0&sync_timestamp=1632576972367&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-haste-map%2Fdownload%2Fjest-haste-map-27.2.2.tgz#81ccb57b1e1cd513aaaadf5016aad5dab0ede552"
+  resolved "https://registry.npmmirror.com/jest-haste-map/download/jest-haste-map-27.2.2.tgz#81ccb57b1e1cd513aaaadf5016aad5dab0ede552"
   integrity sha1-gcy1ex4c1ROqqt9QFqrV2rDt5VI=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -3813,7 +3810,7 @@ jest-haste-map@^27.2.2:
 
 jest-jasmine2@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-jasmine2/download/jest-jasmine2-27.2.2.tgz?cache=0&sync_timestamp=1632576986208&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-jasmine2%2Fdownload%2Fjest-jasmine2-27.2.2.tgz#bf87c8820a192c86b65a7c4c1a54caae52124f04"
+  resolved "https://registry.npmmirror.com/jest-jasmine2/download/jest-jasmine2-27.2.2.tgz#bf87c8820a192c86b65a7c4c1a54caae52124f04"
   integrity sha1-v4fIggoZLIa2WnxMGlTKrlISTwQ=
   dependencies:
     "@babel/traverse" "^7.1.0"
@@ -3837,7 +3834,7 @@ jest-jasmine2@^27.2.2:
 
 jest-leak-detector@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-leak-detector/download/jest-leak-detector-27.2.2.tgz?cache=0&sync_timestamp=1632576983601&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-leak-detector%2Fdownload%2Fjest-leak-detector-27.2.2.tgz#5af54273efcf5114ad406f4448860c2396319e12"
+  resolved "https://registry.npmmirror.com/jest-leak-detector/download/jest-leak-detector-27.2.2.tgz#5af54273efcf5114ad406f4448860c2396319e12"
   integrity sha1-WvVCc+/PURStQG9ESIYMI5YxnhI=
   dependencies:
     jest-get-type "^27.0.6"
@@ -3850,7 +3847,7 @@ jest-less-loader@^0.1.1:
 
 jest-matcher-utils@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-matcher-utils/download/jest-matcher-utils-27.2.2.tgz?cache=0&sync_timestamp=1632576965276&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-matcher-utils%2Fdownload%2Fjest-matcher-utils-27.2.2.tgz#a6c0a10dce6bfe8250bbed3e2f1b206568d73bde"
+  resolved "https://registry.npmmirror.com/jest-matcher-utils/download/jest-matcher-utils-27.2.2.tgz#a6c0a10dce6bfe8250bbed3e2f1b206568d73bde"
   integrity sha1-psChDc5r/oJQu+0+LxsgZWjXO94=
   dependencies:
     chalk "^4.0.0"
@@ -3860,7 +3857,7 @@ jest-matcher-utils@^27.2.2:
 
 jest-message-util@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-message-util/download/jest-message-util-27.2.2.tgz?cache=0&sync_timestamp=1632576963938&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-message-util%2Fdownload%2Fjest-message-util-27.2.2.tgz#cdbb1b82dfe5f601ae35f5c6a28bf7823e6bcf99"
+  resolved "https://registry.npmmirror.com/jest-message-util/download/jest-message-util-27.2.2.tgz#cdbb1b82dfe5f601ae35f5c6a28bf7823e6bcf99"
   integrity sha1-zbsbgt/l9gGuNfXGoov3gj5rz5k=
   dependencies:
     "@babel/code-frame" "^7.12.13"
@@ -3875,7 +3872,7 @@ jest-message-util@^27.2.2:
 
 jest-mock@^27.1.1:
   version "27.1.1"
-  resolved "https://registry.nlark.com/jest-mock/download/jest-mock-27.1.1.tgz?cache=0&sync_timestamp=1631096011697&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-mock%2Fdownload%2Fjest-mock-27.1.1.tgz#c7a2e81301fdcf3dab114931d23d89ec9d0c3a82"
+  resolved "https://registry.nlark.com/jest-mock/download/jest-mock-27.1.1.tgz?cache=0&sync_timestamp=1631095992620&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-mock%2Fdownload%2Fjest-mock-27.1.1.tgz#c7a2e81301fdcf3dab114931d23d89ec9d0c3a82"
   integrity sha1-x6LoEwH9zz2rEUkx0j2J7J0MOoI=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -3888,12 +3885,12 @@ jest-pnp-resolver@^1.2.2:
 
 jest-regex-util@^27.0.0, jest-regex-util@^27.0.6:
   version "27.0.6"
-  resolved "https://registry.nlark.com/jest-regex-util/download/jest-regex-util-27.0.6.tgz?cache=0&sync_timestamp=1624900201901&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-regex-util%2Fdownload%2Fjest-regex-util-27.0.6.tgz#02e112082935ae949ce5d13b2675db3d8c87d9c5"
+  resolved "https://registry.nlark.com/jest-regex-util/download/jest-regex-util-27.0.6.tgz?cache=0&sync_timestamp=1624900088428&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-regex-util%2Fdownload%2Fjest-regex-util-27.0.6.tgz#02e112082935ae949ce5d13b2675db3d8c87d9c5"
   integrity sha1-AuESCCk1rpSc5dE7JnXbPYyH2cU=
 
 jest-resolve-dependencies@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-resolve-dependencies/download/jest-resolve-dependencies-27.2.2.tgz?cache=0&sync_timestamp=1632576973950&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-resolve-dependencies%2Fdownload%2Fjest-resolve-dependencies-27.2.2.tgz#7467c67cb8b5630ec28e2f0c72a0b62e56668083"
+  resolved "https://registry.npmmirror.com/jest-resolve-dependencies/download/jest-resolve-dependencies-27.2.2.tgz#7467c67cb8b5630ec28e2f0c72a0b62e56668083"
   integrity sha1-dGfGfLi1Yw7Cji8McqC2LlZmgIM=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -3902,7 +3899,7 @@ jest-resolve-dependencies@^27.2.2:
 
 jest-resolve@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-resolve/download/jest-resolve-27.2.2.tgz?cache=0&sync_timestamp=1632576976551&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-resolve%2Fdownload%2Fjest-resolve-27.2.2.tgz#1bad93dbc6c20edb874e6720e82e4e48900b120b"
+  resolved "https://registry.npmmirror.com/jest-resolve/download/jest-resolve-27.2.2.tgz#1bad93dbc6c20edb874e6720e82e4e48900b120b"
   integrity sha1-G62T28bCDtuHTmcg6C5OSJALEgs=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -3918,7 +3915,7 @@ jest-resolve@^27.2.2:
 
 jest-runner@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-runner/download/jest-runner-27.2.2.tgz?cache=0&sync_timestamp=1632576985269&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-runner%2Fdownload%2Fjest-runner-27.2.2.tgz#e719a8ce2a16575677105f692fdff7cd00602325"
+  resolved "https://registry.npmmirror.com/jest-runner/download/jest-runner-27.2.2.tgz#e719a8ce2a16575677105f692fdff7cd00602325"
   integrity sha1-5xmozioWV1Z3EF9pL9/3zQBgIyU=
   dependencies:
     "@jest/console" "^27.2.2"
@@ -3946,7 +3943,7 @@ jest-runner@^27.2.2:
 
 jest-runtime@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-runtime/download/jest-runtime-27.2.2.tgz?cache=0&sync_timestamp=1632576984409&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-runtime%2Fdownload%2Fjest-runtime-27.2.2.tgz#cc29d3adde948d531657a67d33c9f8d9bb58a6fc"
+  resolved "https://registry.npmmirror.com/jest-runtime/download/jest-runtime-27.2.2.tgz#cc29d3adde948d531657a67d33c9f8d9bb58a6fc"
   integrity sha1-zCnTrd6UjVMWV6Z9M8n42btYpvw=
   dependencies:
     "@jest/console" "^27.2.2"
@@ -3979,12 +3976,12 @@ jest-runtime@^27.2.2:
 
 jest-scss-transform@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmmirror.com/jest-scss-transform/download/jest-scss-transform-1.0.1.tgz#3c1cc0f512b0836accec0f2e352863fc894f333f"
+  resolved "https://registry.nlark.com/jest-scss-transform/download/jest-scss-transform-1.0.1.tgz#3c1cc0f512b0836accec0f2e352863fc894f333f"
   integrity sha1-PBzA9RKwg2rM7A8uNShj/IlPMz8=
 
 jest-serializer@^27.0.6:
   version "27.0.6"
-  resolved "https://registry.nlark.com/jest-serializer/download/jest-serializer-27.0.6.tgz?cache=0&sync_timestamp=1624900202593&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-serializer%2Fdownload%2Fjest-serializer-27.0.6.tgz#93a6c74e0132b81a2d54623251c46c498bb5bec1"
+  resolved "https://registry.nlark.com/jest-serializer/download/jest-serializer-27.0.6.tgz#93a6c74e0132b81a2d54623251c46c498bb5bec1"
   integrity sha1-k6bHTgEyuBotVGIyUcRsSYu1vsE=
   dependencies:
     "@types/node" "*"
@@ -3992,7 +3989,7 @@ jest-serializer@^27.0.6:
 
 jest-snapshot@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-snapshot/download/jest-snapshot-27.2.2.tgz?cache=0&sync_timestamp=1632576980478&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-snapshot%2Fdownload%2Fjest-snapshot-27.2.2.tgz#898f0eedde658e723461d3cdcaedb404e716fa01"
+  resolved "https://registry.npmmirror.com/jest-snapshot/download/jest-snapshot-27.2.2.tgz#898f0eedde658e723461d3cdcaedb404e716fa01"
   integrity sha1-iY8O7d5ljnI0YdPNyu20BOcW+gE=
   dependencies:
     "@babel/core" "^7.7.2"
@@ -4034,7 +4031,7 @@ jest-util@^27.2.0:
 
 jest-validate@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-validate/download/jest-validate-27.2.2.tgz?cache=0&sync_timestamp=1632576974812&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-validate%2Fdownload%2Fjest-validate-27.2.2.tgz#e672118f1d9aa57b25b4c7998edc101dabd7020b"
+  resolved "https://registry.npmmirror.com/jest-validate/download/jest-validate-27.2.2.tgz#e672118f1d9aa57b25b4c7998edc101dabd7020b"
   integrity sha1-5nIRjx2apXsltMeZjtwQHavXAgs=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -4046,7 +4043,7 @@ jest-validate@^27.2.2:
 
 jest-watch-typeahead@^0.6.4:
   version "0.6.4"
-  resolved "https://registry.nlark.com/jest-watch-typeahead/download/jest-watch-typeahead-0.6.4.tgz?cache=0&sync_timestamp=1622133870733&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-watch-typeahead%2Fdownload%2Fjest-watch-typeahead-0.6.4.tgz#ea70bf1bec34bd4f55b5b72d471b02d997899c3e"
+  resolved "https://registry.nlark.com/jest-watch-typeahead/download/jest-watch-typeahead-0.6.4.tgz#ea70bf1bec34bd4f55b5b72d471b02d997899c3e"
   integrity sha1-6nC/G+w0vU9VtbctRxsC2ZeJnD4=
   dependencies:
     ansi-escapes "^4.3.1"
@@ -4059,7 +4056,7 @@ jest-watch-typeahead@^0.6.4:
 
 jest-watcher@^27.0.0, jest-watcher@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/jest-watcher/download/jest-watcher-27.2.2.tgz?cache=0&sync_timestamp=1632576975360&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watcher%2Fdownload%2Fjest-watcher-27.2.2.tgz#8b00253d7e880c6637b402228a76f2fe5ea08132"
+  resolved "https://registry.npmmirror.com/jest-watcher/download/jest-watcher-27.2.2.tgz?cache=0&sync_timestamp=1632576987857&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fjest-watcher%2Fdownload%2Fjest-watcher-27.2.2.tgz#8b00253d7e880c6637b402228a76f2fe5ea08132"
   integrity sha1-iwAlPX6IDGY3tAIiinby/l6ggTI=
   dependencies:
     "@jest/test-result" "^27.2.2"
@@ -4103,7 +4100,7 @@ js-yaml@^3.13.1:
 
 jsdom@^16.6.0:
   version "16.7.0"
-  resolved "https://registry.nlark.com/jsdom/download/jsdom-16.7.0.tgz#918ae71965424b197c819f8183a754e18977b710"
+  resolved "https://registry.nlark.com/jsdom/download/jsdom-16.7.0.tgz?cache=0&sync_timestamp=1628871381062&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjsdom%2Fdownload%2Fjsdom-16.7.0.tgz#918ae71965424b197c819f8183a754e18977b710"
   integrity sha1-kYrnGWVCSxl8gZ+Bg6dU4Yl3txA=
   dependencies:
     abab "^2.0.5"
@@ -4141,7 +4138,7 @@ jsesc@^2.5.1:
 
 jsesc@~0.5.0:
   version "0.5.0"
-  resolved "https://registry.npm.taobao.org/jsesc/download/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
+  resolved "https://registry.nlark.com/jsesc/download/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
 json-parse-better-errors@^1.0.1:
@@ -4207,12 +4204,12 @@ keygrip@~1.1.0:
 
 kleur@^3.0.3:
   version "3.0.3"
-  resolved "https://registry.npm.taobao.org/kleur/download/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
+  resolved "https://registry.nlark.com/kleur/download/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha1-p5yezIbuHOP6YgbRIWxQHxR/wH4=
 
 koa-compose@^4.1.0:
   version "4.1.0"
-  resolved "https://registry.npm.taobao.org/koa-compose/download/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
+  resolved "https://registry.nlark.com/koa-compose/download/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
   integrity sha1-UHMGuTcZAdtBEhyBLpI9DWfT6Hc=
 
 koa-convert@^2.0.0:
@@ -4225,7 +4222,7 @@ koa-convert@^2.0.0:
 
 koa@^2.13.3:
   version "2.13.3"
-  resolved "https://registry.npmmirror.com/koa/download/koa-2.13.3.tgz#a62641ba753ec54bee2c6da1a4f294c5fac35407"
+  resolved "https://registry.npmmirror.com/koa/download/koa-2.13.3.tgz?cache=0&sync_timestamp=1632468411112&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fkoa%2Fdownload%2Fkoa-2.13.3.tgz#a62641ba753ec54bee2c6da1a4f294c5fac35407"
   integrity sha1-piZBunU+xUvuLG2hpPKUxfrDVAc=
   dependencies:
     accepts "^1.3.5"
@@ -4271,7 +4268,7 @@ less@^4.1.1:
 
 leven@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.nlark.com/leven/download/leven-3.1.0.tgz?cache=0&sync_timestamp=1628597847220&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fleven%2Fdownload%2Fleven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
+  resolved "https://registry.nlark.com/leven/download/leven-3.1.0.tgz?cache=0&sync_timestamp=1628597917913&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fleven%2Fdownload%2Fleven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
   integrity sha1-d4kd6DQGTMy6gq54QrtrFKE+1/I=
 
 levn@^0.4.1:
@@ -4284,7 +4281,7 @@ levn@^0.4.1:
 
 levn@~0.3.0:
   version "0.3.0"
-  resolved "https://registry.npm.taobao.org/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
+  resolved "https://registry.nlark.com/levn/download/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
   integrity sha1-OwmSTt+fCDwEkP3UwLxEIeBHZO4=
   dependencies:
     prelude-ls "~1.1.2"
@@ -4292,7 +4289,7 @@ levn@~0.3.0:
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
-  resolved "https://registry.npm.taobao.org/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
+  resolved "https://registry.nlark.com/lines-and-columns/download/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
 load-json-file@^4.0.0:
@@ -4315,7 +4312,7 @@ locate-path@^2.0.0:
 
 locate-path@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.nlark.com/locate-path/download/locate-path-5.0.0.tgz?cache=0&sync_timestamp=1629895618224&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flocate-path%2Fdownload%2Flocate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  resolved "https://registry.nlark.com/locate-path/download/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
   integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
   dependencies:
     p-locate "^4.1.0"
@@ -4327,7 +4324,7 @@ lodash.clonedeep@^4.5.0:
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
-  resolved "https://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  resolved "https://registry.nlark.com/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lodash.merge@^4.6.2:
@@ -4352,13 +4349,6 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lower-case@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.npm.taobao.org/lower-case/download/lower-case-2.0.2.tgz?cache=0&sync_timestamp=1606867514181&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flower-case%2Fdownload%2Flower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
-  integrity sha1-b6I3xj29xKgsoP2ILkci3F5jTig=
-  dependencies:
-    tslib "^2.0.3"
-
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npm.taobao.org/lru-cache/download/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
@@ -4381,7 +4371,7 @@ make-dir@^2.1.0:
 
 make-dir@^3.0.0:
   version "3.1.0"
-  resolved "https://registry.npm.taobao.org/make-dir/download/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
+  resolved "https://registry.nlark.com/make-dir/download/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
   integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
   dependencies:
     semver "^6.0.0"
@@ -4400,7 +4390,7 @@ media-typer@0.3.0:
 
 merge-stream@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/merge-stream/download/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
+  resolved "https://registry.nlark.com/merge-stream/download/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
 
 merge2@^1.3.0:
@@ -4410,7 +4400,7 @@ merge2@^1.3.0:
 
 micromatch@^4.0.4:
   version "4.0.4"
-  resolved "https://registry.npm.taobao.org/micromatch/download/micromatch-4.0.4.tgz?cache=0&sync_timestamp=1618054787196&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmicromatch%2Fdownload%2Fmicromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
+  resolved "https://registry.nlark.com/micromatch/download/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
   integrity sha1-iW1Rnf6dsl/OlM63pQCRm/iB6/k=
   dependencies:
     braces "^3.0.1"
@@ -4418,12 +4408,12 @@ micromatch@^4.0.4:
 
 mime-db@1.49.0:
   version "1.49.0"
-  resolved "https://registry.nlark.com/mime-db/download/mime-db-1.49.0.tgz?cache=0&sync_timestamp=1631863111146&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmime-db%2Fdownload%2Fmime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
+  resolved "https://registry.nlark.com/mime-db/download/mime-db-1.49.0.tgz?cache=0&sync_timestamp=1631863129751&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmime-db%2Fdownload%2Fmime-db-1.49.0.tgz#f3dfde60c99e9cf3bc9701d687778f537001cbed"
   integrity sha1-89/eYMmenPO8lwHWh3ePU3ABy+0=
 
 mime-types@^2.1.12, mime-types@^2.1.18, mime-types@~2.1.24:
   version "2.1.32"
-  resolved "https://registry.nlark.com/mime-types/download/mime-types-2.1.32.tgz?cache=0&sync_timestamp=1627407819001&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmime-types%2Fdownload%2Fmime-types-2.1.32.tgz#1d00e89e7de7fe02008db61001d9e02852670fd5"
+  resolved "https://registry.nlark.com/mime-types/download/mime-types-2.1.32.tgz?cache=0&sync_timestamp=1627407652875&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmime-types%2Fdownload%2Fmime-types-2.1.32.tgz#1d00e89e7de7fe02008db61001d9e02852670fd5"
   integrity sha1-HQDonn3n/gIAjbYQAdngKFJnD9U=
   dependencies:
     mime-db "1.49.0"
@@ -4435,22 +4425,22 @@ mime@^1.4.1:
 
 mime@^2.0.3:
   version "2.5.2"
-  resolved "https://registry.npm.taobao.org/mime/download/mime-2.5.2.tgz?cache=0&sync_timestamp=1615984369368&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
+  resolved "https://registry.npm.taobao.org/mime/download/mime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
   integrity sha1-bj3GzCuVEGQ4MOXxnVy3U9pe6r4=
 
 mimic-fn@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+  resolved "https://registry.nlark.com/mimic-fn/download/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
 
 min-indent@^1.0.0:
   version "1.0.1"
-  resolved "https://registry.nlark.com/min-indent/download/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
+  resolved "https://registry.npm.taobao.org/min-indent/download/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha1-pj9oFnOzBXH76LwlaGrnRu76mGk=
 
 mini-create-react-context@^0.4.0:
   version "0.4.1"
-  resolved "https://registry.npm.taobao.org/mini-create-react-context/download/mini-create-react-context-0.4.1.tgz#072171561bfdc922da08a60c2197a497cc2d1d5e"
+  resolved "https://registry.nlark.com/mini-create-react-context/download/mini-create-react-context-0.4.1.tgz#072171561bfdc922da08a60c2197a497cc2d1d5e"
   integrity sha1-ByFxVhv9ySLaCKYMIZekl8wtHV4=
   dependencies:
     "@babel/runtime" "^7.12.1"
@@ -4504,8 +4494,13 @@ ms@^2.1.1:
 
 nanocolors@^0.1.0, nanocolors@^0.1.5:
   version "0.1.12"
-  resolved "https://registry.npmmirror.com/nanocolors/download/nanocolors-0.1.12.tgz?cache=0&sync_timestamp=1632478584683&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnanocolors%2Fdownload%2Fnanocolors-0.1.12.tgz#8577482c58cbd7b5bb1681db4cf48f11a87fd5f6"
+  resolved "https://registry.npmmirror.com/nanocolors/download/nanocolors-0.1.12.tgz#8577482c58cbd7b5bb1681db4cf48f11a87fd5f6"
   integrity sha1-hXdILFjL17W7FoHbTPSPEah/1fY=
+
+nanocolors@^0.2.2:
+  version "0.2.6"
+  resolved "https://registry.npmmirror.com/nanocolors/download/nanocolors-0.2.6.tgz#2e7815d25c04aaa43e54b9f0d6d21060172e5831"
+  integrity sha1-LngV0lwEqqQ+VLnw1tIQYBcuWDE=
 
 nanoid@^3.1.25:
   version "3.1.25"
@@ -4531,17 +4526,9 @@ negotiator@0.6.2:
   resolved "https://registry.npm.taobao.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-no-case@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.nlark.com/no-case/download/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
-  integrity sha1-02H9XJgA9VhVGoNp/A3NRmK2Ek0=
-  dependencies:
-    lower-case "^2.0.2"
-    tslib "^2.0.3"
-
 node-fetch@2.6.1:
   version "2.6.1"
-  resolved "https://registry.npmmirror.com/node-fetch/download/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  resolved "https://registry.npmmirror.com/node-fetch/download/node-fetch-2.6.1.tgz?cache=0&sync_timestamp=1632315355618&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnode-fetch%2Fdownload%2Fnode-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
 
 node-int64@^0.4.0:
@@ -4571,19 +4558,19 @@ normalize-package-data@^2.3.2:
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
+  resolved "https://registry.nlark.com/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
 npm-run-path@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.npm.taobao.org/npm-run-path/download/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
+  resolved "https://registry.nlark.com/npm-run-path/download/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
   integrity sha1-t+zR5e1T2o43pV4cImnguX7XSOo=
   dependencies:
     path-key "^3.0.0"
 
 nwsapi@^2.2.0:
   version "2.2.0"
-  resolved "https://registry.npm.taobao.org/nwsapi/download/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
+  resolved "https://registry.nlark.com/nwsapi/download/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha1-IEh5qePQaP8qVROcLHcngGgaOLc=
 
 object-assign@^4.1.1:
@@ -4663,7 +4650,7 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
 
 onetime@^5.1.2:
   version "5.1.2"
-  resolved "https://registry.npm.taobao.org/onetime/download/onetime-5.1.2.tgz?cache=0&sync_timestamp=1617889724435&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fonetime%2Fdownload%2Fonetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  resolved "https://registry.nlark.com/onetime/download/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
   integrity sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=
   dependencies:
     mimic-fn "^2.1.0"
@@ -4711,7 +4698,7 @@ p-limit@^1.1.0:
 
 p-limit@^2.2.0:
   version "2.3.0"
-  resolved "https://registry.nlark.com/p-limit/download/p-limit-2.3.0.tgz?cache=0&sync_timestamp=1628812721654&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fp-limit%2Fdownload%2Fp-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
+  resolved "https://registry.nlark.com/p-limit/download/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
   dependencies:
     p-try "^2.0.0"
@@ -4737,16 +4724,8 @@ p-try@^1.0.0:
 
 p-try@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.npm.taobao.org/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
+  resolved "https://registry.nlark.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
-
-param-case@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.nlark.com/param-case/download/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
-  integrity sha1-fRf+SqEr3jTUp32RrPtiGcqtAcU=
-  dependencies:
-    dot-case "^3.0.4"
-    tslib "^2.0.3"
 
 parent-module@^1.0.0:
   version "1.0.1"
@@ -4765,7 +4744,7 @@ parse-json@^4.0.0:
 
 parse-json@^5.0.0:
   version "5.2.0"
-  resolved "https://registry.nlark.com/parse-json/download/parse-json-5.2.0.tgz?cache=0&sync_timestamp=1622604553336&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fparse-json%2Fdownload%2Fparse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
+  resolved "https://registry.nlark.com/parse-json/download/parse-json-5.2.0.tgz#c76fc66dee54231c962b22bcc8a72cf2f99753cd"
   integrity sha1-x2/Gbe5UIxyWKyK8yKcs8vmXU80=
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -4780,12 +4759,12 @@ parse-node-version@^1.0.1:
 
 parse5@6.0.1:
   version "6.0.1"
-  resolved "https://registry.npm.taobao.org/parse5/download/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
+  resolved "https://registry.nlark.com/parse5/download/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha1-4aHAhcVps9wIMhGE8Zo5zCf3wws=
 
 parseurl@^1.3.2, parseurl@~1.3.3:
   version "1.3.3"
-  resolved "https://registry.npm.taobao.org/parseurl/download/parseurl-1.3.3.tgz?cache=0&sync_timestamp=1615984376007&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fparseurl%2Fdownload%2Fparseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
+  resolved "https://registry.npm.taobao.org/parseurl/download/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
 
 path-exists@^3.0.0:
@@ -4815,14 +4794,14 @@ path-parse@^1.0.6:
 
 path-to-regexp@^1.7.0:
   version "1.8.0"
-  resolved "https://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
+  resolved "https://registry.nlark.com/path-to-regexp/download/path-to-regexp-1.8.0.tgz?cache=0&sync_timestamp=1618847046445&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpath-to-regexp%2Fdownload%2Fpath-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
   integrity sha1-iHs7qdhDk+h6CgufTLdWGYtTVIo=
   dependencies:
     isarray "0.0.1"
 
 path-to-regexp@^6.2.0:
   version "6.2.0"
-  resolved "https://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-6.2.0.tgz#f7b3803336104c346889adece614669230645f38"
+  resolved "https://registry.nlark.com/path-to-regexp/download/path-to-regexp-6.2.0.tgz?cache=0&sync_timestamp=1618847046445&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpath-to-regexp%2Fdownload%2Fpath-to-regexp-6.2.0.tgz#f7b3803336104c346889adece614669230645f38"
   integrity sha1-97OAMzYQTDRoia3s5hRmkjBkXzg=
 
 path-type@^3.0.0:
@@ -4834,12 +4813,12 @@ path-type@^3.0.0:
 
 path-type@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.npm.taobao.org/path-type/download/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
+  resolved "https://registry.nlark.com/path-type/download/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
 
 pend@~1.2.0:
   version "1.2.0"
-  resolved "https://registry.npm.taobao.org/pend/download/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
+  resolved "https://registry.nlark.com/pend/download/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
@@ -4866,7 +4845,7 @@ pirates@^4.0.1:
 
 pkg-dir@4.2.0, pkg-dir@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npm.taobao.org/pkg-dir/download/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
+  resolved "https://registry.nlark.com/pkg-dir/download/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
   integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
   dependencies:
     find-up "^4.0.0"
@@ -4886,11 +4865,11 @@ pkg-up@^2.0.0:
     find-up "^2.1.0"
 
 postcss@^8.3.6:
-  version "8.3.7"
-  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.7.tgz?cache=0&sync_timestamp=1632290182939&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.7.tgz#ec88563588c8da8e58e7226f7633b51ae221eeda"
-  integrity sha1-7IhWNYjI2o5Y5yJvdjO1GuIh7to=
+  version "8.3.8"
+  resolved "https://registry.npmmirror.com/postcss/download/postcss-8.3.8.tgz?cache=0&sync_timestamp=1632555261973&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.8.tgz#9ebe2a127396b4b4570ae9f7770e7fb83db2bac1"
+  integrity sha1-nr4qEnOWtLRXCun3dw5/uD2yusE=
   dependencies:
-    nanocolors "^0.1.5"
+    nanocolors "^0.2.2"
     nanoid "^3.1.25"
     source-map-js "^0.6.2"
 
@@ -4918,7 +4897,7 @@ prettier@^2.4.1:
 
 pretty-format@^27.0.0, pretty-format@^27.0.2, pretty-format@^27.2.2:
   version "27.2.2"
-  resolved "https://registry.npmmirror.com/pretty-format/download/pretty-format-27.2.2.tgz?cache=0&sync_timestamp=1632576967586&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpretty-format%2Fdownload%2Fpretty-format-27.2.2.tgz#c080f1ab7ac64302e4d438f208596fc649dbeeb3"
+  resolved "https://registry.npmmirror.com/pretty-format/download/pretty-format-27.2.2.tgz?cache=0&sync_timestamp=1632576926171&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fpretty-format%2Fdownload%2Fpretty-format-27.2.2.tgz#c080f1ab7ac64302e4d438f208596fc649dbeeb3"
   integrity sha1-wIDxq3rGQwLk1DjyCFlvxknb7rM=
   dependencies:
     "@jest/types" "^27.1.1"
@@ -4933,7 +4912,7 @@ process-nextick-args@~2.0.0:
 
 progress@2.0.1:
   version "2.0.1"
-  resolved "https://registry.npm.taobao.org/progress/download/progress-2.0.1.tgz#c9242169342b1c29d275889c95734621b1952e31"
+  resolved "https://registry.nlark.com/progress/download/progress-2.0.1.tgz#c9242169342b1c29d275889c95734621b1952e31"
   integrity sha1-ySQhaTQrHCnSdYiclXNGIbGVLjE=
 
 progress@^2.0.0, progress@^2.0.1:
@@ -4943,7 +4922,7 @@ progress@^2.0.0, progress@^2.0.1:
 
 prompts@^2.0.1:
   version "2.4.1"
-  resolved "https://registry.npm.taobao.org/prompts/download/prompts-2.4.1.tgz?cache=0&sync_timestamp=1617240041932&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fprompts%2Fdownload%2Fprompts-2.4.1.tgz#befd3b1195ba052f9fd2fde8a486c4e82ee77f61"
+  resolved "https://registry.nlark.com/prompts/download/prompts-2.4.1.tgz#befd3b1195ba052f9fd2fde8a486c4e82ee77f61"
   integrity sha1-vv07EZW6BS+f0v3opIbE6C7nf2E=
   dependencies:
     kleur "^3.0.3"
@@ -4970,12 +4949,12 @@ prr@~1.0.1:
 
 psl@^1.1.33:
   version "1.8.0"
-  resolved "https://registry.nlark.com/psl/download/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
+  resolved "https://registry.npm.taobao.org/psl/download/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha1-kyb4vPsBOtzABf3/BWrM4CDlHCQ=
 
 pump@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/pump/download/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
+  resolved "https://registry.nlark.com/pump/download/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
   integrity sha1-tKIRaBW94vTh6mAjVOjHVWUQemQ=
   dependencies:
     end-of-stream "^1.1.0"
@@ -4988,7 +4967,7 @@ punycode@^2.1.0, punycode@^2.1.1:
 
 puppeteer-core@~1.12.0:
   version "1.12.2"
-  resolved "https://registry.nlark.com/puppeteer-core/download/puppeteer-core-1.12.2.tgz?cache=0&sync_timestamp=1632238808102&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpuppeteer-core%2Fdownload%2Fpuppeteer-core-1.12.2.tgz#f4797979aa9fde1045e52b343840f60500d5988e"
+  resolved "https://registry.nlark.com/puppeteer-core/download/puppeteer-core-1.12.2.tgz?cache=0&sync_timestamp=1632238889728&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpuppeteer-core%2Fdownload%2Fpuppeteer-core-1.12.2.tgz#f4797979aa9fde1045e52b343840f60500d5988e"
   integrity sha1-9Hl5eaqf3hBF5Ss0OED2BQDVmI4=
   dependencies:
     debug "^4.1.0"
@@ -5002,7 +4981,7 @@ puppeteer-core@~1.12.0:
 
 puppeteer@^10.4.0:
   version "10.4.0"
-  resolved "https://registry.nlark.com/puppeteer/download/puppeteer-10.4.0.tgz#a6465ff97fda0576c4ac29601406f67e6fea3dc7"
+  resolved "https://registry.nlark.com/puppeteer/download/puppeteer-10.4.0.tgz?cache=0&sync_timestamp=1632238509143&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpuppeteer%2Fdownload%2Fpuppeteer-10.4.0.tgz#a6465ff97fda0576c4ac29601406f67e6fea3dc7"
   integrity sha1-pkZf+X/aBXbErClgFAb2fm/qPcc=
   dependencies:
     debug "4.3.1"
@@ -5020,7 +4999,7 @@ puppeteer@^10.4.0:
 
 queue-microtask@^1.2.2:
   version "1.2.3"
-  resolved "https://registry.npm.taobao.org/queue-microtask/download/queue-microtask-1.2.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqueue-microtask%2Fdownload%2Fqueue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
+  resolved "https://registry.npm.taobao.org/queue-microtask/download/queue-microtask-1.2.3.tgz?cache=0&sync_timestamp=1616391471040&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqueue-microtask%2Fdownload%2Fqueue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
 
 rc-align@^4.0.0:
@@ -5393,7 +5372,7 @@ react-refresh@^0.10.0:
 
 react-router-dom@^5.3.0:
   version "5.3.0"
-  resolved "https://registry.npmmirror.com/react-router-dom/download/react-router-dom-5.3.0.tgz?cache=0&sync_timestamp=1632529586580&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Freact-router-dom%2Fdownload%2Freact-router-dom-5.3.0.tgz#da1bfb535a0e89a712a93b97dd76f47ad1f32363"
+  resolved "https://registry.npmmirror.com/react-router-dom/download/react-router-dom-5.3.0.tgz#da1bfb535a0e89a712a93b97dd76f47ad1f32363"
   integrity sha1-2hv7U1oOiacSqTuX3Xb0etHzI2M=
   dependencies:
     "@babel/runtime" "^7.12.13"
@@ -5447,7 +5426,7 @@ read-pkg@^3.0.0:
 
 readable-stream@^2.2.2:
   version "2.3.7"
-  resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
+  resolved "https://registry.nlark.com/readable-stream/download/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
   dependencies:
     core-util-is "~1.0.0"
@@ -5460,7 +5439,7 @@ readable-stream@^2.2.2:
 
 readable-stream@^3.1.1, readable-stream@^3.4.0:
   version "3.6.0"
-  resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
+  resolved "https://registry.nlark.com/readable-stream/download/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
   dependencies:
     inherits "^2.0.3"
@@ -5476,7 +5455,7 @@ readdirp@~3.6.0:
 
 redent@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.nlark.com/redent/download/redent-3.0.0.tgz#e557b7998316bb53c9f1f56fa626352c6963059f"
+  resolved "https://registry.nlark.com/redent/download/redent-3.0.0.tgz?cache=0&sync_timestamp=1620069702182&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fredent%2Fdownload%2Fredent-3.0.0.tgz#e557b7998316bb53c9f1f56fa626352c6963059f"
   integrity sha1-5Ve3mYMWu1PJ8fVvpiY1LGljBZ8=
   dependencies:
     indent-string "^4.0.0"
@@ -5484,14 +5463,14 @@ redent@^3.0.0:
 
 regenerate-unicode-properties@^9.0.0:
   version "9.0.0"
-  resolved "https://registry.nlark.com/regenerate-unicode-properties/download/regenerate-unicode-properties-9.0.0.tgz?cache=0&sync_timestamp=1631617161322&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerate-unicode-properties%2Fdownload%2Fregenerate-unicode-properties-9.0.0.tgz#54d09c7115e1f53dc2314a974b32c1c344efe326"
+  resolved "https://registry.nlark.com/regenerate-unicode-properties/download/regenerate-unicode-properties-9.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerate-unicode-properties%2Fdownload%2Fregenerate-unicode-properties-9.0.0.tgz#54d09c7115e1f53dc2314a974b32c1c344efe326"
   integrity sha1-VNCccRXh9T3CMUqXSzLBw0Tv4yY=
   dependencies:
     regenerate "^1.4.2"
 
 regenerate@^1.4.2:
   version "1.4.2"
-  resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
+  resolved "https://registry.nlark.com/regenerate/download/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha1-uTRtiCfo9aMve6KWN9OYtpAUhIo=
 
 regenerator-runtime@^0.13.4:
@@ -5521,7 +5500,7 @@ regexpp@^3.1.0:
 
 regexpu-core@^4.7.1:
   version "4.8.0"
-  resolved "https://registry.nlark.com/regexpu-core/download/regexpu-core-4.8.0.tgz?cache=0&sync_timestamp=1631619113277&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregexpu-core%2Fdownload%2Fregexpu-core-4.8.0.tgz#e5605ba361b67b1718478501327502f4479a98f0"
+  resolved "https://registry.nlark.com/regexpu-core/download/regexpu-core-4.8.0.tgz?cache=0&sync_timestamp=1631619103170&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregexpu-core%2Fdownload%2Fregexpu-core-4.8.0.tgz#e5605ba361b67b1718478501327502f4479a98f0"
   integrity sha1-5WBbo2G2excYR4UBMnUC9EeamPA=
   dependencies:
     regenerate "^1.4.2"
@@ -5533,7 +5512,7 @@ regexpu-core@^4.7.1:
 
 regjsgen@^0.5.2:
   version "0.5.2"
-  resolved "https://registry.npm.taobao.org/regjsgen/download/regjsgen-0.5.2.tgz#92ff295fb1deecbf6ecdab2543d207e91aa33733"
+  resolved "https://registry.nlark.com/regjsgen/download/regjsgen-0.5.2.tgz#92ff295fb1deecbf6ecdab2543d207e91aa33733"
   integrity sha1-kv8pX7He7L9uzaslQ9IH6RqjNzM=
 
 regjsparser@^0.7.0:
@@ -5560,7 +5539,7 @@ resize-observer-polyfill@^1.5.0, resize-observer-polyfill@^1.5.1:
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/resolve-cwd/download/resolve-cwd-3.0.0.tgz?cache=0&sync_timestamp=1615984440417&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fresolve-cwd%2Fdownload%2Fresolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
+  resolved "https://registry.nlark.com/resolve-cwd/download/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
   integrity sha1-DwB18bslRHZs9zumpuKt/ryxPy0=
   dependencies:
     resolve-from "^5.0.0"
@@ -5572,7 +5551,7 @@ resolve-from@^4.0.0:
 
 resolve-from@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npm.taobao.org/resolve-from/download/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
+  resolved "https://registry.nlark.com/resolve-from/download/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
 
 resolve-pathname@^3.0.0:
@@ -5624,7 +5603,7 @@ rollup@^2.38.5:
 
 run-parallel@^1.1.9:
   version "1.2.0"
-  resolved "https://registry.npm.taobao.org/run-parallel/download/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
+  resolved "https://registry.nlark.com/run-parallel/download/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
   integrity sha1-ZtE2jae9+SHrnZW9GpIp5/IaQ+4=
   dependencies:
     queue-microtask "^1.2.2"
@@ -5636,7 +5615,7 @@ safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
 
 safe-buffer@~5.2.0:
   version "5.2.1"
-  resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  resolved "https://registry.nlark.com/safe-buffer/download/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
 "safer-buffer@>= 2.1.2 < 3":
@@ -5651,7 +5630,7 @@ sax@^1.2.4:
 
 saxes@^5.0.1:
   version "5.0.1"
-  resolved "https://registry.npm.taobao.org/saxes/download/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
+  resolved "https://registry.nlark.com/saxes/download/saxes-5.0.1.tgz#eebab953fa3b7608dbe94e5dadb15c888fa6696d"
   integrity sha1-7rq5U/o7dgjb6U5drbFciI+maW0=
   dependencies:
     xmlchars "^2.2.0"
@@ -5678,7 +5657,7 @@ scroll-into-view-if-needed@^2.2.25:
 
 semver@7.0.0:
   version "7.0.0"
-  resolved "https://registry.npm.taobao.org/semver/download/semver-7.0.0.tgz?cache=0&sync_timestamp=1616463641178&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsemver%2Fdownload%2Fsemver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
+  resolved "https://registry.nlark.com/semver/download/semver-7.0.0.tgz?cache=0&sync_timestamp=1618846864940&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha1-XzyjV2HkfgWyBsba/yz4FPAxa44=
 
 semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
@@ -5695,7 +5674,7 @@ semver@^7.2.1, semver@^7.3.2:
 
 setprototypeof@1.2.0:
   version "1.2.0"
-  resolved "https://registry.npm.taobao.org/setprototypeof/download/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
+  resolved "https://registry.nlark.com/setprototypeof/download/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ=
 
 shallowequal@^1.1.0:
@@ -5726,7 +5705,7 @@ side-channel@^1.0.4:
 
 signal-exit@^3.0.2, signal-exit@^3.0.3:
   version "3.0.4"
-  resolved "https://registry.nlark.com/signal-exit/download/signal-exit-3.0.4.tgz?cache=0&sync_timestamp=1631772907409&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsignal-exit%2Fdownload%2Fsignal-exit-3.0.4.tgz#366a4684d175b9cab2081e3681fda3747b6c51d7"
+  resolved "https://registry.nlark.com/signal-exit/download/signal-exit-3.0.4.tgz?cache=0&sync_timestamp=1631772908138&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsignal-exit%2Fdownload%2Fsignal-exit-3.0.4.tgz#366a4684d175b9cab2081e3681fda3747b6c51d7"
   integrity sha1-NmpGhNF1ucqyCB42gf2jdHtsUdc=
 
 sisteransi@^1.0.5:
@@ -5736,7 +5715,7 @@ sisteransi@^1.0.5:
 
 slash@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/slash/download/slash-3.0.0.tgz?cache=0&sync_timestamp=1618384496016&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fslash%2Fdownload%2Fslash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
+  resolved "https://registry.nlark.com/slash/download/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha1-ZTm+hwwWWtvVJAIg2+Nh8bxNRjQ=
 
 slice-ansi@^4.0.0:
@@ -5755,7 +5734,7 @@ source-map-js@^0.6.2:
 
 source-map-resolve@^0.6.0:
   version "0.6.0"
-  resolved "https://registry.npm.taobao.org/source-map-resolve/download/source-map-resolve-0.6.0.tgz#3d9df87e236b53f16d01e58150fc7711138e5ed2"
+  resolved "https://registry.nlark.com/source-map-resolve/download/source-map-resolve-0.6.0.tgz#3d9df87e236b53f16d01e58150fc7711138e5ed2"
   integrity sha1-PZ34fiNrU/FtAeWBUPx3EROOXtI=
   dependencies:
     atob "^2.1.2"
@@ -5817,14 +5796,14 @@ sprintf-js@~1.0.2:
 
 stack-utils@^2.0.3:
   version "2.0.5"
-  resolved "https://registry.nlark.com/stack-utils/download/stack-utils-2.0.5.tgz?cache=0&sync_timestamp=1631896498361&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstack-utils%2Fdownload%2Fstack-utils-2.0.5.tgz#d25265fca995154659dbbfba3b49254778d2fdd5"
+  resolved "https://registry.nlark.com/stack-utils/download/stack-utils-2.0.5.tgz#d25265fca995154659dbbfba3b49254778d2fdd5"
   integrity sha1-0lJl/KmVFUZZ27+6O0klR3jS/dU=
   dependencies:
     escape-string-regexp "^2.0.0"
 
 "statuses@>= 1.5.0 < 2", statuses@^1.5.0, statuses@~1.5.0:
   version "1.5.0"
-  resolved "https://registry.npm.taobao.org/statuses/download/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
+  resolved "https://registry.npm.taobao.org/statuses/download/statuses-1.5.0.tgz?cache=0&sync_timestamp=1609654090567&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fstatuses%2Fdownload%2Fstatuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
 string-convert@^0.2.0:
@@ -5881,14 +5860,14 @@ string.prototype.trimstart@^1.0.4:
 
 string_decoder@^1.1.1:
   version "1.3.0"
-  resolved "https://registry.npm.taobao.org/string_decoder/download/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
+  resolved "https://registry.nlark.com/string_decoder/download/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
   integrity sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=
   dependencies:
     safe-buffer "~5.2.0"
 
 string_decoder@~1.1.1:
   version "1.1.1"
-  resolved "https://registry.npm.taobao.org/string_decoder/download/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  resolved "https://registry.nlark.com/string_decoder/download/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
   integrity sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
   dependencies:
     safe-buffer "~5.1.0"
@@ -5912,12 +5891,12 @@ strip-bom@^4.0.0:
 
 strip-final-newline@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.nlark.com/strip-final-newline/download/strip-final-newline-2.0.0.tgz?cache=0&sync_timestamp=1620046435959&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstrip-final-newline%2Fdownload%2Fstrip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
+  resolved "https://registry.nlark.com/strip-final-newline/download/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
 
 strip-indent@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.nlark.com/strip-indent/download/strip-indent-3.0.0.tgz?cache=0&sync_timestamp=1620053310624&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstrip-indent%2Fdownload%2Fstrip-indent-3.0.0.tgz#c32e1cee940b6b3432c771bc2c54bcce73cd3001"
+  resolved "https://registry.nlark.com/strip-indent/download/strip-indent-3.0.0.tgz#c32e1cee940b6b3432c771bc2c54bcce73cd3001"
   integrity sha1-wy4c7pQLazQyx3G8LFS8znPNMAE=
   dependencies:
     min-indent "^1.0.0"
@@ -5943,14 +5922,14 @@ supports-color@^7.0.0, supports-color@^7.1.0:
 
 supports-color@^8.0.0:
   version "8.1.1"
-  resolved "https://registry.nlark.com/supports-color/download/supports-color-8.1.1.tgz?cache=0&sync_timestamp=1626703342506&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsupports-color%2Fdownload%2Fsupports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
+  resolved "https://registry.nlark.com/supports-color/download/supports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
   integrity sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw=
   dependencies:
     has-flag "^4.0.0"
 
 supports-hyperlinks@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.npm.taobao.org/supports-hyperlinks/download/supports-hyperlinks-2.2.0.tgz#4f77b42488765891774b70c79babd87f9bd594bb"
+  resolved "https://registry.npm.taobao.org/supports-hyperlinks/download/supports-hyperlinks-2.2.0.tgz?cache=0&sync_timestamp=1617751242412&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsupports-hyperlinks%2Fdownload%2Fsupports-hyperlinks-2.2.0.tgz#4f77b42488765891774b70c79babd87f9bd594bb"
   integrity sha1-T3e0JIh2WJF3S3DHm6vYf5vVlLs=
   dependencies:
     has-flag "^4.0.0"
@@ -5975,7 +5954,7 @@ table@^6.0.9:
 
 tar-fs@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/tar-fs/download/tar-fs-2.0.0.tgz#677700fc0c8b337a78bee3623fdc235f21d7afad"
+  resolved "https://registry.nlark.com/tar-fs/download/tar-fs-2.0.0.tgz#677700fc0c8b337a78bee3623fdc235f21d7afad"
   integrity sha1-Z3cA/AyLM3p4vuNiP9wjXyHXr60=
   dependencies:
     chownr "^1.1.1"
@@ -6023,7 +6002,7 @@ throat@^6.0.1:
 
 through@^2.3.8:
   version "2.3.8"
-  resolved "https://registry.npm.taobao.org/through/download/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+  resolved "https://registry.nlark.com/through/download/through-2.3.8.tgz?cache=0&sync_timestamp=1618847037651&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fthrough%2Fdownload%2Fthrough-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
 
 tiny-invariant@^1.0.2:
@@ -6038,7 +6017,7 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.3:
 
 tmpl@1.0.x:
   version "1.0.5"
-  resolved "https://registry.nlark.com/tmpl/download/tmpl-1.0.5.tgz?cache=0&sync_timestamp=1630997226611&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftmpl%2Fdownload%2Ftmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  resolved "https://registry.nlark.com/tmpl/download/tmpl-1.0.5.tgz?cache=0&sync_timestamp=1630997200432&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftmpl%2Fdownload%2Ftmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
   integrity sha1-hoPguQK7nCDE9ybjwLafNlGMB8w=
 
 to-fast-properties@^2.0.0:
@@ -6048,7 +6027,7 @@ to-fast-properties@^2.0.0:
 
 to-regex-range@^5.0.1:
   version "5.0.1"
-  resolved "https://registry.npm.taobao.org/to-regex-range/download/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  resolved "https://registry.nlark.com/to-regex-range/download/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
   integrity sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ=
   dependencies:
     is-number "^7.0.0"
@@ -6074,7 +6053,7 @@ tough-cookie@^4.0.0:
 
 tr46@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.nlark.com/tr46/download/tr46-2.1.0.tgz?cache=0&sync_timestamp=1621678122275&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftr46%2Fdownload%2Ftr46-2.1.0.tgz#fa87aa81ca5d5941da8cbf1f9b749dc969a4e240"
+  resolved "https://registry.nlark.com/tr46/download/tr46-2.1.0.tgz?cache=0&sync_timestamp=1621678141628&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftr46%2Fdownload%2Ftr46-2.1.0.tgz#fa87aa81ca5d5941da8cbf1f9b749dc969a4e240"
   integrity sha1-+oeqgcpdWUHajL8fm3SdyWmk4kA=
   dependencies:
     punycode "^2.1.1"
@@ -6094,11 +6073,6 @@ tslib@^1.10.0:
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.3:
-  version "2.3.1"
-  resolved "https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
-
 tsscmp@1.0.6:
   version "1.0.6"
   resolved "https://registry.npm.taobao.org/tsscmp/download/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
@@ -6113,14 +6087,14 @@ type-check@^0.4.0, type-check@~0.4.0:
 
 type-check@~0.3.2:
   version "0.3.2"
-  resolved "https://registry.npm.taobao.org/type-check/download/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
+  resolved "https://registry.nlark.com/type-check/download/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
 
 type-detect@4.0.8:
   version "4.0.8"
-  resolved "https://registry.npm.taobao.org/type-detect/download/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  resolved "https://registry.nlark.com/type-detect/download/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=
 
 type-fest@^0.20.2:
@@ -6130,7 +6104,7 @@ type-fest@^0.20.2:
 
 type-fest@^0.21.3:
   version "0.21.3"
-  resolved "https://registry.nlark.com/type-fest/download/type-fest-0.21.3.tgz?cache=0&sync_timestamp=1632134105301&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftype-fest%2Fdownload%2Ftype-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
+  resolved "https://registry.nlark.com/type-fest/download/type-fest-0.21.3.tgz?cache=0&sync_timestamp=1632134160608&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftype-fest%2Fdownload%2Ftype-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
 
 type-is@^1.6.16:
@@ -6150,7 +6124,7 @@ typedarray-to-buffer@^3.1.5:
 
 typedarray@^0.0.6:
   version "0.0.6"
-  resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+  resolved "https://registry.nlark.com/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 unbox-primitive@^1.0.1:
@@ -6165,7 +6139,7 @@ unbox-primitive@^1.0.1:
 
 unbzip2-stream@1.3.3:
   version "1.3.3"
-  resolved "https://registry.npm.taobao.org/unbzip2-stream/download/unbzip2-stream-1.3.3.tgz#d156d205e670d8d8c393e1c02ebd506422873f6a"
+  resolved "https://registry.nlark.com/unbzip2-stream/download/unbzip2-stream-1.3.3.tgz#d156d205e670d8d8c393e1c02ebd506422873f6a"
   integrity sha1-0VbSBeZw2NjDk+HALr1QZCKHP2o=
   dependencies:
     buffer "^5.2.1"
@@ -6173,12 +6147,12 @@ unbzip2-stream@1.3.3:
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.nlark.com/unicode-canonical-property-names-ecmascript/download/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
+  resolved "https://registry.nlark.com/unicode-canonical-property-names-ecmascript/download/unicode-canonical-property-names-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631615505724&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-canonical-property-names-ecmascript%2Fdownload%2Funicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
   integrity sha1-MBrNxSVjFnDTn2FG4Od/9rvevdw=
 
 unicode-match-property-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.nlark.com/unicode-match-property-ecmascript/download/unicode-match-property-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631618696521&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-match-property-ecmascript%2Fdownload%2Funicode-match-property-ecmascript-2.0.0.tgz#54fd16e0ecb167cf04cf1f756bdcc92eba7976c3"
+  resolved "https://registry.nlark.com/unicode-match-property-ecmascript/download/unicode-match-property-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631618607567&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-match-property-ecmascript%2Fdownload%2Funicode-match-property-ecmascript-2.0.0.tgz#54fd16e0ecb167cf04cf1f756bdcc92eba7976c3"
   integrity sha1-VP0W4OyxZ88Ezx91a9zJLrp5dsM=
   dependencies:
     unicode-canonical-property-names-ecmascript "^2.0.0"
@@ -6186,7 +6160,7 @@ unicode-match-property-ecmascript@^2.0.0:
 
 unicode-match-property-value-ecmascript@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.nlark.com/unicode-match-property-value-ecmascript/download/unicode-match-property-value-ecmascript-2.0.0.tgz#1a01aa57247c14c568b89775a54938788189a714"
+  resolved "https://registry.nlark.com/unicode-match-property-value-ecmascript/download/unicode-match-property-value-ecmascript-2.0.0.tgz?cache=0&sync_timestamp=1631618107717&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funicode-match-property-value-ecmascript%2Fdownload%2Funicode-match-property-value-ecmascript-2.0.0.tgz#1a01aa57247c14c568b89775a54938788189a714"
   integrity sha1-GgGqVyR8FMVouJd1pUk4eIGJpxQ=
 
 unicode-property-aliases-ecmascript@^2.0.0:
@@ -6196,7 +6170,7 @@ unicode-property-aliases-ecmascript@^2.0.0:
 
 universalify@^0.1.2:
   version "0.1.2"
-  resolved "https://registry.npm.taobao.org/universalify/download/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  resolved "https://registry.npm.taobao.org/universalify/download/universalify-0.1.2.tgz?cache=0&sync_timestamp=1603180004159&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Funiversalify%2Fdownload%2Funiversalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
 
 unpipe@~1.0.0:
@@ -6228,7 +6202,7 @@ v8-compile-cache@^2.0.3:
 
 v8-to-istanbul@^8.0.0:
   version "8.0.0"
-  resolved "https://registry.nlark.com/v8-to-istanbul/download/v8-to-istanbul-8.0.0.tgz#4229f2a99e367f3f018fa1d5c2b8ec684667c69c"
+  resolved "https://registry.nlark.com/v8-to-istanbul/download/v8-to-istanbul-8.0.0.tgz?cache=0&sync_timestamp=1622757647913&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fv8-to-istanbul%2Fdownload%2Fv8-to-istanbul-8.0.0.tgz#4229f2a99e367f3f018fa1d5c2b8ec684667c69c"
   integrity sha1-QinyqZ42fz8Bj6HVwrjsaEZnxpw=
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.1"
@@ -6252,18 +6226,6 @@ vary@^1.1.2:
   version "1.1.2"
   resolved "https://registry.nlark.com/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-
-vite-plugin-imp@^2.0.9:
-  version "2.0.9"
-  resolved "https://registry.nlark.com/vite-plugin-imp/download/vite-plugin-imp-2.0.9.tgz#bbedf5682f77c9ad6b4553061dadd3c917f96104"
-  integrity sha1-u+31aC93ya1rRVMGHa3TyRf5YQQ=
-  dependencies:
-    "@babel/core" "^7.12.10"
-    "@babel/generator" "^7.12.11"
-    "@babel/parser" "^7.12.11"
-    "@babel/traverse" "^7.12.12"
-    chalk "^4.1.0"
-    param-case "^3.0.4"
 
 vite-plugin-mock@^2.9.6:
   version "2.9.6"
@@ -6294,7 +6256,7 @@ vite@^2.5.4:
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.nlark.com/w3c-hr-time/download/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
+  resolved "https://registry.npm.taobao.org/w3c-hr-time/download/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
   integrity sha1-ConN9cwVgi35w2BUNnaWPgzDCM0=
   dependencies:
     browser-process-hrtime "^1.0.0"
@@ -6339,12 +6301,12 @@ whatwg-encoding@^1.0.5:
 
 whatwg-mimetype@^2.3.0:
   version "2.3.0"
-  resolved "https://registry.nlark.com/whatwg-mimetype/download/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
+  resolved "https://registry.nlark.com/whatwg-mimetype/download/whatwg-mimetype-2.3.0.tgz?cache=0&sync_timestamp=1631993408310&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwhatwg-mimetype%2Fdownload%2Fwhatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
   integrity sha1-PUseAxLSB5h5+Cav8Y2+7KWWD78=
 
 whatwg-url@^8.0.0, whatwg-url@^8.5.0:
   version "8.7.0"
-  resolved "https://registry.nlark.com/whatwg-url/download/whatwg-url-8.7.0.tgz#656a78e510ff8f3937bc0bcbe9f5c0ac35941b77"
+  resolved "https://registry.nlark.com/whatwg-url/download/whatwg-url-8.7.0.tgz?cache=0&sync_timestamp=1628179428978&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwhatwg-url%2Fdownload%2Fwhatwg-url-8.7.0.tgz#656a78e510ff8f3937bc0bcbe9f5c0ac35941b77"
   integrity sha1-ZWp45RD/jzk3vAvL6fXArDWUG3c=
   dependencies:
     lodash "^4.7.0"
@@ -6400,19 +6362,19 @@ write-file-atomic@^3.0.0:
 
 ws@7.4.6:
   version "7.4.6"
-  resolved "https://registry.nlark.com/ws/download/ws-7.4.6.tgz?cache=0&sync_timestamp=1631130711705&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fws%2Fdownload%2Fws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  resolved "https://registry.nlark.com/ws/download/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha1-VlTKjs3u5HwzqaS/bSjivimAN3w=
 
 ws@^6.1.0:
   version "6.2.2"
-  resolved "https://registry.nlark.com/ws/download/ws-6.2.2.tgz?cache=0&sync_timestamp=1631130711705&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fws%2Fdownload%2Fws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
+  resolved "https://registry.nlark.com/ws/download/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
   integrity sha1-3Vzb1XqZeZFgl2UtePHMX66gwy4=
   dependencies:
     async-limiter "~1.0.0"
 
 ws@^7.4.6:
   version "7.5.5"
-  resolved "https://registry.nlark.com/ws/download/ws-7.5.5.tgz?cache=0&sync_timestamp=1631130711705&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fws%2Fdownload%2Fws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
+  resolved "https://registry.nlark.com/ws/download/ws-7.5.5.tgz#8b4bc4af518cfabd0473ae4f99144287b33eb881"
   integrity sha1-i0vEr1GM+r0Ec65PmRRCh7M+uIE=
 
 xml-name-validator@^3.0.0:
@@ -6427,7 +6389,7 @@ xmlchars@^2.2.0:
 
 y18n@^5.0.5:
   version "5.0.8"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-5.0.8.tgz?cache=0&sync_timestamp=1617822913245&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fy18n%2Fdownload%2Fy18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
+  resolved "https://registry.nlark.com/y18n/download/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
   integrity sha1-f0k00PfKjFb5UxSTndzS3ZHOHVU=
 
 yallist@^4.0.0:
@@ -6437,12 +6399,12 @@ yallist@^4.0.0:
 
 yaml@^1.7.2:
   version "1.10.2"
-  resolved "https://registry.nlark.com/yaml/download/yaml-1.10.2.tgz?cache=0&sync_timestamp=1630949706790&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fyaml%2Fdownload%2Fyaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
+  resolved "https://registry.nlark.com/yaml/download/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha1-IwHF/78StGfejaIzOkWeKeeSDks=
 
 yargs-parser@^20.2.2:
   version "20.2.9"
-  resolved "https://registry.nlark.com/yargs-parser/download/yargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
+  resolved "https://registry.nlark.com/yargs-parser/download/yargs-parser-20.2.9.tgz?cache=0&sync_timestamp=1624233514145&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fyargs-parser%2Fdownload%2Fyargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
   integrity sha1-LrfcOwKJcY/ClfNidThFxBoMlO4=
 
 yargs@^16.0.3:
@@ -6460,7 +6422,7 @@ yargs@^16.0.3:
 
 yauzl@^2.10.0:
   version "2.10.0"
-  resolved "https://registry.npm.taobao.org/yauzl/download/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
+  resolved "https://registry.nlark.com/yauzl/download/yauzl-2.10.0.tgz#c7eb17c93e112cb1086fa6d8e51fb0667b79a5f9"
   integrity sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
   dependencies:
     buffer-crc32 "~0.2.3"

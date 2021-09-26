@@ -1,5 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+// import 'antd/dist/antd.css';
 import Header from './components/header/index'
 import routes from './routes'
 

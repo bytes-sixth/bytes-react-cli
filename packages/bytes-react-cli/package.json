@@ -1,5 +1,5 @@
 {
-  "name": "bytes-sixth-cli",
+  "name": "bytes-react-cli",
   "version": "0.0.1",
   "main": "index.js",
   "author": "bytes-sixth(https://github.com/bytes-sixth)",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bytes-sixth/bytes-sixth.git",
-    "directory": "packages/bytes-sixth-cli"
+    "url": "https://github.com/bytes-sixth/bytes-react-cli.git",
+    "directory": "packages/bytes-react-cli"
   },
-  "homepage": "https://github.com/bytes-sixth/bytes-sixth",
+  "homepage": "https://github.com/bytes-sixth/bytes-react-cli",
   "dependencies": {
     "@koa/router": "^10.1.1",
     "chalk": "^4.1.2",
