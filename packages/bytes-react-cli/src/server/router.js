@@ -1,7 +1,8 @@
 const Router = require('@koa/router')
 
-const { getProjectStatus } = require('./controller/project')
+const { getProjectStatus,createProject } = require('./controller/project')
 const { getDirectionListOfPath, getStartCliPath } = require('./controller/file')
+
 
 const router = new Router()
 
@@ -9,6 +10,11 @@ const router = new Router()
  *  @description 获取创建项目的状态
  */
 router.get('/api/project/getProjectStatus', getProjectStatus)
+
+
+router.get('/api/project/createProject',createProject);
+
+
 /**
  *@description 获取某文件夹路径下的所有文件夹
  */

@@ -15,6 +15,10 @@ function createServer(port, callback) {
   app.listen(Number(port), callback)
 }
 
-module.exports = {
-  createServer,
-}
+createServer(8888,()=>{
+  console.log('server on 8888')
+})
+
+// module.exports = {
+//   createServer,
+// }
