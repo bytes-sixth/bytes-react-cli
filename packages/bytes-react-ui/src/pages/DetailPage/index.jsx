@@ -20,6 +20,7 @@ const DetailPage = props => {
   const [untyro, setUntyro] = useState(false)
   // 初始化 git
   const [initGit, setInitGit] = useState(true)
+  const [installDep, setInstallDep] = useState(false)
 
   useEffect(() => {
     fetch('/api/file/getStartCliPath')
@@ -55,6 +56,7 @@ const DetailPage = props => {
       option: {
         cover,
         untyro,
+        installDep,
       },
       initGit,
     }
@@ -121,6 +123,14 @@ const DetailPage = props => {
               </Col>
               <Col span={4} style={{ textAlign: 'right' }}>
                 <Switch checked={untyro} onChange={e => setUntyro(e)} />
+              </Col>
+            </Row>
+            <Row style={{ marginBottom: '6px' }}>
+              <Col span={20}>
+                <h4>是否安装依赖</h4>
+              </Col>
+              <Col span={4} style={{ textAlign: 'right' }}>
+                <Switch checked={installDep} onChange={e => setInstallDep(e)} />
               </Col>
             </Row>
           </Form.Item>
