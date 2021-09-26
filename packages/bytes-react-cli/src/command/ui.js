@@ -7,14 +7,14 @@ const clear = require('clear')
 const { appConfig } = require('../common/projectConfigTemplate')
 const { serverUrl, port } = appConfig
 
-module.exports = async () => {
+module.exports = async ({ open }) => {
   clear()
   log('Strting GUI >>>>')
 
   try {
     const server = createServer()
     server.listen(port, function () {
-      openBrowser(serverUrl + port)
+      open && openBrowser(serverUrl + port)
       log('Server run on ' + serverUrl + port)
     })
   } catch (err) {
