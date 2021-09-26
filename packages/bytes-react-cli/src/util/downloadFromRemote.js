@@ -10,13 +10,13 @@ const download = promisify(downloadOrig)
  * @param {string} desc 要存放的路径
  */
 const clone = async function (repo, desc) {
-  const spinner = ora(`下载......${repo}`).start()
+  const spinner = ora(`正在从 ${repo} 下载中 ....`).start()
 
   await download(repo, desc, {})
 
   spinner.color = 'green'
-  spinner.text = '下载完成'
-  spinner.succeed()
+  spinner.spinner = 'dots11';
+  spinner.succeed('下载完成');
 }
 
 module.exports = { clone }
