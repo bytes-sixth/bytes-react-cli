@@ -2,7 +2,9 @@ const { program } = require('commander')
 const create = require('./command/create')
 const ui = require('./command/ui')
 
-void (async function () {
+
+
+(async function () {
   program.version('0.0.1')
 
   program

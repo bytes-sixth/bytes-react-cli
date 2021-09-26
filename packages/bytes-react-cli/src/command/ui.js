@@ -1,11 +1,31 @@
-const { createServer } = require('../server')
-const { log } = require('../util')
+// const { createServer } = require('../server/index')
+const { createServer } = require('../servertest/index')
+const { log } = require('../util/log')
 const { openBrowser } = require('../server/lib/openBrowser')
+const clear = require('clear')
+
+const {appConfig} = require('../common/config')
+const {port} = appConfig;
+
 
 module.exports = async () => {
-  const server = createServer()
-  server.listen(8888, () => {
-    openBrowser('http://localhost:8888')
-    log('Server run on http://localhost:8888')
-  })
+  clear();
+  log('Strting GUI >>>>');
+
+  try{
+    // todo：如果端口被占用了，要换端口启动
+    createServer(port,() => {
+      openBrowser('http://localhost:' + port);
+      log('Server run on http://localhost:' + port);
+    })
+
+  }catch(err) {
+    throw err;
+  }
+
+
+
+
 }
+
+

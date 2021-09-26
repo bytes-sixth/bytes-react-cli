@@ -1,6 +1,10 @@
 const ora = require('ora')
+const {spawn} = require('../util/spawn');
+const {clone} = require('../util/downloadFromRemote');
+const {log} = require('../util/log');
 const { TEMPLATE_URL } = require('./dectionaries')
-const { clone, log, spawn } = require('../util')
+
+
 
 /**
  * 创建项目
@@ -20,10 +24,17 @@ module.exports = async options => {
   await clone(`github:${TEMPLATE_URL[templateType]}`, path)
 
   if (installDep) {
-    const spinner = ora({ text: `安装依赖...` }).start()
-    await spawn('yarn', [], { cwd: `./${name}` })
-    spinner.color = 'green'
-    spinner.text = '安装完成'
-    spinner.succeed()
+    // const spinner = ora({ text: `安装依赖...` }).start()
+    const spinner = ora('安装依赖中...').start();
+
+    // todo：使用不同的包管理器管理,将 yarn 改成由一个变量传入
+      await spawn('yarn',[],{ cwd: path }); 
+
+      // child_process.execSync('yarn',{
+      //     cwd:path
+      // })
+
+    spinner.color = 'green';
+    spinner.succeed('安装完成');
   }
 }
