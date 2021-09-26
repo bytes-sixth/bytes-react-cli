@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useHistory, useLocation } from 'react-router-dom'
 import './index.less'
 import {
   MenuOutlined,
@@ -99,4 +100,4 @@ const Header = () => {
     </div>
   )
 }
-export default withRouter(Header)
+export default Header
