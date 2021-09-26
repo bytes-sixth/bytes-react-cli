@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Button } from 'antd'
+import { useHistory } from 'react-router-dom'
 
 const IndexPage = () => {
+  const History = useHistory()
   // const [preinstall, setPreI] = useState(false)
 
   // const [tabId, setTabId] = useState("1");
@@ -23,7 +25,9 @@ const IndexPage = () => {
 
   function installDep() {}
   function handleChange() {}
-  function handleSubmit() {}
+  function handleSubmit() {
+    History.push('/detail')
+  }
 
   return (
     <div

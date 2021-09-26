@@ -21,6 +21,6 @@ function createServer() {
   return server
 }
 
-createServer();
+createServer()
 
 // module.exports = { createServer }

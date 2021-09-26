@@ -1,3 +1,5 @@
-const api = 'this is api'
+import API from './api'
+
+const api = new API()
 
 export default api

@@ -1,4 +1,3 @@
-
 const open = require('open')
 
 const openBrowser = url => {

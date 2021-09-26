@@ -1,10 +1,11 @@
-import AboutPage from '../pages/AboutPage'
-import PresetPage from '../pages/PresetPage'
-import NotFoundPage from '../pages/NotFoundPage'
-import IndexPage from '../pages/IndexPage'
-import PackagesPage from '../pages/PackagesPage'
-import DetailPage from '../pages/DetailPage'
-import ConfigPage from '../pages/ConfigPage'
+import { lazy } from 'react'
+const AboutPage = lazy(() => import('../pages/AboutPage'))
+const IndexPage = lazy(() => import('../pages/IndexPage'))
+const DetailPage = lazy(() => import('../pages/DetailPage'))
+const PresetPage = lazy(() => import('../pages/PresetPage'))
+const PackagesPage = lazy(() => import('../pages/PackagesPage'))
+const ConfigPage = lazy(() => import('../pages/ConfigPage'))
+const NotFoundPage = lazy(() => import('../pages/NotFoundPage'))
 /**
  * AboutPage: 概述页面
  * IndexPage: 主页
@@ -20,11 +21,7 @@ const routes = [
   // add your own page
   {
     path: '/',
-    component: IndexPage,
-  },
-  {
-    path: '/preset',
-    component: PresetPage,
+    component: DetailPage,
   },
   {
     path: '/about',

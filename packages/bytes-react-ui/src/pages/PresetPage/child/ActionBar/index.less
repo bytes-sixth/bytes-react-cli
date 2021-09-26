@@ -19,14 +19,20 @@
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  transition: all .2 linear;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+  }
 }
+
 .action:first-child {
   margin-right: 20px;
 }
 
 .none {
   background-color: #48dbfb;
-  cursor: auto;
+  cursor: not-allowed;
 }
 
 .anticon {

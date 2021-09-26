@@ -1,0 +1,44 @@
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.my-title {
+    /*color: rgb(102, 102, 228);*/
+}
+
+.my-comment {
+    color: #868a8b;
+}
+
+.row-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.space {
+    margin-right: 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    height: 100%;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 24px;
+    position: relative;
+    margin-top: 30px;
+}
