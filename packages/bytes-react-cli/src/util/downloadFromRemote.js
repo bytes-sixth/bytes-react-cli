@@ -15,8 +15,8 @@ const clone = async function (repo, desc) {
   await download(repo, desc, {})
 
   spinner.color = 'green'
-  spinner.spinner = 'dots11';
-  spinner.succeed('下载完成');
+  spinner.spinner = 'dots11'
+  spinner.succeed('下载完成')
 }
 
 module.exports = { clone }
