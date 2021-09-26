@@ -6,13 +6,16 @@ import Header from './components/header/index'
 import routes from './routes'
 import { NavProvider } from './context/useNavContext'
 
+// import loadingPage
+import LoadingPage from './pages/LoadingPage'
+
 const App = () => {
   return (
     <>
       <Router>
         <NavProvider>
           <Header />
-          <Suspense fallback={<div>loading</div>}>
+          <Suspense fallback={<LoadingPage />}>
             <Switch>
               {routes.map(route => (
                 <Route exact key={route.path} path={route.path}>

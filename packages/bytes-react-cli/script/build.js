@@ -2,7 +2,6 @@ const path = require('path')
 const fs = require('fs-extra')
 const ora = require('ora')
 const trash = require('trash')
-
 const { spawn } = require('../src/util')
 
 async function build() {
