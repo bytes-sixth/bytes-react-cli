@@ -1,8 +1,18 @@
 const { kill } = require('process')
 const exec = require('child_process').exec
 
-const cmd = process.platform == 'win32' ? 'netstat -ano' : 'ps aux' // 判断平台
 
+/**
+ * 
+ */
+const cmd = process.platform === 'win32' ? 'netstat -ano' : 'ps aux' // 判断平台
+
+
+/**
+ * 
+ * @param {*} port 
+ * @returns 
+ */
 const getPid = port => {
   return new Promise((resolve, reject) => {
     exec(cmd, function (err, stdout, stderr) {
@@ -38,6 +48,10 @@ const killProcess = async port => {
   }
 }
 
+
+
+
+
 module.exports = {
-  killProcess,
+  killProcess
 }
