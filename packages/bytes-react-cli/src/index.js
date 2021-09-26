@@ -6,7 +6,9 @@ const ui = require('./command/ui')
   program.version('0.0.1')
 
   program
-    .command('create <app-name>')
+    .command('create')
+    .argument('<app-name>', '要创建的项目名称')
+    .option('-i --install-dep', '是否需要安装依赖')
     .description('创建一个新的 React 项目')
     .action(create)
 

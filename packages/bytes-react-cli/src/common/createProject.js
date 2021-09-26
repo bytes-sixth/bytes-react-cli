@@ -10,9 +10,10 @@ const { TEMPLATE_URL } = require('./dectionaries')
  * @param {string} options.name 项目的名字
  * @param {string} options.path 项目存放的路径
  * @param {boolean} options.installDep 是否安装依赖
+ * @param {string} options.templateType 使用的模板
  */
 module.exports = async options => {
-  const { name, path, installDep, templateType } = options || {}
+  const { name, path, installDep, templateType = 'default' } = options || {}
 
   if (!name) {
     throw new Error('请传入要创建的项目名称')
