@@ -51,6 +51,7 @@ const DetailPage = props => {
   // 下一步点击回调
   const handleClick = navClick => {
     const chooses = {
+      projectName,
       path: `${projectPath}/${projectName}`,
       package: pack,
       option: {
