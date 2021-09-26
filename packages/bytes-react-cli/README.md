@@ -16,8 +16,11 @@ yarn
 ## 开发运行
 
 ```sh
-yarn build:ui
-yarn dev
+yarn build:ui # 编译前端界面
+```
+
+```sh
+yarn dev ui --no-open
 ```
 
 打开 http://localhost:8888 查看
@@ -52,3 +55,4 @@ yarn dev
 - [ ] API
   - [ ] post 创建项目
   - [ ] get 获取是否结束
+- [ ] 输出信息整理
