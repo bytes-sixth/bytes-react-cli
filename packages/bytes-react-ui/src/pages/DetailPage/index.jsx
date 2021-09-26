@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import { Form, Input, Button, Row, Col, Select, Switch, Modal } from 'antd'
 import { FolderOpenOutlined, EditOutlined } from '@ant-design/icons'
+import { NavConsumer } from '../../context/useNavContext'
 import './index.less'
 const { Option } = Select
 
 const DetailPage = props => {
+  const History = useHistory()
   // 项目文件夹位置
   const project_path = 'E:/work'
   // 项目名称
@@ -37,7 +40,7 @@ const DetailPage = props => {
   }
 
   // 下一步点击回调
-  const handleClick = () => {
+  const handleClick = navClick => {
     const chooses = {
       path: `${project_path}/${projectName}`,
       package: pack,
@@ -50,6 +53,7 @@ const DetailPage = props => {
     // props.setDetail(chooses);
     // props.next("2");
     console.log(chooses)
+    navClick(1, chooses)
   }
 
   return (
@@ -124,15 +128,21 @@ const DetailPage = props => {
           </Form.Item>
         </Form>
         <div className="detail-submit bottom-submit">
-          <Button
-            disabled={!projectName}
-            size="large"
-            onClick={handleClick}
-            type="primary"
-            block
-          >
-            下一步
-          </Button>
+          <NavConsumer>
+            {({ navClick }) => {
+              return (
+                <Button
+                  disabled={!projectName}
+                  size="large"
+                  onClick={() => handleClick(navClick)}
+                  type="primary"
+                  block
+                >
+                  下一步
+                </Button>
+              )
+            }}
+          </NavConsumer>
         </div>
       </div>
     </div>

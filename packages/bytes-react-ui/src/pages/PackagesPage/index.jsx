@@ -6,6 +6,7 @@ import {
   LeftOutlined,
   RightOutlined,
 } from '@ant-design/icons'
+import { NavConsumer } from '../../context/useNavContext'
 const funcsData = [
   {
     name: 'TypeScript',
@@ -60,6 +61,12 @@ const PackagesPage = () => {
       setFuncs([...funcs])
     }
   }
+  const prevClick = navClick => {
+    navClick(1)
+  }
+  const nextClick = navClick => {
+    navClick(3)
+  }
   // console.log(1)
   return (
     <div className="packageWrapper">
@@ -89,14 +96,26 @@ const PackagesPage = () => {
         })}
       </div>
       <div className="buttonWrapper">
-        <Button className="button">
-          <LeftOutlined />
-          上一步
-        </Button>
-        <Button type="primary" className="button">
-          上一步
-          <RightOutlined />
-        </Button>
+        <NavConsumer>
+          {({ navClick }) => {
+            return (
+              <>
+                <Button className="button" onClick={() => prevClick(navClick)}>
+                  <LeftOutlined />
+                  上一步
+                </Button>
+                <Button
+                  type="primary"
+                  className="button"
+                  onClick={() => nextClick(navClick)}
+                >
+                  下一步
+                  <RightOutlined />
+                </Button>
+              </>
+            )
+          }}
+        </NavConsumer>
       </div>
     </div>
   )

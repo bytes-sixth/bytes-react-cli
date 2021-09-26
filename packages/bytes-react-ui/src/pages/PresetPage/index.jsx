@@ -14,7 +14,7 @@ const projectList = [
 ]
 const PresetPage = () => {
   // 选择预设的key
-  const [selectedKey, setSelectedKey] = useState('none')
+  const [selectedKey, setSelectedKey] = useState('default')
 
   // 切换预设
   const select = key => {
