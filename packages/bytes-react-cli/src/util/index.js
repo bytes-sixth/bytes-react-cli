@@ -1,4 +1,4 @@
-const { clone } = require('./download')
+const { clone } = require('./downloadFromRemote')
 const { log } = require('./log')
 const { spawn } = require('./spawn')
 
