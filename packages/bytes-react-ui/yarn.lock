@@ -2587,11 +2587,6 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-data-uri-to-buffer@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npm.taobao.org/data-uri-to-buffer/download/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
-  integrity sha1-WUuJc5OMW8LDMEZTV4U0GrxPNjY=
-
 data-urls@^2.0.0:
   version "2.0.0"
   resolved "https://registry.nlark.com/data-urls/download/data-urls-2.0.0.tgz?cache=0&sync_timestamp=1626721753441&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdata-urls%2Fdownload%2Fdata-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
@@ -3201,13 +3196,6 @@ fd-slicer@~1.1.0:
   integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
   dependencies:
     pend "~1.2.0"
-
-fetch-blob@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.nlark.com/fetch-blob/download/fetch-blob-3.1.2.tgz#6bc438675f3851ecea51758ac91f6a1cd1bacabd"
-  integrity sha1-a8Q4Z184UezqUXWKyR9qHNG6yr0=
-  dependencies:
-    web-streams-polyfill "^3.0.3"
 
 file-entry-cache@^6.0.1:
   version "6.0.1"
@@ -4733,14 +4721,6 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
-
-node-fetch@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/node-fetch/download/node-fetch-3.0.0.tgz#79da7146a520036f2c5f644e4a26095f17e411ea"
-  integrity sha1-edpxRqUgA28sX2ROSiYJXxfkEeo=
-  dependencies:
-    data-uri-to-buffer "^3.0.1"
-    fetch-blob "^3.1.2"
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -6529,11 +6509,6 @@ warning@^4.0.1:
   integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
   dependencies:
     loose-envify "^1.0.0"
-
-web-streams-polyfill@^3.0.3:
-  version "3.1.1"
-  resolved "https://registry.nlark.com/web-streams-polyfill/download/web-streams-polyfill-3.1.1.tgz#1516f2d4ea8f1bdbfed15eb65cb2df87098c8364"
-  integrity sha1-FRby1OqPG9v+0V62XLLfhwmMg2Q=
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
