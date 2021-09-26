@@ -11,7 +11,7 @@ const creteProject = require('../common/createProject')
 
 const figlet = promisify(figletOrig)
 
-module.exports = async (name, { installDep }) => {
+module.exports = async (name, { installDep, useYarn }) => {
   // TODO: 对于 name 的合法验证
   name = name.trim()
   clear()
@@ -32,5 +32,5 @@ module.exports = async (name, { installDep }) => {
     }
   }
 
-  await creteProject({ name, path: templatePath, installDep })
+  await creteProject({ name, path: templatePath, installDep, useYarn })
 }
