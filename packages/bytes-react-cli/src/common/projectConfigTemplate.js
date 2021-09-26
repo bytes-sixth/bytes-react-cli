@@ -5,8 +5,6 @@ let appConfig = {
   projects: [], // 每新建一个项目往里加一个 projectConfig
 }
 
-
-
 let projectConfig = {
   projectPath: '', // "项目路径"
   projectName: '',

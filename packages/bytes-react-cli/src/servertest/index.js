@@ -15,7 +15,7 @@ function createServer(port, callback) {
   app.listen(Number(port), callback)
 }
 
-createServer(8888,()=>{
+createServer(8888, () => {
   console.log('server on 8888')
 })
 

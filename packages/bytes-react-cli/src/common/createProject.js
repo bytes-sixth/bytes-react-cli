@@ -5,9 +5,8 @@ const { log } = require('../util/log')
 const { TEMPLATE_URL } = require('./dectionaries')
 
 // 应用全局配置
-const { appConfig } = require('./projectConfigTemplate');
-const { serverUrl,port } = appConfig;
-
+// const { appConfig } = require('./projectConfigTemplate')
+// const { serverUrl, port } = appConfig
 
 /**
  * 创建项目
@@ -52,5 +51,3 @@ module.exports = async options => {
     spinner.succeed('安装完成')
   }
 }
-
-
