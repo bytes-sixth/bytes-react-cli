@@ -29,7 +29,17 @@ const ActionBar = ({ selectedKey }) => {
     if (nextText == '下一步') {
       navClick(2)
     } else {
-      console.log(Location)
+      const { state } = Location
+
+      fetch('/api/project/createProject', {
+        headers: { 'Content-Type': 'application/json' },
+        method: 'POST',
+        body: JSON.stringify(state),
+      })
+        .then(res => res.json())
+        .then(d => {
+          console.log(d)
+        })
     }
   }
   return (
