@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import { Switch, Button } from 'antd'
 import {
   InfoCircleOutlined,
-  LeftOutlined,
-  RightOutlined,
+  ArrowLeftOutlined,
+  ArrowRightOutlined,
 } from '@ant-design/icons'
 import { NavConsumer } from '../../context/useNavContext'
 const funcsData = [
@@ -101,7 +101,7 @@ const PackagesPage = () => {
             return (
               <>
                 <Button className="button" onClick={() => prevClick(navClick)}>
-                  <LeftOutlined />
+                  <ArrowLeftOutlined />
                   上一步
                 </Button>
                 <Button
@@ -110,7 +110,7 @@ const PackagesPage = () => {
                   onClick={() => nextClick(navClick)}
                 >
                   下一步
-                  <RightOutlined />
+                  <ArrowRightOutlined />
                 </Button>
               </>
             )

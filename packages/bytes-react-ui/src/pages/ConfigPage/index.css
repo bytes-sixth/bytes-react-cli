@@ -4,10 +4,6 @@
     margin-bottom: 30px;
 }
 
-.my-title {
-    /*color: rgb(102, 102, 228);*/
-}
-
 .my-comment {
     color: #868a8b;
 }
@@ -41,4 +37,11 @@
     padding: 0 24px;
     position: relative;
     margin-top: 30px;
+}
+
+.button {
+    padding: 0 18px;
+    height: 44px;
+    width: 190px;
+    border-radius: 3px;
 }

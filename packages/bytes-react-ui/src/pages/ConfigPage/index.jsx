@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { Select, Space } from 'antd'
+import { Select } from 'antd'
 import { Switch, Button } from 'antd'
+import { ArrowLeftOutlined, CheckCircleOutlined } from '@ant-design/icons'
 import { NavConsumer } from '../../context/useNavContext'
 import './index.css'
 
@@ -35,7 +35,7 @@ function ConfigPage() {
             </div>
           </span>
           <div className="space" />
-          <Switch defaultChecked></Switch>
+          <Switch defaultChecked />
         </div>
         <div className="row-container">
           <span className="my-title">选择一个CSS预处理器</span>
@@ -63,11 +63,11 @@ function ConfigPage() {
         <div className="row-container2">
           <span className="my-title">当格式化代码时，同时完成以下工作</span>
           <div>
-            <Switch defaultChecked></Switch>
+            <Switch defaultChecked />
             当保存文件时同时进行代码格式化
           </div>
           <div>
-            <Switch></Switch>
+            <Switch />
             当使用git commit时同时进行代码格式化
           </div>
         </div>
@@ -78,11 +78,15 @@ function ConfigPage() {
           {({ navClick }) => {
             return (
               <>
-                <Button type="primary" onClick={() => prevClick(navClick)}>
+                <Button className="button" onClick={() => prevClick(navClick)}>
+                  <ArrowLeftOutlined />
                   上一步
                 </Button>
-                <span style={{ width: 30 }}></span>
-                <Button type="primary">创建项目</Button>
+                <span style={{ width: 30 }} />
+                <Button className="button" type="primary">
+                  创建项目
+                  <CheckCircleOutlined />
+                </Button>
               </>
             )
           }}

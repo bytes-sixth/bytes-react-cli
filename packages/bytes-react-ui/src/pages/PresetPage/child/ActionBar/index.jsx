@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react'
-import { useHistory, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import {
   ArrowLeftOutlined,
   ArrowRightOutlined,
   CheckCircleOutlined,
 } from '@ant-design/icons'
 import { NavConsumer } from '../../../../context/useNavContext'
+import { Button } from 'antd'
 import './index.less'
 const ActionBar = ({ selectedKey }) => {
-  const History = useHistory()
   const Location = useLocation()
   const [nextText, setNextText] = useState('创建项目')
   useEffect(() => {
@@ -37,29 +37,25 @@ const ActionBar = ({ selectedKey }) => {
       {({ navClick }) => {
         return (
           <div className="action-bar">
-            <button
+            <Button
               className="action previous-action"
               onClick={() => prevActionClick(navClick)}
             >
               <ArrowLeftOutlined />
-              上一步
-            </button>
-            <button
+              <span>上一步</span>
+            </Button>
+            <Button
+              type="primary"
               className="action next-action"
               onClick={() => nextActionClick(navClick)}
             >
+              {nextText}
               {nextText === '创建项目' ? (
-                <>
-                  <CheckCircleOutlined />
-                  {nextText}
-                </>
+                <CheckCircleOutlined />
               ) : (
-                <>
-                  {nextText}
-                  <ArrowRightOutlined />
-                </>
+                <ArrowRightOutlined />
               )}
-            </button>
+            </Button>
           </div>
         )
       }}
