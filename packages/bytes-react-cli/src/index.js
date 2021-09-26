@@ -18,4 +18,15 @@ program
   .description('使用 UI 创建 React 项目')
   .action(ui)
 
+program.addHelpText(
+  'after',
+  `
+    
+Example call:
+  $ bytes-react-cli --help
+  $ bytes-react-cli create --help
+  $ bytes-react-cli ui --help
+  `
+)
+
 program.parseAsync(process.argv)
