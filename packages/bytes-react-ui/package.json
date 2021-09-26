@@ -55,7 +55,6 @@
     "prettier": "^2.4.1",
     "puppeteer": "^10.4.0",
     "vite": "^2.5.4",
-    "vite-plugin-imp": "^2.0.9",
     "vite-plugin-mock": "^2.9.6"
   },
   "jest": {
