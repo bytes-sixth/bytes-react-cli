@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 import { Form, Input, Button, Row, Col, Select, Switch, Modal } from 'antd'
 import { FolderOpenOutlined, EditOutlined } from '@ant-design/icons'
@@ -9,7 +9,7 @@ const { Option } = Select
 const DetailPage = props => {
   const History = useHistory()
   // 项目文件夹位置
-  const project_path = 'E:/work'
+  const [projectPath, setProjectPath] = useState('/')
   // 项目名称
   const [projectName, setProjectName] = useState()
   // 包管理器
@@ -20,6 +20,14 @@ const DetailPage = props => {
   const [untyro, setUntyro] = useState(false)
   // 初始化 git
   const [initGit, setInitGit] = useState(true)
+
+  useEffect(() => {
+    fetch('/api/file/getStartCliPath')
+      .then(res => res.json())
+      .then(({ data }) => {
+        setProjectPath(data)
+      })
+  }, [])
 
   // // 对话框展示
   // const [isModalVisible, setIsModalVisible] = useState(false);
@@ -42,7 +50,7 @@ const DetailPage = props => {
   // 下一步点击回调
   const handleClick = navClick => {
     const chooses = {
-      path: `${project_path}/${projectName}`,
+      path: `${projectPath}/${projectName}`,
       package: pack,
       option: {
         cover,
@@ -74,7 +82,7 @@ const DetailPage = props => {
             />
             <Row>
               <Col span={20}>
-                <h4>{project_path + '/' + (projectName || '')}</h4>
+                <h4>{projectPath + '/' + (projectName || '')}</h4>
               </Col>
               <Col span={4} style={{ textAlign: 'right' }}>
                 {/* <Button
