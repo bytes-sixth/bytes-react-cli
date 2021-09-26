@@ -21,7 +21,7 @@ const routes = [
   // add your own page
   {
     path: '/',
-    component: IndexPage,
+    component: DetailPage,
   },
   {
     path: '/about',

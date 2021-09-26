@@ -4,7 +4,6 @@
  * @param {*} status - 状态 默认200
  * @return {Function(data, code=200, msg='')} - function
  */
-
 const sendResponse =
   (res, status = 200) =>
   (data = null, code = 200, msg = '') => {
