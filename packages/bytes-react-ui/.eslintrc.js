@@ -30,7 +30,6 @@ const eslintConfig = {
       },
     },
   },
-  plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.jsx'] }],
 
