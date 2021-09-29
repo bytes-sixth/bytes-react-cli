@@ -1,6 +1,6 @@
 const { getContentFromDirectory } = require('../lib/directoryPath')
 const sendResponse = require('../lib/sendResponse.js')
-const global = require('../lib/global.js');
+const global = require('../lib/global.js')
 /**
  *@description 获取某文件夹路径下的所有文件夹
  */

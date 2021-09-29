@@ -11,14 +11,14 @@ const creteProject = require('../common/createProject')
 
 const figlet = promisify(figletOrig)
 
-module.exports = async (name, { installDep, useYarn }) => {
+module.exports = async (projectName, { installDep, useYarn }) => {
   // TODO: 对于 name 的合法验证
-  name = name.trim()
+  projectName = projectName.trim()
   clear()
   const data = await figlet('CREATE')
   log(data ?? '')
 
-  const templatePath = path.join(process.cwd(), name)
+  const templatePath = path.join(process.cwd(), projectName)
   if (fs.existsSync(templatePath)) {
     const { remove } = await prompt({
       type: 'confirm',
@@ -32,5 +32,5 @@ module.exports = async (name, { installDep, useYarn }) => {
     }
   }
 
-  await creteProject({ name, path: templatePath, installDep, useYarn })
+  await creteProject({ projectName, path: templatePath, installDep, useYarn })
 }

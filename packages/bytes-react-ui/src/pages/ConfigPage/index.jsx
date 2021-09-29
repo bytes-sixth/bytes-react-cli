@@ -1,5 +1,4 @@
-import { Select } from 'antd'
-import { Switch, Button } from 'antd'
+import { Switch, Button, Select } from 'antd'
 import { ArrowLeftOutlined, CheckCircleOutlined } from '@ant-design/icons'
 import { NavConsumer } from '../../context/useNavContext'
 import './index.css'

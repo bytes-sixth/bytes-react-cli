@@ -12,6 +12,21 @@ program
   .description('创建一个新的 React 项目')
   .action(create)
 
-program.command('ui').description('使用 UI 创建 React 项目').action(ui)
+program
+  .command('ui')
+  .option('--no-open', '是否需要安装依赖', true)
+  .description('使用 UI 创建 React 项目')
+  .action(ui)
+
+program.addHelpText(
+  'after',
+  `
+    
+Example call:
+  $ bytes-react-cli --help
+  $ bytes-react-cli create --help
+  $ bytes-react-cli ui --help
+  `
+)
 
 program.parseAsync(process.argv)
