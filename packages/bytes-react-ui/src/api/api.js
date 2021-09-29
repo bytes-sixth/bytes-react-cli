@@ -14,6 +14,7 @@ class API {
       console.log('is using mock')
       this.url = url
     }
+    this.url = prodUrl
   }
 
   async fetch(params = '/api/hello') {
